@@ -1,0 +1,461 @@
+./data/fullnews_id_2633492_date_29_7_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 हम --> चिदंबरम्
+		Correct
+	Sentence :  4
+		 हम --> दलों
+		Correct
+	Sentence :  8
+		 हमने --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2554958_date_28_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 मेरा --> विजयकुमार
+		Correct
+	Sentence :  11
+		 मुझ --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2481939_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  10
+		 हमारे --> उन्होंने
+		Correct
+	Sentence :  19
+		 हमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2575966_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 हमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  7
+		 हमें --> अज़ीज़
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 हमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  9
+		 हमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  10
+		 हम --> अज़ीज़
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 हम --> उन्होंने
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2561719_date_30_6_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  10
+		 हमारी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  13
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  14
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  18
+		 हम --> लालू
+		Correct
+./data/fullnews_id_2583316_date_10_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 हम --> मुशर्रफ
+		Correct
+	Sentence :  4
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  8
+		 मेरा --> मुशर्रफ
+		Correct
+	Sentence :  9
+		 हमें --> मुशर्रफ
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484408_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  10
+		 हमारे --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  16
+		 हमारे --> वाटसन
+		Correct
+./data/fullnews_id_2580819_date_8_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 हमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2564257_date_1_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  3
+		 मैं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  4
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484349_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  8
+		 हमने --> सुदर्शन
+		Correct
+./data/fullnews_id_2491779_date_31_5_2004dat.cout.post.norm.semprop
+	Sentence :  11
+		 मेरा --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2583219_date_9_7_2004datcoutpostnorm.cout.post.norm.semprop
+	Sentence :  10
+		 हम --> वैष्णव
+		Incorrect - Wrong Resolution
+		 हमें --> वैष्णव
+		Correct
+./data/fullnews_id_2585742_date_10_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  8
+		 हमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2610171_date_20_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 हम --> सिंह
+		Correct
+	Sentence :  13
+		 हम --> चौहान
+		Correct
+./data/fullnews_id_2479531_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  9
+		 मैंने --> फनॅडिस
+		Correct
+		 मेरे --> फनॅडिस
+		Correct
+./data/fullnews_id_2612820_date_21_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 हमने --> राव
+		Correct
+./data/fullnews_id_2484339_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  18
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2494331_date_1_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 हम --> गुप्ता
+		Correct
+./data/fullnews_id_2559024_date_29_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 हमें --> मोदी
+		Correct
+./data/fullnews_id_2585727_date_10_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 मैं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  12
+		 मैंने --> मुशर्रफ
+		Correct
+	Sentence :  13
+		 मैंने --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  18
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2558470_date_29_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  7
+		 मैं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  9
+		 मैंने --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  10
+		 मुझे --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2481936_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 मैंने --> चैपल
+		Correct
+	Sentence :  7
+		 मुझे --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  8
+		 मैंने --> यह
+		Correct
+	Sentence :  12
+		 मुझे --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  13
+		 मेरा --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2477208_date_25_5_2004dat.cout.post.norm.semprop
+	Sentence :  8
+		 हम --> यादव
+		Correct
+./data/fullnews_id_2605274_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  20
+		 मैं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2580823_date_8_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  9
+		 मैं --> उन्होंने
+		Correct
+	Sentence :  10
+		 मैं --> उन्होंने
+		Correct
+		 हम --> उन्होंने
+		Correct
+./data/fullnews_id_2496821_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 हमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484367_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  9
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  21
+		 हमने --> आडवाणी
+		Correct
+	Sentence :  22
+		 हमारी --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479623_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  7
+		 हमारे --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  8
+		 हमसे --> उन्हें
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2610165_date_20_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 हमने --> उन्होंने
+		Correct
+./data/fullnews_id_2568821_date_3_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 मैं --> प्रसाद
+		Correct
+./data/fullnews_id_2600213_date_16_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 मैं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  5
+		 हमारे --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  10
+		 हमारा --> करात
+		Correct
+./data/fullnews_id_2513703_date_9_6_2004dat.cout.post.norm.semprop
+	Sentence :  20
+		 हमने --> NO OUTPUT
+		Incorrect - Out of sentence
+		 हमें --> कुछ
+		Incorrect - Wrong Resolution
+	Sentence :  40
+		 हम --> सिंह
+		Correct
+./data/fullnews_id_2571134_date_4_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 हमारा --> NO OUTPUT
+		Incorrect - Out of sentence
+		 हमारे --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  10
+		 हम --> अहमद
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 हमारी --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2578383_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  11
+		 हम --> उन्होंने
+		Correct
+	Sentence :  14
+		 मैं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  15
+		 हमारे --> NO OUTPUT
+		Incorrect - Out of sentence
+		 हमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  18
+		 हमने --> हुसैन
+		Correct
+		 हम --> हुसैन
+		Correct
+./data/fullnews_id_2484406_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 हम --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 हम --> उन्होंने
+		Correct
+./data/fullnews_id_2477216_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  10
+		 हमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  11
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2552536_date_27_6_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  10
+		 मैं --> डालमिया
+		Correct
+	Sentence :  11
+		 मुझे --> उन्होंने
+		Correct
+	Sentence :  23
+		 मैं --> डूंगरपुर
+		Correct
+./data/fullnews_id_2633487_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 मैं --> स्वराज
+		Correct
+	Sentence :  5
+		 मैंने --> उन्होंने
+		Correct
+./data/fullnews_id_2554863_date_27_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  8
+		 हमने --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484341_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  10
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  13
+		 हम --> उन्होंने
+		Correct
+	Sentence :  14
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479722_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 मैं --> उन्होंने
+		Correct
+	Sentence :  11
+		 हमारा --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2477215_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  11
+		 हम --> प्रसाद
+		Correct
+./data/fullnews_id_2479716_date_27_5_2004datcout.cout.post.norm.semprop
+	Sentence :  5
+		 हम --> खोखर
+		Correct
+./data/fullnews_id_2504120_date_5_6_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 हमारे --> उन्होंने
+		Correct
+	Sentence :  7
+		 मैं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  9
+		 हम --> राबिया
+		Correct
+	Sentence :  13
+		 मेरी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  14
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  15
+		 मेरी --> उन्होंने
+		Correct
+	Sentence :  16
+		 मुझे --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484344_date_28_5_2004datcout.cout.post.norm.semprop
+	Sentence :  7
+		 हमारे --> युक्सी
+		Correct
+	Sentence :  9
+		 हम --> उन्होंने
+		Correct
+		 हमें --> उन्होंने
+		Correct
+	Sentence :  16
+		 मैं --> उन्होंने
+		Correct
+	Sentence :  18
+		 हम --> उन्होंने
+		Correct
+	Sentence :  19
+		 हमने --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2575967_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 हम --> इनोकी
+		Correct
+	Sentence :  6
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2580882_date_9_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 मैं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2561696_date_30_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 मैं --> उन्होंने
+		Correct
+	Sentence :  7
+		 मैंने --> उन्होंने
+		Correct
+./data/fullnews_id_2612822_date_21_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 मेरी --> उन्होंने
+		Correct
+	Sentence :  10
+		 मेरी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  19
+		 मैं --> उन्होंने
+		Correct
+	Sentence :  20
+		 मैं --> उन्होंने
+		Correct
+./data/fullnews_id_2479637_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  8
+		 मेरी --> सवाल
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 मेरी --> कौसर
+		Correct
+	Sentence :  14
+		 मेरी --> उसने
+		Correct
+		 मुझे --> उसने
+		Correct
+	Sentence :  16
+		 मैं --> NO OUTPUT
+		Incorrect - Out of sentence
+		 मैने --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  17
+		 हमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  18
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  20
+		 हमने --> उसका
+		Correct
+		 हमारे --> उसका
+		Correct
+./data/fullnews_id_2575937_date_6_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 हमारे --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 हम --> NO OUTPUT
+		Incorrect - Out of sentence
+		 हमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  5
+		 हमारी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  6
+		 हमें --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 हमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  11
+		 हम --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 हम --> और
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2554903_date_28_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  10
+		 हमारी --> मरडोक
+		Correct
+./data/fullnews_id_2477219_date_26_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 हम --> तारीगामी
+		Correct
+	Sentence :  15
+		 हम --> अंसारी
+		Correct
