@@ -116,7 +116,6 @@ for rfp in fl:
             #     print(n.getAttribute('semprop'))
 
             if (n.lex in pronounsList) and (n.getAttribute('cref') is not None) and (n.getAttribute('cref') != '') and len(nodeFeatureList)>0:
-                tp += 1
                 for k, parsedNodes in enumerate(nodeFeatureList):
                     if (i - parsedNodes[1] < 1):
                         continue
