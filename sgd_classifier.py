@@ -103,7 +103,7 @@ for rfp in fl:
                 num=3
             else:
                 num = 0
-
+            
 
             named_entity = nerCategoryId(n.lex)
 
@@ -111,6 +111,9 @@ for rfp in fl:
                 pernum = karaka_list.index(n.parentRelation)
             else:
                 pernum = 0
+            
+            # if (n.getAttribute('semprop')!="rest"):
+            #     print(n.getAttribute('semprop'))
 
             if (n.lex in pronounsList) and (n.getAttribute('cref') is not None) and (n.getAttribute('cref') != '') and len(nodeFeatureList)>0:
                 tp += 1
@@ -140,7 +143,6 @@ for rfp in fl:
                         gender=3
                     else:
                         gender=0
-                    
                     purane_noun_ke_num_onehot=[0]*4
                     purane_noun_ke_num_onehot[parsedNodes[0]]=1
                     one_hot_gender=[0]*4
@@ -164,7 +166,7 @@ for rfp in fl:
                     pronoun_id_onehot = list([0]*len(pronounsList))
                     pronoun_id_onehot[pronounsList.index(prn_lex)] = 1
                     trainingInput.append([i - parsedNodes[1], int(c.upper.name) - parsedNodes[2],
-                                          parsedNodes[3]] + named_entity_onehot + pType_onehot + pronoun_ki_num_onehot + purane_noun_ke_num_onehot + [parsedNodes[5], parsedNodes[4]] + pronoun_id_onehot)
+                                          parsedNodes[3]] + named_entity_onehot + pType_onehot + pronoun_ki_num_onehot + purane_noun_ke_num_onehot + [parsedNodes[5], parsedNodes[4], parsedNodes[7]] + pronoun_id_onehot)
 
                     temp = []
                     for cref in n.getAttribute('cref').split(','):
@@ -177,7 +179,7 @@ for rfp in fl:
                         w += 1
             
             nodeFeatureList.append(
-                [num, i, int(c.upper.name), named_entity, nouns_list.index(n.type), pernum, n.gender])
+                [num, i, int(c.upper.name), named_entity, nouns_list.index(n.type), pernum, n.gender, 1 if (n.getAttribute('semprop'))=='h'else 0])
 
 clf = SGDClassifier(loss="log",penalty="l2",max_iter=1000)
 clf = clf.fit(trainingInput, trainingOutput)
@@ -226,6 +228,8 @@ for rfp in fl:
                     num=0
 
                 named_entity = nerCategoryId(node.lex)
+                # if (node.getAttribute('semprop')!="rest"):
+                #     print(node.getAttribute('semprop'))
 
                 if node.parentRelation in karaka_list:
                     pernum = karaka_list.index(node.parentRelation)
@@ -295,7 +299,7 @@ for rfp in fl:
                         pronoun_id_onehot = list([0]*len(pronounsList))
                         pronoun_id_onehot[pronounsList.index(node.lex)] = 1
                         x = [(j - parsedNodes[1]), (int(chunk.upper.name) - parsedNodes[2]),
-                             parsedNodes[3]] + named_entity_onehot + pType_onehot + pronoun_ki_num_onehot + purane_noun_ke_num_onehot + [parsedNodes[5], parsedNodes[4]] + pronoun_id_onehot
+                             parsedNodes[3]] + named_entity_onehot + pType_onehot + pronoun_ki_num_onehot + purane_noun_ke_num_onehot + [parsedNodes[5], parsedNodes[4], parsedNodes[7]] + pronoun_id_onehot
 
                         temp = []
                         if node.getAttribute('cref') is None:
@@ -309,7 +313,7 @@ for rfp in fl:
                                 goldOutput = 0
                         # print('tesIO before:', len(testingIO))
                         testingIO.append(
-                            [x, clf.predict_proba([x])[0], goldOutput, parsedNodes[6]])
+                            [x, clf.predict_proba([x])[0], goldOutput, parsedNodes[8]])
                         # print('tesIO after:', len(testingIO))
 
                     # print('tesIO:', len(testingIO))
@@ -354,7 +358,10 @@ for rfp in fl:
                         print("EVENT ANAPHORA!!")
 
                 nodeFeatureList.append([num, j, int(
-                    chunk.upper.name), named_entity, nouns_list.index(node.type), pernum, node])
+                    chunk.upper.name), named_entity, nouns_list.index(node.type), pernum, node.gender, 1 if (node.getAttribute('semprop'))=='h'else 0, node])
+                
+                # nodeFeatureList.append(
+                # [num, i, int(c.upper.name), named_entity, nouns_list.index(n.type), pernum, n.gender, 1 if (n.getAttribute('semprop'))=='h'else 0])
 
                 
 
