@@ -166,7 +166,7 @@ for rfp in fl:
                     pronoun_id_onehot = list([0]*len(pronounsList))
                     pronoun_id_onehot[pronounsList.index(prn_lex)] = 1
                     trainingInput.append([i - parsedNodes[1], int(c.upper.name) - parsedNodes[2],
-                                          parsedNodes[3]] + named_entity_onehot + pType_onehot + pronoun_ki_num_onehot + purane_noun_ke_num_onehot + [parsedNodes[5], parsedNodes[4], parsedNodes[7]] + pronoun_id_onehot)
+                                          parsedNodes[3]] + named_entity_onehot + pType_onehot + pronoun_ki_num_onehot + purane_noun_ke_num_onehot + purana_gender_onehot + one_hot_gender + [parsedNodes[5], parsedNodes[4]] + pronoun_id_onehot)
 
                     temp = []
                     for cref in n.getAttribute('cref').split(','):
@@ -299,7 +299,7 @@ for rfp in fl:
                         pronoun_id_onehot = list([0]*len(pronounsList))
                         pronoun_id_onehot[pronounsList.index(node.lex)] = 1
                         x = [(j - parsedNodes[1]), (int(chunk.upper.name) - parsedNodes[2]),
-                             parsedNodes[3]] + named_entity_onehot + pType_onehot + pronoun_ki_num_onehot + purane_noun_ke_num_onehot + [parsedNodes[5], parsedNodes[4], parsedNodes[7]] + pronoun_id_onehot
+                             parsedNodes[3]] + named_entity_onehot + pType_onehot + pronoun_ki_num_onehot + purane_noun_ke_num_onehot + purana_gender_onehot + one_hot_gender+ [parsedNodes[5], parsedNodes[4]] + pronoun_id_onehot
 
                         temp = []
                         if node.getAttribute('cref') is None:
