@@ -1,0 +1,85 @@
+./data/fullnews_id_2481939_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  9
+		 आप --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2585727_date_10_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 आप --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2605274_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  21
+		 आपकी --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2564273_date_1_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 आपके --> NO OUTPUT
+		Incorrect - Out of sentence
+		 आप --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  8
+		 आप --> NO OUTPUT
+		Incorrect - Out of sentence
+		 आपको --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2496836_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 आपस --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 आप --> NO OUTPUT
+		Incorrect - Out of sentence
+		 आपके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  4
+		 आपस --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2513703_date_9_6_2004dat.cout.post.norm.semprop
+	Sentence :  26
+		 आप --> सैनिकों
+		Correct
+	Sentence :  28
+		 आपके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  41
+		 आप --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2576057_date_7_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 आप --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  4
+		 आप --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2561778_date_1_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 आपस --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2496832_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 आपके --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479668_date_27_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  34
+		 आप --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2575937_date_6_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  13
+		 आप --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2605273_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  15
+		 आप --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479528_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 आपके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  2
+		 आपके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 आप --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  6
+		 आपका --> NO OUTPUT
+		Incorrect - Out of sentence
