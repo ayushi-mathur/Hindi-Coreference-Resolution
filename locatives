@@ -1,0 +1,933 @@
+./data/fullnews_id_2554958_date_28_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2631047_date_28_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  12
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2481939_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  8
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  10
+		 कहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2585740_date_10_7_2004datCANNOTATEcoutcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 जहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484404_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  8
+		 जिसमें --> तट
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2522675_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 जहां --> NO OUTPUT
+		Incorrect - Out of sentence
+		 वहीं --> काबुल
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 जहां --> काबुल
+		Incorrect - Wrong Resolution
+		 वहां --> काबुल
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484407_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 यहां --> घाटी
+		Correct
+	Sentence :  4
+		 वहीं --> श्रीनगर
+		Incorrect - Wrong Resolution
+		 जहां --> श्रीनगर
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 यहां --> जिले
+		Correct
+	Sentence :  17
+		 यहां --> आबू
+		Correct
+	Sentence :  20
+		 यहां --> दिल्ली
+		Correct
+	Sentence :  32
+		 इनमें --> राजधानी
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2474841_date_25_5_2004dat.cout.post.norm.semprop
+	Sentence :  11
+		 जहां --> क्षेत्र
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2564258_date_1_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  4
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  13
+		 यहां --> अंदर
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 जहां --> पंचगनी
+		Incorrect - Wrong Resolution
+	Sentence :  28
+		 वहां --> बंगलोर
+		Correct
+	Sentence :  29
+		 जहां --> बंगलोर
+		Correct
+./data/fullnews_id_2561719_date_30_6_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484408_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  14
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  21
+		 इसमें --> ४
+		Incorrect - Wrong Resolution
+	Sentence :  23
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2580819_date_8_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 यहाँ --> लंदन
+		Correct
+./data/fullnews_id_2575970_date_7_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  7
+		 जिसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2583218_date_9_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  7
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2564262_date_1_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 इसमें --> लोकसभा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479717_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  12
+		 वहां --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  15
+		 वहां --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  20
+		 वहां --> कक्ष
+		Correct
+	Sentence :  21
+		 यहां --> कक्ष
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 यहां --> यहां
+		Correct
+		 वहां --> यहां
+		Correct
+	Sentence :  25
+		 जिसमें --> हाल
+		Incorrect - Wrong Resolution
+	Sentence :  28
+		 वहां --> रोड
+		Correct
+	Sentence :  32
+		 वहां --> उन
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2561785_date_1_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 यहां --> उमरकोट
+		Correct
+./data/fullnews_id_2600216_date_16_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2633493_date_29_7_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 यहाँ --> सीमा
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 यहाँ --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  12
+		 जहाँ --> सीमा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2583219_date_9_7_2004datcoutpostnorm.cout.post.norm.semprop
+	Sentence :  9
+		 यहाँ --> ब्रिटिश
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2990407_date_4_1_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  7
+		 जहां --> गृह2
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 वहीं --> धाम
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 यहां --> धाम
+		Correct
+./data/fullnews_id_2612812_date_21_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 यहाँ --> क्षेत्र2
+		Incorrect - Wrong Resolution
+./data/fullnews_id_3314732_date_2_6_2005datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  9
+		 वहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2585736_date_10_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  10
+		 वहां --> डिपो
+		Correct
+./data/fullnews_id_2496820_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 इनमें --> जिले
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479531_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  2
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2612820_date_21_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  12
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2620698_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  8
+		 जिसमें --> इलाक़ों
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484339_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  7
+		 जहां --> NO OUTPUT
+		Incorrect - Out of sentence
+		 वहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2494331_date_1_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  7
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2477211_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  24
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479632_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  14
+		 वहां --> प्रदेश
+		Correct
+./data/fullnews_id_2568817_date_3_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_3128589_date_8_3_2005datcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  8
+		 यहीं --> हर्षाछीना
+		Correct
+	Sentence :  14
+		 यहां --> इन
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 यहां --> यहां
+		Correct
+	Sentence :  17
+		 इनमें --> साइटों
+		Incorrect - Wrong Resolution
+	Sentence :  23
+		 यहां --> वंडाला
+		Correct
+./data/fullnews_id_2552482_date_26_6_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  7
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2625776_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 यहाँ --> दिल्ली
+		Incorrect - Wrong Resolution
+	Sentence :  19
+		 जहाँ --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  20
+		 इनमें --> जहाँ
+		Correct
+./data/fullnews_id_2633486_date_29_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 यहाँ --> इलाके
+		Correct
+	Sentence :  9
+		 यहाँ --> यहाँ
+		Correct
+./data/fullnews_id_2481936_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  18
+		 यहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484405-b_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 वहां --> नेपाल
+		Correct
+	Sentence :  6
+		 वहां --> देश
+		Correct
+./data/fullnews_id_2477208_date_25_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 यहां --> राज्य
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उसमें --> कर्नाटक
+		Incorrect - Wrong Resolution
+		 वहां --> कर्नाटक
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484403_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 वहां --> भारत
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2600217_date_16_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  16
+		 जहाँ --> देश
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2571131_date_4_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  2
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  7
+		 जिसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2496822_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 इनमें --> हैदराबाद
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2605274_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_3254639_date_6_5_2005datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  8
+		 जहां --> प्रतिष्ठानों
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2628343_date_27_7_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 यहाँ --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2628341_date_27_7_2004dat.cout.post.norm.semprop
+	Sentence :  11
+		 जिसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2633503_date_29_7_2004datcoutpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 यहाँ --> मशरख
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2496836_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 यहां --> सदन
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2583317_date_10_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 वहीं --> लोकसभा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2496821_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 जहां --> NO OUTPUT
+		Incorrect - Out of sentence
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2496824_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484367_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  17
+		 जहां --> NO OUTPUT
+		Incorrect - Out of sentence
+		 वहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2552526_date_27_6_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  4
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_
+	Sentence :  3
+		 जहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2522677_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  19
+		 इसमें --> सरकार
+		Incorrect - Wrong Resolution
+./data/fullnews_id_4339892_date_5_8_2006datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 जहां --> पहलगाम
+		Correct
+	Sentence :  11
+		 जहां --> पहलगाम
+		Correct
+./data/fullnews_id_2479623_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  10
+		 वहां --> नासिक
+		Correct
+./data/fullnews_id_2990407_date_03_8_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 जहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2564266_date_1_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  5
+		 इसमें --> इलाकों
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 जहां --> NO OUTPUT
+		Incorrect - Out of sentence
+		 वहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479721_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2610165_date_20_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 इसमें --> पटना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2568801_date_3_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2583320_date_10_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  23
+		 जिसमें --> जेल
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2631031_date_28_7_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 यहां --> हैदराबाद
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2513703_date_9_6_2004dat.cout.post.norm.semprop
+	Sentence :  17
+		 कहीं --> किनारे
+		Incorrect - Wrong Resolution
+	Sentence :  31
+		 यहां --> गांव
+		Correct
+	Sentence :  35
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  36
+		 इसमें --> यहां
+		Incorrect - Wrong Resolution
+	Sentence :  39
+		 यहां --> पंजाब
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2494319_date_1_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 जहां --> देश
+		Incorrect - Wrong Resolution
+		 वहीं --> देश
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479633_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  6
+		 कहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  7
+		 वहां --> कहीं
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 वहां --> मऊ
+		Correct
+	Sentence :  11
+		 वहां --> हिस्से
+		Incorrect - Wrong Resolution
+./data/fullnews_id_3351953_date_17_6_2005datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  9
+		 वहां --> मुनस्यारी
+		Correct
+./data/fullnews_id_2620694_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 जहां --> NO OUTPUT
+		Incorrect - Out of sentence
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479617_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 जहां --> इलाकों
+		Incorrect - Wrong Resolution
+		 वहीं --> इलाकों
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2520630_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  18
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2576057_date_7_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  9
+		 इसमें --> जगह
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481937_out_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 इसमें --> लोकसभा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2578420_date_8_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  10
+		 यहां --> जम्मू
+		Correct
+	Sentence :  11
+		 कहीं --> राज्य
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484406_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  8
+		 यहां --> वर्ष
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 इसमें --> यहां
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2607694_date_19_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 यहाँ --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479532_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  13
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2481937_data_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 इसमें --> लोकसभा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2477216_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 इसमें --> ढाका
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 इसमें --> बांग्लादेश
+		Incorrect - Wrong Resolution
+	Sentence :  14
+		 इसमें --> बंगलादेश
+		Incorrect - Wrong Resolution
+./data/fullnews_id_.semprop
+	Sentence :  3
+		 जहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2561778_date_1_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 जहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2633495_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 यहाँ --> मतदान
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 इनमें --> नेपाल
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2625778_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 यहाँ --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  8
+		 वहाँ --> वाशिंगटन
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 इनमें --> भारत
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484358_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 इसमें --> मुख्यालय
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 वहीं --> सेंटर
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2631027_date_28_7_2004datcout.cout.post.norm.semprop
+	Sentence :  3
+		 जहाँ --> झा
+		Correct
+./data/fullnews_id_2612823_date_21_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 जहां --> इराक
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 वहाँ --> कोंकण
+		Correct
+./data/fullnews_id_2628344_date_27_7_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 जिसमें --> अस्पताल
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2518176_date_11_6_2004dat.cout.post.norm.semprop
+	Sentence :  8
+		 इनमें --> पंजाब
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 इनमें --> कश्मीर
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2628342_date_27_7_2004datcout.cout.post.norm.semprop
+	Sentence :  15
+		 जिसमें --> नीचे
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 जहाँ --> अस्पताल
+		Correct
+	Sentence :  22
+		 जहाँ --> अस्पताल
+		Correct
+./data/fullnews_id_3511438_date_23_8_2005datcoutpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 कहीं --> संगम2
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2580812_date_8_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 यहाँ --> तमिलनाडु
+		Correct
+	Sentence :  9
+		 इसमें --> देश
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481937_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 इसमें --> लोकसभा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2612813_date_21_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  5
+		 यहाँ --> क्षेत्र
+		Correct
+./data/fullnews_id_2493813_date_1_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2552536_date_27_6_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2633500_date_29_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  1
+		 यहाँ --> खोखरापार
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2585741_date_10_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 जिसमें --> अड्डों
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 जिसमें --> अड्डे
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633498_date_29_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  10
+		 वहीं --> तट
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 यहाँ --> हैदराबाद
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2631113_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 जिसमें --> रेस्टोरेंट
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2585739_date_10_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 इसमें --> विधानसभा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2605265_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  12
+		 वहाँ --> स्थान
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 वहाँ --> वहाँ
+		Correct
+./data/fullnews_id_3241222_date_29_4_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  14
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  15
+		 जहां --> यहां
+		Incorrect - Wrong Resolution
+	Sentence :  23
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2481934_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  7
+		 इसमें --> क्षेत्र
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 जिसमें --> भारत
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 जिसमें --> देश
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2522673_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  8
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  11
+		 इसमें --> कश्मीर
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2554863_date_27_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 जहां --> मुख्यालय
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 वहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2607700_date_19_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 जहाँ --> आवास
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 यहाँ --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484341_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  10
+		 कहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2625780_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  8
+		 यहाँ --> राजधानी
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479716_date_27_5_2004datcout.cout.post.norm.semprop
+	Sentence :  3
+		 वहां --> राजधानी
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 वहीं --> कश्मीर
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_3159860_date_22_3_2005datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  3
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2552533_date_27_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 यहीं --> बस
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2571118_date_4_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 यहाँ --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 यहाँ --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2504120_date_5_6_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 जहां --> NO OUTPUT
+		Incorrect - Out of sentence
+		 वहीं --> दिल्ली
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484344_date_28_5_2004datcout.cout.post.norm.semprop
+	Sentence :  8
+		 वहां --> कोच्चि
+		Correct
+	Sentence :  17
+		 यहां --> भारत2
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2477214_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  8
+		 यहां --> सूची
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 जिसमें --> सूची
+		Correct
+	Sentence :  17
+		 वहीं --> शहर
+		Correct
+./data/fullnews_id_4358696_date_16_8_2006datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 यहां --> दरगाह
+		Correct
+	Sentence :  6
+		 यहां --> यहां
+		Correct
+	Sentence :  7
+		 यहां --> यहां
+		Correct
+	Sentence :  9
+		 यहां --> यहां
+		Correct
+	Sentence :  11
+		 यहां --> यहां
+		Correct
+	Sentence :  17
+		 जिसमें --> दुनिया
+		Incorrect - Wrong Resolution
+	Sentence :  23
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_3375767_date_27_6_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2605272_date_18_7_2004datCANNOTATEcoutcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  10
+		 वहाँ --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  12
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  22
+		 इसमें --> गुजरात
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2607693_date_19_7_2004datpostnormcout.cout.post.norm.semprop
+	Sentence :  3
+		 यहाँ --> झारखंड
+		Incorrect - Wrong Resolution
+		 जिसमें --> यहाँ
+		Correct
+./data/fullnews_id_2479533_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  4
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2575967_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 यहाँ --> भारत
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  10
+		 इनमें --> भारत
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2580882_date_9_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  23
+		 जहाँ --> भारत
+		Incorrect - Wrong Resolution
+	Sentence :  24
+		 यहाँ --> जहाँ
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2561696_date_30_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2481993_date_28_5_2004datcout.cout.post.norm.semprop
+	Sentence :  3
+		 वहीं --> हंदवाड़ा
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 इनमें --> इलाके
+		Incorrect - Wrong Resolution
+	Sentence :  18
+		 वहां --> कॉम्पलैक्स
+		Correct
+./data/fullnews_id_2484366_date_28_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 इसमें --> टेलीफोन
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 इसमें --> सीडी
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 जिसमें --> आयोग
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479529_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 जहां --> जगह
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2583224_date_9_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  17
+		 जिसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2633509_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  6
+		 इसमें --> संसद
+		Incorrect - Wrong Resolution
+	Sentence :  14
+		 इसमें --> संसद
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 इसमें --> संसद
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 इसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  18
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2612822_date_21_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 यहाँ --> मज़ार
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633507_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  20
+		 वहाँ --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2474838_date_25_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 वहां --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  4
+		 यहां --> वहीं
+		Correct
+	Sentence :  5
+		 वहां --> यहां
+		Correct
+	Sentence :  11
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2578419_date_8_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 यहां --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2600224_date_16_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 वहाँ --> अस्पताल
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2631048_date_28_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 वहाँ --> अफगानिस्तान
+		Correct
+	Sentence :  8
+		 वहाँ --> समुद्र
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 वहाँ --> अफगानिस्तान
+		Correct
+./data/fullnews_id_2633499_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 यहाँ --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  6
+		 यहीं --> भाग
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481992_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  19
+		 वहां --> सतलुज
+		Incorrect - Wrong Resolution
+	Sentence :  20
+		 वहां --> वहां
+		Correct
+	Sentence :  26
+		 वहां --> इलाकों
+		Correct
+./data/fullnews_id_2479534_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  13
+		 जहां --> सरकार
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 जिसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2477219_date_26_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 वहीं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  15
+		 जिसमें --> कश्मीर
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481995_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  8
+		 वहां --> बंगले
+		Correct
