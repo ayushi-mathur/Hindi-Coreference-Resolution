@@ -1,17 +1,19 @@
 import sys
 sys.path
 sys.path.append('./scripts/ssfapi/')
-
 import ssfAPI_intra as ssf
-import scripts.rulebased.firstperson as fp
-import scripts.rulebased.secondperson as sp
-import scripts.rulebased.locative as lt
-#import scripts.rulebased.reflexive as rx
+
 import scripts.rulebased.relative as rv
+import scripts.rulebased.reflexive as rx
+import scripts.rulebased.locative as lt
+import scripts.rulebased.secondperson as sp
+import scripts.rulebased.firstperson as fp
+
 
 
 reflexivePronouns = ['अपनी', 'अपने', 'अपना', 'स्वयं', 'खुद', 'खुद']
-relativePronouns = ['जो', 'जोकि', 'जहाँ', 'जिधर', 'जितना', 'जितने', 'जैसा', 'जैसे', 'जब', 'जिसको', 'जिसके', 'जिस', 'जिसे', 'जिससे', 'जिसकी', 'जिसका', 'जिसने', 'जिन्हें', 'जिन्होंने', 'जिसमें', 'जिनमें', 'जिनकी']
+relativePronouns = ['जो', 'जोकि', 'जहाँ', 'जिधर', 'जितना', 'जितने', 'जैसा', 'जैसे', 'जब', 'जिसको', 'जिसके',
+    'जिस', 'जिसे', 'जिससे', 'जिसकी', 'जिसका', 'जिसने', 'जिन्हें', 'जिन्होंने', 'जिसमें', 'जिनमें', 'जिनकी']
 firstPronouns = ['हमसे', 'हमारे', 'मेरा', 'मेरी', 'मेरे', 'हम', 'हमारा',
                  'हमने', 'मुझे', 'मैं', 'मुझ', 'मैने', 'हमें', 'मैंने', 'हमारी']
 secondPronouns = ['आप', 'आपस', 'आपकी', 'आपके', 'आपको', 'आपका']
@@ -23,9 +25,9 @@ fileList = ssf.folderWalk('./data/')
 
 mrpair = []
 
-sahi = 0
-galatOUT = 0
-galatWR = 0
+correct = 0
+incorrectOOS = 0
+incorrectWR = 0
 
 
 for rfp in fileList:
@@ -33,7 +35,7 @@ for rfp in fileList:
     doc = ssf.Document(rfp)
     linearChunkList = []
     linearNodeList = []
-    for sentence in doc.nodeList:
+    for i, sentence in enumerate(doc.nodeList):
         relsent = False
         for chunk in sentence.nodeList:
             linearChunkList.append(chunk)
@@ -47,13 +49,14 @@ for rfp in fileList:
                 #     mention = node
                 #     answer = sp.secondperson(node)
                 #     isPronoun = True
-                #if node.name in reflexivePronouns:
-                #    mention = node
-                #    answer = rx.reflexive(node)
-                #    isPronoun = True
-                if ((node.name in relativePronouns) & (node.morphPOS == 'pn')):
+                # if node.name in reflexivePronouns:
+                #     mention = node
+                #     answer = rx.reflexive(
+                #         node, doc.nodeList[i-1] if i > 0 else None, doc.nodeList[i-2] if i > 1 else None)
+                #     isPronoun = True
+                if (node.name in relativePronouns) and (node.morphPOS == 'pn'):
                     mention = node
-                    answer = rv.relative(mention)
+                    answer = rv.relative(node)
                     isPronoun = True
                 # if node.name in locativePronouns:
                 #     mention = node
@@ -69,7 +72,7 @@ for rfp in fileList:
                     if (answer is None):
                         print('\t\t', mention.name, "-->", "NO OUTPUT")
                         print("\t\tIncorrect - Out of sentence")
-                        galatOUT += 1
+                        incorrectOOS += 1
                     else:
                         print('\t\t', mention.name, "-->", answer.name)
                         mChains = []
@@ -86,22 +89,17 @@ for rfp in fileList:
                                 flag = 1
                         if flag == 1:
                             print("\t\tCorrect")
-                            print("\t\tThe correct are: ")
-                            for b in mChains:
-                                for c in b.nodeList:
-                                    for d in c.nodes:
-                                        print(d.name)
-                            sahi += 1
+                            correct += 1
                         else:
                             print("\t\tIncorrect - Wrong Resolution")
-                            print("\t\tThe correct are: ")
-                            for b in mChains:
-                                for c in b.nodeList:
-                                    for d in c.nodes:
-                                        print(d.name)
-                            galatWR += 1
+                            incorrectWR += 1
+                        # print("\t\tThe correct are: ")
+                        # for b in mChains:
+                        #     for c in b.nodeList:
+                        #         for d in c.nodes:
+                        #             print(d.name)
     # for m,r in mrpair:
     #     print (m, "-->", r)
-print ("Correct: ",sahi)
-print ("Incorrect: ",galatWR)
-print ("Out: ",galatOUT)
+print ("Correct: ",correct)
+print ("Incorrect: ",incorrectWR)
+print ("Out of Scope: ",incorrectOOS)

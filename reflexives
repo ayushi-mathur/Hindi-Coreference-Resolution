@@ -1,0 +1,1010 @@
+./data/fullnews_id_2583236_date_9_7_2004datpostnormcout.cout.post.norm.semprop
+	Sentence :  4
+		 अपना --> ममता
+		Correct
+./data/fullnews_id_2481939_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  9
+		 अपना --> आप
+		Correct
+	Sentence :  20
+		 खुद --> वे
+		Correct
+		 अपना --> वे
+		Correct
+	Sentence :  21
+		 खुद --> वे
+		Correct
+./data/fullnews_id_2484369-b_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 अपने --> सिंह
+		Correct
+./data/fullnews_id_2484404_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  12
+		 अपना --> विभाग
+		Correct
+./data/fullnews_id_2522675_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 अपनी --> सिंह
+		Correct
+	Sentence :  6
+		 अपनी --> सिंह
+		Correct
+	Sentence :  11
+		 अपनी --> भारत
+		Correct
+./data/fullnews_id_2484369-a_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 अपनी --> सिंह
+		Correct
+	Sentence :  5
+		 अपने --> उन्होंने
+		Correct
+./data/fullnews_id_2633508_date_29_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  17
+		 अपने --> संभावना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484407_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 अपनी --> कोहरे
+		Correct
+./data/fullnews_id_2575966_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  10
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2580830_date_8_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 अपने --> विभाग
+		Correct
+./data/fullnews_id_2474841_date_25_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 अपनी --> माओवादियों
+		Correct
+	Sentence :  13
+		 अपनी --> कोर्ट
+		Correct
+./data/fullnews_id_2564258_date_1_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  8
+		 अपनी --> आमिर
+		Correct
+	Sentence :  15
+		 अपने --> वह
+		Correct
+	Sentence :  20
+		 अपने --> आमिर
+		Correct
+	Sentence :  25
+		 अपनी --> आमिर
+		Correct
+./data/fullnews_id_2561719_date_30_6_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 अपनी --> इशारा
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 अपने --> लालू
+		Correct
+	Sentence :  13
+		 अपना --> हम
+		Correct
+./data/fullnews_id_2484408_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 अपने --> ब्रह्मांड
+		Correct
+./data/fullnews_id_2575970_date_7_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  7
+		 खुद --> पठान
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2496837_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 खुद --> शहाबुद्दीन
+		Correct
+./data/fullnews_id_2484349_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  9
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479717_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  10
+		 अपने --> उन्होंने
+		Correct
+	Sentence :  23
+		 अपनी --> उन्होंने
+		Correct
+	Sentence :  28
+		 अपनी --> लाइंस
+		Correct
+./data/fullnews_id_2491779_date_31_5_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 खुद --> इमरोज
+		Correct
+	Sentence :  8
+		 अपने --> पुत्र
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633493_date_29_7_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 अपने --> बांग्लादेश
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 अपने --> पक्षों
+		Correct
+./data/fullnews_id_2620695_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 अपनी --> पाटिल
+		Correct
+./data/fullnews_id_2585742_date_10_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 अपने --> सिंघल
+		Correct
+./data/fullnews_id_2990407_date_4_1_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  7
+		 अपने --> संगठन
+		Correct
+./data/fullnews_id_2633496_date_29_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 अपने --> टीम
+		Correct
+./data/fullnews_id_2612812_date_21_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 अपने --> जवान2
+		Correct
+./data/fullnews_id_3314732_date_2_6_2005datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  7
+		 अपनी --> सुधाकांत
+		Correct
+./data/fullnews_id_2585736_date_10_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  5
+		 अपने --> उग्रवादी
+		Correct
+	Sentence :  7
+		 अपने --> वे
+		Correct
+./data/fullnews_id_2479531_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  5
+		 अपने --> जॉर्ज
+		Correct
+	Sentence :  6
+		 अपने --> सुनीता
+		Correct
+	Sentence :  9
+		 अपने --> मैंने
+		Correct
+	Sentence :  12
+		 अपनी --> लालू
+		Correct
+	Sentence :  19
+		 अपना --> नेता
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 अपनी --> अध्यक्ष
+		Correct
+./data/fullnews_id_2612820_date_21_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 अपनी --> मर्सर
+		Correct
+	Sentence :  11
+		 अपना --> सीबीटी
+		Correct
+./data/fullnews_id_2578387_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 अपना --> उसने
+		Correct
+./data/fullnews_id_2620698_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 अपनी --> सिंह
+		Correct
+./data/fullnews_id_2484347_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 अपनी --> चेन्नमा
+		Correct
+	Sentence :  5
+		 अपना --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  7
+		 अपने --> देवगौड़ा
+		Correct
+./data/fullnews_id_2605267_date_18_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  5
+		 अपनी --> गुप्ता
+		Correct
+	Sentence :  6
+		 अपने --> उसके
+		Correct
+	Sentence :  7
+		 अपने --> अंजलि
+		Correct
+	Sentence :  9
+		 अपनी --> गुप्ता
+		Correct
+	Sentence :  11
+		 अपनी --> अंजलि
+		Correct
+./data/fullnews_id_2561718_date_30_6_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  7
+		 अपना --> बोर्ड
+		Correct
+./data/fullnews_id_2633494_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 अपना --> अपराधियों
+		Correct
+	Sentence :  10
+		 अपने --> लड़कियाँ
+		Correct
+./data/fullnews_id_2610159_date_20_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  2
+		 अपना --> मालिकों
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 अपनी --> वे
+		Correct
+	Sentence :  4
+		 अपनी --> मालिकों
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2496240_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 अपनी --> भाजपा
+		Correct
+./data/fullnews_id_2552482_date_26_6_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  7
+		 अपने --> सरकारें
+		Correct
+./data/fullnews_id_2585727_date_10_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 अपने --> विवाद
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 अपने --> भारत
+		Correct
+	Sentence :  14
+		 अपनी --> बयान
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2625776_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  22
+		 अपने --> राज्य
+		Correct
+./data/fullnews_id_2633486_date_29_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  10
+		 अपने --> बंसल
+		Correct
+./data/fullnews_id_2481936_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 खुद --> चैपल
+		Correct
+	Sentence :  14
+		 अपनी --> चैपल
+		Correct
+	Sentence :  16
+		 अपनी --> चैपल
+		Correct
+./data/fullnews_id_2484405-b_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 अपने --> नरेश
+		Correct
+./data/fullnews_id_2477212_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 अपने --> लालू
+		Correct
+	Sentence :  7
+		 खुद --> लालू
+		Correct
+	Sentence :  12
+		 अपनी --> कार्यकर्ता
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2571131_date_4_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  4
+		 अपने --> इंफोकॉम
+		Correct
+	Sentence :  8
+		 अपने --> विकल्प
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2491783_date_31_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  2
+		 अपने --> कांफ्रेंस
+		Correct
+	Sentence :  4
+		 अपने --> फ्रंट
+		Correct
+./data/fullnews_id_2612821_date_21_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 अपना --> उन्हें
+		Correct
+	Sentence :  5
+		 अपने --> संसद
+		Correct
+	Sentence :  10
+		 अपने --> सिंह
+		Correct
+./data/fullnews_id_2605274_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  28
+		 अपने --> मजिस्ट्रेट
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484405-a_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2615522_date_23_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 अपनी --> निवेश
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 अपनी --> टाइम्स
+		Correct
+./data/fullnews_id_2628343_date_27_7_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 अपने --> मायावती
+		Correct
+	Sentence :  4
+		 स्वयं --> वे
+		Correct
+./data/fullnews_id_2600210_date_16_7_2004datpostnormcout.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> लिमिटेड
+		Correct
+./data/fullnews_id_2583234_date_9_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 अपनी --> पुलिस
+		Correct
+./data/fullnews_id_2481940_data_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> राजा
+		Correct
+	Sentence :  7
+		 अपने --> उन्होंने
+		Correct
+./data/fullnews_id_2564273_date_1_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 खुद --> एआई
+		Correct
+	Sentence :  6
+		 अपना --> आप
+		Correct
+	Sentence :  8
+		 अपने --> कंप्यूटर
+		Correct
+		 अपना --> आप
+		Correct
+./data/fullnews_id_2583317_date_10_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 अपना --> प्राधिकरण
+		Correct
+./data/fullnews_id_2580823_date_8_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 अपने --> उन्होंने
+		Correct
+	Sentence :  14
+		 अपनी --> जरूरत
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2625777_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  9
+		 अपनी --> समिति
+		Correct
+./data/fullnews_id_2496821_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2580824_date_8_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 अपने --> वे
+		Correct
+	Sentence :  8
+		 अपने --> उन्होंने
+		Correct
+./data/fullnews_id_2496824_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  10
+		 अपने --> अमिताभ
+		Correct
+./data/fullnews_id_2484367_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  23
+		 अपने --> उन्हें
+		Correct
+./data/fullnews_id_2522677_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 अपनी --> शाहजहां
+		Correct
+	Sentence :  8
+		 अपने --> उस्मान
+		Correct
+	Sentence :  18
+		 अपने --> एएसआई
+		Correct
+	Sentence :  21
+		 अपने --> हाईकोर्ट
+		Incorrect - Wrong Resolution
+	Sentence :  24
+		 अपने --> उस्मान
+		Correct
+./data/fullnews_id_2479623_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 अपने --> ठाकरे2
+		Correct
+	Sentence :  13
+		 अपने --> साहेब
+		Correct
+	Sentence :  21
+		 अपने --> खुद
+		Correct
+		 खुद --> ठाकरे
+		Correct
+./data/fullnews_id_2481940_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> राजा
+		Correct
+	Sentence :  7
+		 अपने --> उन्होंने
+		Correct
+./data/fullnews_id_2585738_date_10_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2583320_date_10_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 अपना --> आयोग
+		Correct
+	Sentence :  16
+		 अपना --> आयोग
+		Correct
+./data/fullnews_id_2631031_date_28_7_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 अपने --> उन्हें
+		Correct
+./data/fullnews_id_2513703_date_9_6_2004dat.cout.post.norm.semprop
+	Sentence :  38
+		 अपने --> संख्या
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2494319_date_1_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 अपनी --> और
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479638_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  6
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484354_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 अपनी --> जेठमलानी
+		Incorrect - Wrong Resolution
+		 खुद --> कोशिश
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 अपनी --> कांग्रेस
+		Correct
+	Sentence :  8
+		 अपनी --> उन्होंने
+		Correct
+	Sentence :  11
+		 खुद --> उन्होंने
+		Correct
+./data/fullnews_id_2479633_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 खुद --> यादव
+		Correct
+		 अपनी --> यादव
+		Correct
+	Sentence :  5
+		 अपनी --> यादव
+		Correct
+	Sentence :  11
+		 खुद --> कार्यकर्ता
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2486919-a_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 अपने --> पीयू
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 अपने --> कलाम
+		Correct
+	Sentence :  14
+		 अपने --> वर्मा
+		Correct
+./data/fullnews_id_3351953_date_17_6_2005datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  7
+		 अपने --> लोग
+		Correct
+./data/fullnews_id_2620694_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 अपना --> घोषणाएं
+		Incorrect - Wrong Resolution
+		 खुद --> घोषणाएं
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2571134_date_4_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 अपनी --> भाजपा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2610163_date_20_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 अपनी --> कर्मचारियों
+		Correct
+./data/fullnews_id_2520630_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 अपने --> वही
+		Correct
+	Sentence :  8
+		 खुद --> सौरव
+		Correct
+		 अपने --> सौरव
+		Correct
+	Sentence :  10
+		 अपने --> गेंदबाज
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2576057_date_7_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 अपने --> यादव
+		Correct
+	Sentence :  13
+		 अपना --> व्हील्स
+		Correct
+./data/fullnews_id_2578383_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 स्वयं --> संघ
+		Correct
+	Sentence :  4
+		 अपनी --> छुट्टियां
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481937_out_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 अपने --> आडवाणी
+		Correct
+./data/fullnews_id_2496823_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  2
+		 अपने --> महिला
+		Correct
+	Sentence :  5
+		 अपने --> महिला
+		Correct
+	Sentence :  9
+		 अपनी --> महिला
+		Correct
+	Sentence :  10
+		 अपना --> उसने
+		Correct
+./data/fullnews_id_2484406_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> सुनामी
+		Correct
+./data/fullnews_id_2607694_date_19_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 अपनी --> सरकार
+		Correct
+./data/fullnews_id_2479532_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  13
+		 अपने --> सरस्वती2
+		Correct
+./data/fullnews_id_2481937_data_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 अपने --> आडवाणी
+		Correct
+./data/fullnews_id_2479618_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 अपनी --> वह
+		Correct
+./data/fullnews_id_2625778_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  14
+		 अपना --> अमेरिका
+		Correct
+./data/fullnews_id_2484358_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 अपना --> सईद
+		Correct
+./data/fullnews_id_2631027_date_28_7_2004datcout.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479636_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 अपनी --> प्रधानमंत्री
+		Correct
+./data/fullnews_id_2628342_date_27_7_2004datcout.cout.post.norm.semprop
+	Sentence :  5
+		 अपने --> भगते
+		Correct
+	Sentence :  10
+		 अपनी --> तिर्की
+		Correct
+	Sentence :  17
+		 अपनी --> सिंह
+		Correct
+	Sentence :  21
+		 अपने --> निर्मला
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479622_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 अपने --> बब्बर
+		Correct
+./data/fullnews_id_3511438_date_23_8_2005datcoutpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 खुद --> उम्मीद
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 अपना --> संभावना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481937_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 अपने --> आडवाणी
+		Correct
+./data/fullnews_id_2600214_date_16_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 अपने --> आरोप
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2612813_date_21_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  9
+		 अपना --> सेना
+		Correct
+./data/fullnews_id_2552536_date_27_6_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 अपना --> डालमिया
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 अपने --> सुनवाई
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2496835_date_2_6_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 अपना --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2564298_date_2_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 अपना --> अदालत
+		Correct
+	Sentence :  7
+		 अपनी --> वकील
+		Correct
+./data/fullnews_id_2568810_date_3_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 अपने --> वह
+		Correct
+./data/fullnews_id_2496832_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 अपना --> कानून
+		Correct
+./data/fullnews_id_2633487_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 अपने --> देश
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2568818_date_3_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 अपनी --> नक़वी
+		Correct
+	Sentence :  5
+		 अपनी --> वह
+		Correct
+	Sentence :  6
+		 अपना --> नक़वी
+		Correct
+./data/fullnews_id_3241222_date_29_4_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  11
+		 स्वयं --> शिकारे
+		Correct
+		 अपने --> हवाओं
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 अपनी --> बर्फ
+		Incorrect - Wrong Resolution
+	Sentence :  18
+		 अपनी --> उन्होंने
+		Correct
+./data/fullnews_id_2481934_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 अपनी --> दिलचस्पी
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484345_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  8
+		 अपने --> उन्होंने
+		Correct
+		 अपनी --> लड़के
+		Correct
+./data/fullnews_id_2554863_date_27_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2522735_date_14_6_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 अपनी --> श्रद्धालु
+		Correct
+./data/fullnews_id_2607700_date_19_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  7
+		 अपने --> हालत
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484341_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  7
+		 अपने --> चीन2
+		Correct
+	Sentence :  13
+		 अपने --> हम
+		Correct
+	Sentence :  14
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2625780_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 खुद --> रोबोट
+		Correct
+	Sentence :  8
+		 अपने --> उसने
+		Correct
+	Sentence :  12
+		 अपनी --> सोनी
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 अपनी --> वह
+		Correct
+	Sentence :  17
+		 अपना --> इंजीनियरों
+		Incorrect - Wrong Resolution
+	Sentence :  18
+		 अपने --> वह
+		Correct
+	Sentence :  21
+		 अपने --> बच्चों
+		Incorrect - Wrong Resolution
+	Sentence :  25
+		 अपने --> वह
+		Correct
+./data/fullnews_id_2555201_date_28_6_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  5
+		 अपने --> लोग
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2600315_date_17_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  7
+		 अपने --> सिंह
+		Correct
+	Sentence :  11
+		 अपने --> सिंह
+		Correct
+./data/fullnews_id_2479716_date_27_5_2004datcout.cout.post.norm.semprop
+	Sentence :  16
+		 अपने --> भारत3
+		Correct
+	Sentence :  18
+		 अपनी --> भारत3
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2552533_date_27_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 खुद --> उन्होंने
+		Correct
+	Sentence :  12
+		 अपने --> हाउस
+		Correct
+./data/fullnews_id_2504120_date_5_6_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 अपने --> बेटियां
+		Correct
+	Sentence :  11
+		 अपना --> ऑपरेशन
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484344_date_28_5_2004datcout.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 अपने --> युक्सी
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 अपने --> युद्घपोत
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2477214_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  7
+		 अपनी --> अमरीका
+		Correct
+	Sentence :  12
+		 अपने --> पाकिस्तान
+		Correct
+	Sentence :  17
+		 अपनी --> पासपोर्ट
+		Incorrect - Wrong Resolution
+./data/fullnews_id_4358696_date_16_8_2006datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  7
+		 अपनी --> भुट्टो
+		Correct
+	Sentence :  9
+		 अपनी --> वे
+		Correct
+		 अपने --> आस्था
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 अपने --> बेनजीर
+		Correct
+./data/fullnews_id_2605272_date_18_7_2004datCANNOTATEcoutcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 स्वयं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  9
+		 अपना --> जनता
+		Correct
+./data/fullnews_id_2522728_date_14_6_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 अपने --> अलविरा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481940_out_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> राजा
+		Correct
+	Sentence :  7
+		 अपने --> उन्होंने
+		Correct
+./data/fullnews_id_2479533_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  2
+		 अपने --> कलाम
+		Correct
+	Sentence :  3
+		 अपने --> सिंह
+		Correct
+./data/fullnews_id_2575967_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  4
+		 अपनी --> भारत
+		Correct
+./data/fullnews_id_2580882_date_9_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  21
+		 अपने --> वे
+		Correct
+./data/fullnews_id_2617886_date_23_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  9
+		 अपने --> उन्होंने
+		Correct
+./data/fullnews_id_2561696_date_30_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 अपने --> राज
+		Correct
+./data/fullnews_id_2484366_date_28_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 अपना --> आयोग
+		Correct
+	Sentence :  8
+		 अपने --> जोशी
+		Correct
+./data/fullnews_id_2479668_date_27_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  34
+		 अपने --> प्रोसेसिंग
+		Correct
+./data/fullnews_id_2578381_date_7_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 अपने --> और
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 अपने --> रिलायंस
+		Correct
+./data/fullnews_id_2583224_date_9_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 अपने --> समुद्र2
+		Correct
+./data/fullnews_id_2633509_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  15
+		 खुद --> वह
+		Correct
+./data/fullnews_id_2612822_date_21_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  7
+		 अपने --> यात्रा
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 अपनी --> उन्होंने
+		Correct
+./data/fullnews_id_2479655_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  11
+		 अपनी --> कांग्रेस
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633507_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  12
+		 अपना --> मुख्यमंत्री
+		Correct
+	Sentence :  24
+		 खुद --> आज़ाद
+		Correct
+./data/fullnews_id_2479637_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  3
+		 अपने --> वे
+		Correct
+	Sentence :  4
+		 अपने --> कतरा
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 अपने --> नमी
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 अपने --> जिसने
+		Correct
+	Sentence :  13
+		 अपने --> सदस्य
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 अपने --> शैली
+		Correct
+./data/fullnews_id_2575937_date_6_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 स्वयं --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 अपने --> यह
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  13
+		 अपने --> करना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2474838_date_25_5_2004dat.cout.post.norm.semprop
+	Sentence :  14
+		 अपनी --> शुभारंभ
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 अपनी --> देवानंद
+		Correct
+	Sentence :  17
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2578419_date_8_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 अपने --> भारत
+		Correct
+./data/fullnews_id_2583308_date_10_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  1
+		 अपना --> अदालत
+		Correct
+./data/fullnews_id_2552538_date_27_6_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  10
+		 अपने --> सदस्यों
+		Correct
+	Sentence :  14
+		 अपना --> वह
+		Correct
+./data/fullnews_id_2633499_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> ठाकुर
+		Correct
+	Sentence :  3
+		 अपना --> खां
+		Correct
+	Sentence :  9
+		 अपना --> ठाकुर
+		Correct
+./data/fullnews_id_2481992_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> लोग
+		Correct
+./data/fullnews_id_2605273_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  14
+		 अपनी --> यह
+		Correct
+	Sentence :  15
+		 अपने --> सरकार
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2554903_date_28_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 अपने --> पैकर2
+		Correct
+	Sentence :  8
+		 अपने --> हॉवर्ड
+		Correct
+./data/fullnews_id_2494355_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 अपने --> लोगों
+		Correct
+./data/fullnews_id_2620697_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 अपनी --> आयोग
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 अपना --> प्रकाश
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2477219_date_26_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> वोहरा
+		Correct
+	Sentence :  2
+		 अपना --> वोहरा
+		Correct
