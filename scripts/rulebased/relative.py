@@ -15,11 +15,13 @@ def relative(mention):
 
             if node.parentRelation == 'nmod__relc':
                 flagR = 0
+                '''
                 if node.parent.parentRelation == 'rh':
                     for child in node.parent.parent.childList:
                         if child.parentRelation == 'k1' or child.parentRelation == 'pof':
                             return child
                     #return node.parent.parent
+                    '''
                 
                 return node.parent
                 '''
