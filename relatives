@@ -1,0 +1,794 @@
+./data/fullnews_id_2633492_date_29_7_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2631047_date_28_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 जो --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  13
+		 जो --> उनके
+		Correct
+./data/fullnews_id_2583236_date_9_7_2004datpostnormcout.cout.post.norm.semprop
+	Sentence :  8
+		 जो --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2481939_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  11
+		 जिन्होंने --> मोबाइलधारक
+		Correct
+./data/fullnews_id_2585740_date_10_7_2004datCANNOTATEcoutcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 जो --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484404_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 जब --> NULL
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 जिसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  23
+		 जो --> उस
+		Correct
+./data/fullnews_id_2522675_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  13
+		 जब --> तो
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 जिस --> वह
+		Correct
+./data/fullnews_id_2633508_date_29_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  3
+		 जो --> उत्पादन
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 जो --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  19
+		 जो --> आँकड़ें
+		Correct
+./data/fullnews_id_2484407_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  20
+		 जोकि --> तापमान
+		Correct
+	Sentence :  25
+		 जिसके --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2564258_date_1_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  9
+		 जो --> किरण
+		Correct
+	Sentence :  11
+		 जिस --> उसके
+		Correct
+	Sentence :  16
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  22
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2583316_date_10_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484408_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  10
+		 जो --> ग्रहों
+		Correct
+	Sentence :  19
+		 जो --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  26
+		 जो --> कणों
+		Correct
+./data/fullnews_id_2564257_date_1_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  4
+		 जब --> तब
+		Correct
+./data/fullnews_id_2575970_date_7_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  7
+		 जिसमें --> पत्र
+		Correct
+./data/fullnews_id_2583218_date_9_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 जब --> समय
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2564262_date_1_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  7
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484349_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 जिससे --> सजा
+		Correct
+./data/fullnews_id_2479717_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  25
+		 जिसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2600216_date_16_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  13
+		 जिनमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2633493_date_29_7_2004dat.cout.post.norm.semprop
+	Sentence :  12
+		 जहाँ --> स्थानों
+		Correct
+./data/fullnews_id_2990407_date_4_1_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 जिसे --> कंबल
+		Correct
+./data/fullnews_id_2610171_date_20_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  13
+		 जो --> वह
+		Correct
+./data/fullnews_id_3314732_date_2_6_2005datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  9
+		 जब --> तो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2585736_date_10_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  10
+		 जिससे --> आपूर्ति
+		Correct
+./data/fullnews_id_2520627_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 जब --> तो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2496820_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  9
+		 जिनमें --> आतंकवादियों
+		Correct
+./data/fullnews_id_2612820_date_21_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 जो --> फैसला
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2620698_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 जिनमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  6
+		 जिनमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  8
+		 जिसमें --> यात्रा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484339_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  17
+		 जो --> यह
+		Correct
+./data/fullnews_id_2484347_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 जिसने --> नेता
+		Correct
+	Sentence :  3
+		 जिनमें --> चुनाव
+		Correct
+	Sentence :  4
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  6
+		 जब --> साल
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2605267_date_18_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  9
+		 जब --> तब
+		Correct
+./data/fullnews_id_2477211_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  23
+		 जो --> यह
+		Correct
+./data/fullnews_id_3128589_date_8_3_2005datcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 जो --> मूर्ति
+		Correct
+	Sentence :  7
+		 जिसकी --> रिंग
+		Correct
+	Sentence :  22
+		 जो --> डाइयां
+		Correct
+	Sentence :  23
+		 जो --> ईंटें
+		Correct
+./data/fullnews_id_2585727_date_10_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 जब --> NULL
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2625776_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 जो --> उनके
+		Correct
+	Sentence :  19
+		 जहाँ --> राज्यों
+		Correct
+./data/fullnews_id_2633486_date_29_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  13
+		 जब --> तो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481936_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 जब --> समय
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 जो --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2477212_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 जिन्होंने --> उन्हें
+		Correct
+	Sentence :  6
+		 जिससे --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2477208_date_25_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 जिससे --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  8
+		 जब --> तब
+		Correct
+./data/fullnews_id_2484403_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 जिसके --> मुहिम
+		Correct
+	Sentence :  7
+		 जो --> पर्यटकों
+		Correct
+./data/fullnews_id_2600217_date_16_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 जो --> अंतर
+		Correct
+	Sentence :  16
+		 जहाँ --> गाँव
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2571131_date_4_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  7
+		 जिसमें --> बैठक
+		Correct
+./data/fullnews_id_2612821_date_21_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 जो --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484405-a_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 जिन्हें --> शर्तों
+		Correct
+./data/fullnews_id_2628343_date_27_7_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 जिसकी --> दवाईयाँ
+		Correct
+./data/fullnews_id_2628341_date_27_7_2004dat.cout.post.norm.semprop
+	Sentence :  11
+		 जिसमें --> बयान
+		Correct
+./data/fullnews_id_2600210_date_16_7_2004datpostnormcout.cout.post.norm.semprop
+	Sentence :  8
+		 जो --> निर्णय
+		Correct
+	Sentence :  17
+		 जिसे --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2564273_date_1_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 जब --> तब
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 जब --> तब
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2496836_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 जब --> तब
+		Correct
+./data/fullnews_id_2583317_date_10_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  16
+		 जिसका --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2580823_date_8_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  8
+		 जिस --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2496821_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  10
+		 जब --> वक्त
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2496824_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  12
+		 जब --> तब
+		Correct
+./data/fullnews_id_2484367_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 जो --> तथ्य
+		Correct
+./data/fullnews_id_2522677_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  7
+		 जो --> मकबरा
+		Correct
+	Sentence :  18
+		 जिसका --> ताज
+		Correct
+	Sentence :  25
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479623_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  18
+		 जिस --> उसे
+		Correct
+	Sentence :  19
+		 जब --> वक्त
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479721_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 जिससे --> निर्णय
+		Correct
+./data/fullnews_id_2600213_date_16_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 जिसका --> विभाजन
+		Correct
+./data/fullnews_id_2491819_date_1_6_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 जिसका --> वर्ष
+		Correct
+	Sentence :  7
+		 जो --> और
+		Correct
+./data/fullnews_id_2583320_date_10_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  23
+		 जिसमें --> सुझाव
+		Correct
+./data/fullnews_id_2631031_date_28_7_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 जिसने --> राजग2
+		Correct
+./data/fullnews_id_2513703_date_9_6_2004dat.cout.post.norm.semprop
+	Sentence :  14
+		 जो --> परिसर
+		Correct
+	Sentence :  37
+		 जो --> कुछ2
+		Incorrect - Wrong Resolution
+	Sentence :  40
+		 जो --> NULL
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484354_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  11
+		 जब --> तो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2482003_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 जो --> मत
+		Correct
+./data/fullnews_id_2486919-a_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  13
+		 जब --> NULL
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 जिसे --> डिजाइन
+		Incorrect - Wrong Resolution
+./data/fullnews_id_3351953_date_17_6_2005datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  8
+		 जो --> सिलसिला
+		Correct
+./data/fullnews_id_2620694_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 जिससे --> कदमों
+		Correct
+./data/fullnews_id_2479617_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 जिससे --> बारिश
+		Correct
+	Sentence :  3
+		 जिससे --> आंधी
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2520630_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  2
+		 जो --> पल
+		Correct
+	Sentence :  4
+		 जब --> तो
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 जिसको --> वही
+		Correct
+	Sentence :  13
+		 जब --> तो
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 जब --> समय
+		Incorrect - Wrong Resolution
+		 जिन्होंने --> शर्मा
+		Correct
+	Sentence :  20
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2578383_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 जो --> उसके
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2496823_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 जब --> तो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633490_date_29_7_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 जब --> तो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2559047_date_30_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 जो --> बहस
+		Correct
+./data/fullnews_id_2600211_date_16_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 जिससे --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2561778_date_1_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  17
+		 जो --> विकल्प
+		Correct
+./data/fullnews_id_2625778_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  14
+		 जिसे --> चीन
+		Correct
+./data/fullnews_id_2631027_date_28_7_2004datcout.cout.post.norm.semprop
+	Sentence :  3
+		 जहाँ --> झा
+		Correct
+./data/fullnews_id_2628344_date_27_7_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 जिसमें --> लोगों
+		Correct
+./data/fullnews_id_2628342_date_27_7_2004datcout.cout.post.norm.semprop
+	Sentence :  15
+		 जिसमें --> गोलियाँ
+		Correct
+	Sentence :  17
+		 जहाँ --> अस्पताल
+		Correct
+	Sentence :  22
+		 जहाँ --> अस्पताल
+		Correct
+./data/fullnews_id_3511438_date_23_8_2005datcoutpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 जिससे --> पानी
+		Correct
+	Sentence :  12
+		 जब --> तब
+		Correct
+./data/fullnews_id_2575936_date_6_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  16
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  19
+		 जिनमें --> परियोजनाएं
+		Correct
+./data/fullnews_id_2600214_date_16_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 जिस --> हथियार
+		Correct
+	Sentence :  9
+		 जिनमें --> मामलों
+		Correct
+./data/fullnews_id_2585741_date_10_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 जिसमें --> अलर्ट
+		Correct
+	Sentence :  3
+		 जिसमें --> अंश
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633498_date_29_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  11
+		 जो --> जनजाति
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2631113_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 जिसमें --> आशंका
+		Correct
+./data/fullnews_id_2585739_date_10_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 जब --> समय
+		Correct
+./data/fullnews_id_2580809_date_8_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 जो --> ग्रुप
+		Correct
+./data/fullnews_id_2568818_date_3_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 जो --> वह2
+		Correct
+./data/fullnews_id_3241222_date_29_4_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 जो --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  14
+		 जिसकी --> अनुभव
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 जब --> तो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481934_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  10
+		 जिसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  12
+		 जिसमें --> नमूनों
+		Correct
+./data/fullnews_id_2522673_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 जो --> उनके
+		Correct
+	Sentence :  2
+		 जो --> लोगों
+		Correct
+	Sentence :  12
+		 जो --> उनसे
+		Correct
+./data/fullnews_id_2484345_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 जब --> तब
+		Correct
+./data/fullnews_id_2479621_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 जब --> तो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484342_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  18
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2522735_date_14_6_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 जब --> तो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2607700_date_19_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 जो --> चेहरा
+		Correct
+	Sentence :  8
+		 जहाँ --> होम
+		Correct
+	Sentence :  11
+		 जो --> नेता
+		Correct
+./data/fullnews_id_2625780_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 जिसका --> प्रोग्राम
+		Correct
+	Sentence :  12
+		 जिनकी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  15
+		 जिसकी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  22
+		 जो --> रोबोट
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2631045_date_28_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 जिससे --> मदद
+		Correct
+./data/fullnews_id_2555201_date_28_6_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  2
+		 जिन्हें --> घायलों
+		Correct
+	Sentence :  3
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479716_date_27_5_2004datcout.cout.post.norm.semprop
+	Sentence :  14
+		 जो --> वह
+		Correct
+	Sentence :  17
+		 जब --> तो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2552533_date_27_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  7
+		 जैसा --> इशारा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633497_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 जिसके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  14
+		 जो --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2484344_date_28_5_2004datcout.cout.post.norm.semprop
+	Sentence :  1
+		 जब --> NULL
+		Correct
+	Sentence :  18
+		 जब --> NULL
+		Correct
+./data/fullnews_id_2477214_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 जो --> अपराधियों
+		Correct
+	Sentence :  16
+		 जिसमें --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_4358696_date_16_8_2006datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  13
+		 जब --> NULL
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 जो --> बच्चे
+		Correct
+	Sentence :  17
+		 जिसमें --> कड़ाह
+		Correct
+	Sentence :  21
+		 जब --> तो
+		Incorrect - Wrong Resolution
+	Sentence :  23
+		 जब --> NULL
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2605272_date_18_7_2004datCANNOTATEcoutcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 जब --> तब
+		Correct
+	Sentence :  17
+		 जो --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2607693_date_19_7_2004datpostnormcout.cout.post.norm.semprop
+	Sentence :  1
+		 जब --> तब
+		Correct
+	Sentence :  3
+		 जब --> NULL
+		Incorrect - Wrong Resolution
+		 जिसमें --> समारोह
+		Correct
+./data/fullnews_id_2580882_date_9_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 जब --> तब
+		Correct
+	Sentence :  9
+		 जब --> तब
+		Correct
+	Sentence :  20
+		 जिन्होंने --> बोर्लेग
+		Correct
+	Sentence :  21
+		 जो --> लकड़ी
+		Correct
+	Sentence :  23
+		 जहाँ --> नगर
+		Correct
+		 जिनमें --> ज्यादा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481993_date_28_5_2004datcout.cout.post.norm.semprop
+	Sentence :  11
+		 जिसकी --> एक
+		Correct
+	Sentence :  21
+		 जिसे --> सल्फेट
+		Correct
+		 जिसकी --> पाउडर2
+		Correct
+	Sentence :  24
+		 जिस --> उसकी
+		Correct
+./data/fullnews_id_2484366_date_28_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 जब --> तब
+		Correct
+	Sentence :  5
+		 जो --> वह
+		Correct
+	Sentence :  8
+		 जिसकी --> आग
+		Correct
+	Sentence :  11
+		 जिसमें --> चिट्ठी
+		Correct
+	Sentence :  12
+		 जिसे --> कैसेट
+		Correct
+./data/fullnews_id_2479529_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 जो --> जोर
+		Correct
+	Sentence :  32
+		 जिससे --> पेड़
+		Correct
+./data/fullnews_id_2479668_date_27_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 जब --> तो
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 जिसने --> विपिन
+		Correct
+	Sentence :  13
+		 जो --> उनकी
+		Correct
+	Sentence :  15
+		 जिस --> कंप्यूटर
+		Incorrect - Wrong Resolution
+	Sentence :  28
+		 जब --> तो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2583224_date_9_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  7
+		 जो --> मछलियाँ
+		Correct
+	Sentence :  13
+		 जो --> उसके
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 जिसमें --> अध्ययन
+		Correct
+./data/fullnews_id_2633509_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 जिसे --> सलाह
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633507_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 जिस --> वह
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479637_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  8
+		 जब --> तो
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 जिसने --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  16
+		 जब --> तो
+		Incorrect - Wrong Resolution
+	Sentence :  20
+		 जो --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2575937_date_6_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 जिसे --> योजना
+		Correct
+	Sentence :  11
+		 जो --> तरीका
+		Correct
+./data/fullnews_id_2474838_date_25_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 जब --> समय
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2583308_date_10_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  5
+		 जब --> १९८८
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2631048_date_28_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  16
+		 जब --> इस
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2552538_date_27_6_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  12
+		 जब --> तो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633499_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 जिसने --> बोलिवर
+		Correct
+./data/fullnews_id_2479534_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 जो --> उन्हें
+		Correct
+	Sentence :  15
+		 जिसका --> समिति
+		Correct
+	Sentence :  16
+		 जिसमें --> बैठक
+		Correct
+./data/fullnews_id_2494355_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  7
+		 जब --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479528_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 जिसके --> बीमारी
+		Correct
+./data/fullnews_id_2477219_date_26_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  15
+		 जिसमें --> बयान
+		Correct
