@@ -10,12 +10,27 @@ def relative(mention):
         #print(haha)
         #haha += 1
         #if node.morphPOS == 'v':
-        if ((node.type == 'VGF') or (node.type == 'VGNF') or (node.type == 'VM')):
+        if ((node.type == 'CC') or (node.type == 'VM')):
             #print("hi")
+
             if node.parentRelation == 'nmod__relc':
                 flagR = 0
-                return node.parent
+                if node.parent.parentRelation == 'rh':
+                    for child in node.parent.parent.childList:
+                        if child.parentRelation == 'k1' or child.parentRelation == 'pof':
+                            return child
+                    #return node.parent.parent
                 
+                return node.parent
+                '''
+            else:
+                if node.parent.type == 'VM':
+                    for child in node.parent.childList:
+                        if child.parentRelation == 'k1':
+                            if mention.name != child.name:
+                                return child
+                                '''
+
             
         if (node.parent == node):
             flagR = 0
