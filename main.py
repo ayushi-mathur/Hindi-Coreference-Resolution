@@ -12,13 +12,13 @@ import scripts.rulebased.firstperson as fp
 
 
 reflexivePronouns = ['अपनी', 'अपने', 'अपना', 'स्वयं', 'खुद', 'खुद']
-relativePronouns = ['जो', 'जोकि', 'जहाँ', 'जिधर', 'जितना', 'जितने', 'जैसा', 'जैसे', 'जिसको', 'जिसके',
-    'जिस', 'जिसे', 'जिससे', 'जिसकी', 'जिसका', 'जिसने', 'जिन्हें', 'जिन्होंने', 'जिसमें', 'जिनमें', 'जिनकी']#removing "jab"
+relativePronouns = ['जो', 'जोकि', 'जहाँ', 'जिधर', 'जितना', 'जितने', 'जैसा', 'जैसे', 'जब', 'जिसको', 'जिसके',
+                    'जिस', 'जिसे', 'जिससे', 'जिसकी', 'जिसका', 'जिसने', 'जिन्हें', 'जिन्होंने', 'जिसमें', 'जिनमें', 'जिनकी']
 firstPronouns = ['हमसे', 'हमारे', 'मेरा', 'मेरी', 'मेरे', 'हम', 'हमारा',
                  'हमने', 'मुझे', 'मैं', 'मुझ', 'मैने', 'हमें', 'मैंने', 'हमारी']
 secondPronouns = ['आप', 'आपस', 'आपकी', 'आपके', 'आपको', 'आपका']
-locativePronouns = ['वहाँ', 'वहां', 'वहीं', 'यहीं', 'यहाँ', 'यहां',
-                    'जहां', 'जहाँ', 'कहीं', 'इसमें', 'उसमें', 'इनमें', 'जिसमें']
+locativePronouns = ['वहाँ', 'वहां', 'वहीं', 'यहीं', 'यहाँ',
+                    'यहां', 'कहीं', 'इसमें', 'उसमें', 'इनमें']
 
 fileList = ssf.folderWalk('./data/')
 
@@ -58,7 +58,7 @@ for rfp in fileList:
                     mention = node
                     answer = rv.relative(node)
                     isPronoun = True
-                # if node.name in locativePronouns:
+                # if (node.lex in locativePronouns) and (node.morphPOS == 'pn'):
                 #     mention = node
                 #     answer = lt.locative(node, linearChunkList)
                 #     isPronoun = True
@@ -75,6 +75,35 @@ for rfp in fileList:
                         incorrectOOS += 1
                     else:
                         print('\t\t', mention.name, "-->", answer.name)
+                #   ------------- NEW CHECKING METHOD -------------            
+                        # mentionLinksTo = 0 if mention.getAttribute('crefType') is None else mention.getAttribute('crefType').split(':')[1]
+                        # chainsWithReferent = set()
+                        # chainsWithMention = set()
+                        # chainsWithPrediction = set()
+
+                        # if (mention.getAttribute('cref') is not None):
+                        #     for c in mention.getAttribute('cref').split(','):
+                        #         chainsWithMention.add(c.split(':')[1])
+                        # if (answer.getAttribute('cref') is not None):
+                        #     for c in answer.getAttribute('cref').split(','):
+                        #         chainsWithPrediction.add(c.split(':')[1])
+                        # for corefChain in doc.coreferenceChainNodeList:
+                        #     for corefEntity in corefChain.nodeList:
+                        #         if corefEntity.uniqueid == mentionLinksTo:
+                        #             chainsWithReferent.add(corefChain.chainid)
+                        
+                        # print("\nThe prediction was in : ",end='')
+                        # for x in chainsWithPrediction:
+                        #     print(x, end=', ')
+                        # print("\nThe referent was in : ", end='')
+                        # for x in chainsWithReferent:
+                        #     print(x, end=', ')
+                        # print("\nThe mention was in : ",end='')
+                        # for x in chainsWithMention:
+                        #     print(x, end=', ')
+                        # if len(set.intersection(chainsWithPrediction, chainsWithReferent, chainsWithMention)) > 0:
+                #   ------------- NEW CHECKING METHOD -------------        
+                #   xxxxxxxxxxxxx OLD CHECKING METHOD xxxxxxxxxxxxx
                         mChains = []
                         aChains = []
                         for corefChain in doc.coreferenceChainNodeList:
@@ -88,6 +117,7 @@ for rfp in fileList:
                             if a in mChains:
                                 flag = 1
                         if flag == 1:
+                #   xxxxxxxxxxxxx OLD CHECKING METHOD xxxxxxxxxxxxx
                             print("\t\tCorrect")
                             correct += 1
                         else:
@@ -100,6 +130,6 @@ for rfp in fileList:
                         #             print(d.name)
     # for m,r in mrpair:
     #     print (m, "-->", r)
-print ("Correct: ",correct)
-print ("Incorrect: ",incorrectWR)
-print ("Out of Scope: ",incorrectOOS)
+print("Correct: ", correct)
+print("Incorrect: ", incorrectWR)
+print("Out of Scope: ", incorrectOOS)
