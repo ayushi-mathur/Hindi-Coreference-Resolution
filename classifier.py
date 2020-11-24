@@ -1,11 +1,27 @@
+from sklearn import tree
 import sys
 sys.path
 sys.path.append('./scripts/ssfapi/')
 import ssfAPI_intra as ssf
 
-from sklearn import tree
 
-pronounsList = {'मैं', 'दैट', 'उसकी', 'उसके', 'जोकि', 'जहां', 'परस्पर', 'उसी', 'हमें', 'खुद', 'मेरा', 'यह', 'इससे', 'मुझे', 'इसे', 'इनसे', 'मुझ', 'इनको', 'कुछ', 'इस', 'सुपर', 'मेरी', 'उनमें', 'जो', 'जहाँ', 'तभी', 'तहां', 'जैसा', 'यही', 'दूसरे', 'यहीं', 'इसमें', 'ऐसी', 'ऐसा', 'आपकी', 'इसको', 'वहीं', 'इनकी', 'इनका', 'उन्हें', 'जिसमें', 'मैंने', 'आपको', 'इनके', 'जिसके', 'अपनी', 'अपना', 'वही', 'मैने', 'यहां', 'इसके', 'जिन्होंने', 'किसको', 'उनसे', 'जिसका', 'इसी', 'इसलिए', 'वहां', 'सभी', 'उसने', 'किसे', 'जिसने', 'उसे', 'उसका', 'आपका', 'इसकी', 'अपने', 'जिन्हें', 'NULL', 'यहाँ', 'इतना', 'आपके', 'उनका', 'कोई', 'मेरे', 'इसका', 'वो', 'कहीं', 'ऐसे', 'क्या', 'जिन', 'तब', 'कब', 'एक', 'किस', 'हमारी', 'दिस', 'किसने', 'जब', 'उनको', 'सब', 'इसने', 'जिससे', 'आप', 'आपस', 'हम', 'जिनमें', 'हमारे', 'कभी', 'जिनकी', 'इन', 'किन', 'इनमें', 'किसी', 'वे', 'स्वयं', 'अभी', 'उस', 'हमारा', 'हमने', 'इसीलिए', 'सबको', 'सबके', 'वह', 'वहाँ', 'उनकी', 'जिसको', 'तो', 'जिस', 'ये', 'इन्हीं', 'उन', 'अब', 'जिसकी', 'उन्होंने', 'इन्हें', 'हमसे', 'उनके', 'उससे', 'उसमें', 'जिसे'}
+pronounsList = {'मैं', 'दैट', 'उसकी', 'उसके', 'जोकि', 'जहां', 'परस्पर', 'उसी', 'हमें', 'खुद', 'मेरा', 'यह', 'इससे', 'मुझे', 'इसे', 'इनसे', 'मुझ', 'इनको', 'कुछ', 'इस', 'सुपर', 'मेरी', 'उनमें', 'जो', 'जहाँ', 'तभी', 'तहां', 'जैसा', 'यही', 'दूसरे', 'यहीं', 'इसमें', 'ऐसी', 'ऐसा', 'आपकी', 'इसको', 'वहीं', 'इनकी', 'इनका', 'उन्हें', 'जिसमें', 'मैंने', 'आपको', 'इनके', 'जिसके', 'अपनी', 'अपना', 'वही', 'मैने', 'यहां', 'इसके', 'जिन्होंने', 'किसको', 'उनसे', 'जिसका', 'इसी', 'इसलिए', 'वहां', 'सभी', 'उसने', 'किसे', 'जिसने', 'उसे', 'उसका',
+                'आपका', 'इसकी', 'अपने', 'जिन्हें', 'NULL', 'यहाँ', 'इतना', 'आपके', 'उनका', 'कोई', 'मेरे', 'इसका', 'वो', 'कहीं', 'ऐसे', 'क्या', 'जिन', 'तब', 'कब', 'एक', 'किस', 'हमारी', 'दिस', 'किसने', 'जब', 'उनको', 'सब', 'इसने', 'जिससे', 'आप', 'आपस', 'हम', 'जिनमें', 'हमारे', 'कभी', 'जिनकी', 'इन', 'किन', 'इनमें', 'किसी', 'वे', 'स्वयं', 'अभी', 'उस', 'हमारा', 'हमने', 'इसीलिए', 'सबको', 'सबके', 'वह', 'वहाँ', 'उनकी', 'जिसको', 'तो', 'जिस', 'ये', 'इन्हीं', 'उन', 'अब', 'जिसकी', 'उन्होंने', 'इन्हें', 'हमसे', 'उनके', 'उससे', 'उसमें', 'जिसे'}
+
+nerDict = {}
+nerBag = open('nerBag', 'r')
+for line in nerBag.readlines():
+    nerDict[line.split(' ')[0]] = line.split(' ')[1].strip()
+
+nerCategory = {
+    'number': 1,
+    'time': 2,
+    'organization': 3,
+    'location': 4,
+    'person': 5,
+    'measure': 6,
+    'null': 0
+}
 
 fl = ssf.folderWalk('./trainingdata')
 
@@ -16,19 +32,18 @@ y = 0
 w = 0
 tp = 0
 top = [0, 0, 0, 0, 0]
-f0=1
-f1=1
-f2=1
-f3=1
-f4=1
-f5=1
+f0 = 1
+f1 = 1
+f2 = 1
+f3 = 1
+f4 = 1
+f5 = 1
 
 for rfp in fl:
 
     linearNodeList = []
     linearChunkList = []
     nodeFeatureList = []
-
 
     doc = ssf.Document(rfp)
     for s in doc.nodeList:
@@ -46,9 +61,9 @@ for rfp in fl:
                 linearNodeList.append([''])
 
             if (n.number == 'sg'):
-                num = 0.5
-            elif (n.number == 'pl'):
                 num = 1
+            elif (n.number == 'pl'):
+                num = 2
             else:
                 num = 0
 
@@ -57,10 +72,17 @@ for rfp in fl:
             else:
                 anim = 0
 
-            nodeFeatureList.append([num, i, int(c.upper.name) , 'NE', anim, n.morphPOS])
+            ne = nerDict.get(n.lex)
+            if ne is not None:
+                ne = nerCategory.get(ne)
+            if ne is None:
+                ne = 0
 
-            if (n.type=='PRP') and (n.getAttribute('cref') is not None) and (n.getAttribute('cref') != ''):
-                tp +=1
+            nodeFeatureList.append(
+                [num, i, int(c.upper.name), ne, anim, n.morphPOS])
+
+            if (n.type == 'PRP') and (n.getAttribute('cref') is not None) and (n.getAttribute('cref') != ''):
+                tp += 1
                 for k, parsedNodes in enumerate(nodeFeatureList):
                     if (i - parsedNodes[1] < 1):
                         continue
@@ -77,7 +99,8 @@ for rfp in fl:
                     else:
                         anim = 0
 
-                    trainingInput.append([num, parsedNodes[0], i - parsedNodes[1], int(c.upper.name) - parsedNodes[2], parsedNodes[4], anim])
+                    trainingInput.append([num, parsedNodes[0], i - parsedNodes[1], int(
+                        c.upper.name) - parsedNodes[2], parsedNodes[3], parsedNodes[4], anim])
                     temp = []
                     for cref in n.getAttribute('cref').split(','):
                         temp.append(cref.split(':')[1])
@@ -88,21 +111,21 @@ for rfp in fl:
                         trainingOutput.append(0)
                         w += 1
 
-for x in trainingInput:
-    f0=max(f0,abs(x[0]))
-    f1=max(f1,abs(x[1]))
-    f2=max(f2,abs(x[2]))
-    f3=max(f3,abs(x[3]))
-    f4=max(f4,abs(x[4]))
-    f5=max(f5,abs(x[5]))
+# for x in trainingInput:
+#     f0 = max(f0, abs(x[0]))
+#     f1 = max(f1, abs(x[1]))
+#     f2 = max(f2, abs(x[2]))
+#     f3 = max(f3, abs(x[3]))
+#     f4 = max(f4, abs(x[4]))
+#     f5 = max(f5, abs(x[5]))
 
-for x in trainingInput:
-    x[0]=x[0]/f0
-    x[1]=x[1]/f1
-    x[2]=x[2]/f2
-    x[3]=x[3]/f3
-    x[4]=x[4]/f4
-    x[5]=x[5]/f5
+# for x in trainingInput:
+#     x[0] = x[0]/f0
+#     x[1] = x[1]/f1
+#     x[2] = x[2]/f2
+#     x[3] = x[3]/f3
+#     x[4] = x[4]/f4
+#     x[5] = x[5]/f5
 
 
 clf = tree.DecisionTreeClassifier()
@@ -150,9 +173,16 @@ for rfp in fl:
                 else:
                     anim = 0
 
-                nodeFeatureList.append([num, j, int(chunk.upper.name) , 'NE', anim, node.morphPOS])
+                ne = nerDict.get(node.lex)
+                if ne is not None:
+                    ne = nerCategory.get(ne)
+                if ne is None:
+                    ne = 0
 
-                if (node.type=='PRP'):
+                nodeFeatureList.append(
+                    [num, j, int(chunk.upper.name), ne, anim, node.morphPOS])
+
+                if (node.type == 'PRP'):
 
                     testingIO = []
                     goldOutput = []
@@ -175,7 +205,8 @@ for rfp in fl:
                         else:
                             anim = 0
 
-                        x = [num, parsedNodes[0], j - parsedNodes[1], int(chunk.upper.name) - parsedNodes[2], parsedNodes[4], anim]
+                        x = [num, parsedNodes[0], j - parsedNodes[1],
+                             int(chunk.upper.name) - parsedNodes[2], parsedNodes[3], parsedNodes[4], anim]
                         temp = []
                         if node.getAttribute('cref') is None:
                             goldOutput = 0
@@ -187,16 +218,15 @@ for rfp in fl:
                             else:
                                 goldOutput = 0
                         # print('tesIO before:', len(testingIO))
-                        testingIO.append([x, clf.predict_proba([x])[0], goldOutput])
+                        testingIO.append(
+                            [x, clf.predict_proba([x])[0], goldOutput])
                         # print('tesIO after:', len(testingIO))
 
                     # print('tesIO:', len(testingIO))
-                    testingIO = sorted(testingIO, key= lambda y: y[1][1],reverse=True)
-                    if testingIO[0][2] == 1 or testingIO[1][2] == 1 or testingIO[2][2] == 1 or testingIO[3][2] == 1 or testingIO[4][2] == 1:
+                    testingIO = sorted(
+                        testingIO, key=lambda y: y[1][1], reverse=True)
+                    if testingIO[0][2] == 1:
                         correct += 1
                         # print('ding')
                     else:
                         incorrect += 1
-
-print(correct)
-print(incorrect)
