@@ -16,8 +16,7 @@ for rfp in fl:
     for s in doc.nodeList:
         for c in s.nodeList:
             for n in c.nodeList:
-                if n.morphPOS == 'pn':
+                if n.type == 'PRP' and n.getAttribute('cref') is not None:
                     pronouns.add(n.lex)
 
-for p in pronouns:
-    
+print(pronouns)
