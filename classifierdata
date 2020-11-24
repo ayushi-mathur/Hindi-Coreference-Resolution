@@ -1,0 +1,11 @@
+Training Pronouns : 2199
+Testing Pronouns : 904
+Training : Testing :: 2 : 1
+
+
+Feature List:
+[num(prn), num(prec), chunkdist, sentdist, anim(prec), anim(prn)]
+
+(Correct answer / Total) in top 1: 140 / 904
+(Correct answer / Total) in top 2: 210 / 904
+(Correct answer / Total) in top 5: 379 / 904
