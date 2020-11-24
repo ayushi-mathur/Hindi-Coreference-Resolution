@@ -70,7 +70,7 @@ for rfp in fl:
                     else: 
                         anim = 0
                     
-                    trainingInput.append([num, parsedNodes[0], i - parsedNodes[1], int(c.upper.name) - parsedNodes[2]]) #,  parsedNodes[4], anim])
+                    trainingInput.append([num, parsedNodes[0], i - parsedNodes[1], int(c.upper.name) - parsedNodes[2], parsedNodes[4], anim])
                     temp = []
                     for cref in n.getAttribute('cref').split(','):
                         temp.append(cref.split(':')[1])
@@ -151,7 +151,7 @@ for rfp in fl:
                         else: 
                             anim = 0
                         
-                        x = [num, parsedNodes[0], j - parsedNodes[1], int(chunk.upper.name) - parsedNodes[2]]  #,  parsedNodes[4], anim]
+                        x = [num, parsedNodes[0], j - parsedNodes[1], int(chunk.upper.name) - parsedNodes[2], parsedNodes[4], anim]
                         temp = []
                         if node.getAttribute('cref') is None:
                             goldOutput = 0
