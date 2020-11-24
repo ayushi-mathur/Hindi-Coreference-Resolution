@@ -1,0 +1,2594 @@
+./data/fullnews_id_2552526_date_27_6_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  6
+		 वे --> दीक्षित
+		Correct
+	Sentence :  7
+		 वे --> वे
+		Correct
+	Sentence :  8
+		 उन्होंने --> वे
+		Correct
+	Sentence :  10
+		 वे --> उन्हें
+		Correct
+	Sentence :  11
+		 वे --> वे
+		Correct
+./data/fullnews_id_2612813_date_21_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उसने --> सरकार
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उनका --> मुखर्जी
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> नियंत्रण
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2620695_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> उमर
+		Correct
+	Sentence :  7
+		 उन्होंने --> उमर
+		Correct
+./data/fullnews_id_2479534_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  7
+		 उन्होंने --> सुरजीत
+		Correct
+	Sentence :  9
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  11
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  14
+		 उन्होंने --> सुरजीत
+		Correct
+	Sentence :  16
+		 उसकी --> माकपा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2564262_date_1_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 वे --> चिदंबरम
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उन्होंने --> मामला
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2552482_date_26_6_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  7
+		 उन्होंने --> और
+		Incorrect - Wrong Resolution
+		 उनकी --> और
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2585736_date_10_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  7
+		 वे --> नक्सली
+		Correct
+./data/fullnews_id_2610160_date_20_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 उनकी --> कोडे
+		Incorrect - Wrong Resolution
+		 उनके --> कोडे
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2571134_date_4_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  12
+		 उन्होंने --> नीति
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2600210_date_16_7_2004datpostnormcout.cout.post.norm.semprop
+	Sentence :  17
+		 वे --> कर्मचारियों
+		Correct
+	Sentence :  18
+		 उनके --> कर्मचारियों
+		Correct
+./data/fullnews_id_2479636_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> देवगौड़ा
+		Correct
+./data/fullnews_id_2605257_date_18_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  11
+		 उनके --> NULL
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633493_date_29_7_2004dat.cout.post.norm.semprop
+	Sentence :  9
+		 उनके --> हुसैन
+		Incorrect - Wrong Resolution
+		 उसकी --> हुसैन
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उन --> कि
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484408_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 उसकी --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479623_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 उनकी --> कांग्रेस
+		Correct
+	Sentence :  11
+		 उन्होंने --> उन्हें
+		Correct
+		 उनके --> उन्हें
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उन्होंने --> जोशी
+		Correct
+	Sentence :  16
+		 उनके --> जोशी
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484344_date_28_5_2004datcout.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> युक्सी
+		Correct
+	Sentence :  6
+		 उन्होंने --> देशों
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> अभ्यास
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  15
+		 उन्होंने --> युक्सी
+		Correct
+	Sentence :  16
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  18
+		 उन्होंने --> स्टाफ
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2600216_date_16_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> भूमिका
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> वाजपेयी
+		Correct
+./data/fullnews_id_2607693_date_19_7_2004datpostnormcout.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> मरांडी2
+		Correct
+./data/fullnews_id_2564268_date_1_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  3
+		 उन्होंने --> बालू
+		Correct
+	Sentence :  4
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2484345_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  8
+		 उन्होंने --> लड़के
+		Correct
+	Sentence :  10
+		 उन्होंने --> युवकों
+		Correct
+		 उनके --> युवकों
+		Correct
+	Sentence :  12
+		 उनकी --> पुलिस
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481934_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 उनसे --> कंपनियां
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 वे --> अड़चनें
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 वे --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 वे --> कहना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481936_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 उनके --> चैपल
+		Correct
+	Sentence :  9
+		 उन्होंने --> चैपल
+		Correct
+	Sentence :  11
+		 उन्होंने --> चैपल
+		Correct
+	Sentence :  15
+		 उनकी --> चैपल
+		Correct
+	Sentence :  17
+		 उन्होंने --> बालादित्य
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2600224_date_16_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 उनकी --> चोपड़ा
+		Correct
+	Sentence :  7
+		 उन्होंने --> वह
+		Correct
+./data/fullnews_id_2580824_date_8_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उन्होंने --> पासवान
+		Correct
+		 उनकी --> पासवान
+		Correct
+	Sentence :  3
+		 वे --> उन्होंने
+		Correct
+	Sentence :  5
+		 उनकी --> पासवान
+		Correct
+	Sentence :  6
+		 उन्होंने --> प्रश्न
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> पासवान
+		Correct
+	Sentence :  9
+		 उन्होंने --> पासवान
+		Correct
+./data/fullnews_id_2625777_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  13
+		 वे --> खतरा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2491779_date_31_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 वे --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 उन्होंने --> वे
+		Correct
+	Sentence :  4
+		 उनके --> उन्होंने
+		Correct
+	Sentence :  7
+		 उनका --> पुत्र
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उनकी --> सूत्रों
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उनकी --> प्रीतम
+		Correct
+	Sentence :  12
+		 उनका --> NULL
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484404_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  13
+		 उनके --> विभाग
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 उनके --> कि
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2600315_date_17_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  9
+		 उनकी --> सिंह
+		Correct
+./data/fullnews_id_2484366_date_28_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 उनके --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उसने --> मानना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2575944_date_6_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 उनके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  4
+		 उन --> नितीश
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उन्होंने --> कुमार
+		Correct
+	Sentence :  10
+		 उन्होंने --> लालू
+		Correct
+./data/fullnews_id_2496832_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उन्होंने --> लामा
+		Correct
+	Sentence :  5
+		 उन्होंने --> लामा
+		Correct
+	Sentence :  7
+		 उन्होंने --> अंसारी
+		Correct
+		 उसके --> अंसारी
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उनसे --> उन्होंने
+		Correct
+./data/fullnews_id_.semprop
+	Sentence :  10
+		 उन्होंने --> गांव
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 वे --> चंदोला
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2564258_date_1_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  7
+		 उनकी --> पार्टी
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उनकी --> आमिर
+		Correct
+	Sentence :  11
+		 उसके --> दौर
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 उन्होंने --> वह
+		Correct
+		 उन --> वह
+		Incorrect - Wrong Resolution
+		 उनके --> वह
+		Correct
+	Sentence :  17
+		 उनकी --> उन्होंने
+		Correct
+	Sentence :  18
+		 उनकी --> उन्होंने
+		Correct
+	Sentence :  19
+		 उनके --> उन्होंने
+		Correct
+	Sentence :  29
+		 उनके --> मायका
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2522735_date_14_6_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 उसके --> पंजीकरण
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2486919-a_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 उनकी --> कलाम
+		Correct
+	Sentence :  14
+		 उन्होंने --> वर्मा
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 उन्होंने --> वर्मा
+		Correct
+./data/fullnews_id_2496824_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  11
+		 उनका --> अमिताभ
+		Correct
+	Sentence :  16
+		 उनके --> कहना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2496836_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 वे --> दोनों
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2620697_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उनसे --> आयोग
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 उनके --> उनसे
+		Correct
+	Sentence :  4
+		 उन्होंने --> प्रकाश
+		Correct
+	Sentence :  7
+		 उन्होंने --> प्रकाश
+		Correct
+	Sentence :  8
+		 उनका --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 वे --> रंजना
+		Correct
+./data/fullnews_id_2568810_date_3_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  7
+		 उनके --> जानकारी
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> मोहम्मद
+		Correct
+	Sentence :  10
+		 उनकी --> उन्होंने
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2580819_date_8_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 वे --> विश्वविद्यालय
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उन्होंने --> समारोह
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2605265_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 उनकी --> भाजपा
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उन्होंने --> सिंह
+		Correct
+	Sentence :  6
+		 उन्होंने --> जैन
+		Correct
+	Sentence :  7
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  16
+		 उन्होंने --> सक्सेना
+		Correct
+		 वे --> सक्सेना
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2605267_date_18_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  6
+		 उसकी --> गुप्ता
+		Correct
+		 उसके --> गुप्ता
+		Correct
+	Sentence :  9
+		 उसका --> अंजलि
+		Correct
+		 उन --> अंजलि
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उसने --> गुप्ता
+		Correct
+./data/fullnews_id_2607694_date_19_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> खेरा
+		Correct
+	Sentence :  5
+		 उन्होंने --> बात
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2522675_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  13
+		 उन्होंने --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  18
+		 उसके --> सिंह
+		Incorrect - Wrong Resolution
+	Sentence :  19
+		 उन्होंने --> बातचीत
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2554868_date_27_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  8
+		 उन्होंने --> राय
+		Correct
+./data/fullnews_id_2580882_date_9_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  12
+		 उन्होंने --> विकल्प
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 वे --> मानना
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 उन्होंने --> वे
+		Correct
+	Sentence :  18
+		 उनकी --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  20
+		 वे --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  21
+		 वे --> हारा
+		Correct
+	Sentence :  22
+		 उन्होंने --> हारा
+		Correct
+	Sentence :  25
+		 उन्होंने --> शुक्ला
+		Correct
+./data/fullnews_id_2561696_date_30_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उन्होंने --> ठाकरे
+		Correct
+	Sentence :  4
+		 उन्होंने --> राज
+		Correct
+	Sentence :  6
+		 उन्होंने --> राज
+		Correct
+	Sentence :  7
+		 उन्होंने --> उन्होंने
+		Correct
+		 उनके --> उन्होंने
+		Incorrect - Wrong Resolution
+		 उनसे --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  9
+		 वे --> होने
+		Incorrect - Wrong Resolution
+		 उन्होंने --> होने
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2484406_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  7
+		 उन्होंने --> योजना
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2610171_date_20_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 उनके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  7
+		 वे --> लोग
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उनकी --> सिंह
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 उनका --> चौहान
+		Correct
+		 उनकी --> चौहान
+		Correct
+./data/fullnews_id_2496240_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  9
+		 उनके --> पार्टी
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2522677_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 उसका --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  7
+		 उससे --> बोर्ड
+		Incorrect - Wrong Resolution
+		 उनका --> बोर्ड
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> उस्मान
+		Correct
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Correct
+		 वे --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  14
+		 उन्होंने --> शर्मा
+		Correct
+		 वे --> शर्मा
+		Correct
+	Sentence :  15
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  27
+		 उन्होंने --> ताज
+		Incorrect - Wrong Resolution
+	Sentence :  29
+		 वे --> कटियार
+		Correct
+./data/fullnews_id_2583316_date_10_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  7
+		 उन्होंने --> बुश
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2575970_date_7_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  7
+		 उन्होंने --> पठान
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2496837_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 उनके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 उन --> पांडे
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उन्होंने --> पांडे
+		Correct
+		 उनके --> पांडे
+		Incorrect - Wrong Resolution
+		 उनकी --> पांडे
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> संजय
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2520630_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 वो --> शाहिद
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 उनकी --> ये
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उनके --> शाहिद
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उसकी --> गेंदबाज
+		Correct
+	Sentence :  11
+		 उसकी --> गेंदबाज
+		Correct
+	Sentence :  14
+		 उसके --> खिलाड़ियों
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 वो --> शाहिद
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633490_date_29_7_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 उनके --> लैस
+		Correct
+		 उसने --> लैस
+		Incorrect - Wrong Resolution
+		 उनकी --> लैस
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2568801_date_3_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 वे --> राष्ट्रपति
+		Correct
+	Sentence :  7
+		 उन्होंने --> वे
+		Correct
+./data/fullnews_id_2583236_date_9_7_2004datpostnormcout.cout.post.norm.semprop
+	Sentence :  2
+		 उन्होंने --> बनर्जी
+		Correct
+	Sentence :  5
+		 उनके --> ममता
+		Correct
+	Sentence :  8
+		 उन्होंने --> बनर्जी
+		Correct
+		 उनके --> बनर्जी
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2479638_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> सिंह
+		Correct
+	Sentence :  6
+		 उन्होंने --> राय
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> यह
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2561719_date_30_6_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनके --> कांग्रेस
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उनका --> सब
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> शक
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  19
+		 उन्होंने --> लालू
+		Correct
+./data/fullnews_id_2477208_date_25_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उन्होंने --> और
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  5
+		 उन्होंने --> यादव
+		Correct
+	Sentence :  9
+		 उन्होंने --> यादव
+		Correct
+	Sentence :  10
+		 उन्होंने --> मुख्यमंत्री
+		Correct
+	Sentence :  12
+		 उन्होंने --> मुलायम
+		Correct
+./data/fullnews_id_2474841_date_25_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 वे --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2477219_date_26_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 उनकी --> कांफ्रेंस
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उनके --> सूत्रों
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उनकी --> सूत्रों
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उन्होंने --> तारीगामी
+		Correct
+	Sentence :  12
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  15
+		 उन्होंने --> संगठन
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2494355_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  12
+		 उन्होंने --> पुलिस
+		Correct
+		 उसकी --> पुलिस
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484354_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उनके --> तैयारियां
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उसने --> कोशिश
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> कांग्रेस
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उन्होंने --> प्रवक्ता
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उन्होंने --> कांग्रेस
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 उसके --> संघवी
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479622_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 उन्होंने --> बब्बर
+		Correct
+	Sentence :  7
+		 उन्होंने --> बब्बर
+		Correct
+		 उनकी --> बब्बर
+		Correct
+./data/fullnews_id_2625780_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उसने --> रोबोट
+		Correct
+		 उसका --> रोबोट
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उसने --> यह
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उसके --> माइक्रोफोन
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479637_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> दर्द
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 वे --> कतरा
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उनकी --> वे
+		Correct
+	Sentence :  6
+		 उनकी --> नमी
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 वे --> खान
+		Incorrect - Wrong Resolution
+		 उनकी --> खान
+		Correct
+	Sentence :  14
+		 उसने --> कौसर
+		Correct
+	Sentence :  15
+		 उसके --> उसने
+		Correct
+		 वे --> उसने
+		Incorrect - Wrong Resolution
+	Sentence :  19
+		 उसकी --> हम
+		Incorrect - Wrong Resolution
+	Sentence :  20
+		 उसका --> चेहरा
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 उनके --> कहना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2558470_date_29_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  7
+		 उन्होंने --> गोस्वामी
+		Correct
+	Sentence :  8
+		 उसकी --> गोस्वामी
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> गोस्वामी
+		Correct
+./data/fullnews_id_2633498_date_29_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  3
+		 उनके --> लोग
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उन्होंने --> मेहता
+		Correct
+	Sentence :  6
+		 उनके --> उन्होंने
+		Correct
+	Sentence :  15
+		 उनके --> चिन्ह
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479529_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 उनकी --> जोर
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2491819_date_1_6_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 उन्होंने --> युवकों
+		Correct
+./data/fullnews_id_2631026_date_28_7_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 उसके --> लोग
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479668_date_27_5_2004datcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 उनके --> स्पीड
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> इंस्टीट्यूट
+		Incorrect - Wrong Resolution
+		 उनकी --> इंस्टीट्यूट
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उसने --> और
+		Incorrect - Wrong Resolution
+		 उनकी --> और
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उसने --> विपिन
+		Correct
+		 उनकी --> विपिन
+		Incorrect - Wrong Resolution
+	Sentence :  14
+		 उसके --> उसने
+		Correct
+	Sentence :  24
+		 उसके --> रखाव
+		Incorrect - Wrong Resolution
+	Sentence :  25
+		 उन्होंने --> विपिन
+		Correct
+./data/fullnews_id_2600316_date_17_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 उन्होंने --> सिन्हा
+		Correct
+	Sentence :  7
+		 उनकी --> सिन्हा
+		Correct
+./data/fullnews_id_2494319_date_1_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उन्होंने --> और
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उन्होंने --> राजनाथ
+		Correct
+	Sentence :  5
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  6
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  7
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2484358_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  14
+		 उनकी --> कासिम
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 उन्होंने --> पीरजादा
+		Correct
+	Sentence :  17
+		 उन्होंने --> भागीदारी
+		Incorrect - Wrong Resolution
+	Sentence :  18
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  20
+		 उन्होंने --> संबंध
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 उन्होंने --> सरकार
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2617896_date_23_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 उनकी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  5
+		 उसके --> संभावना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2482003_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 उनकी --> सीनेट
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481937_data_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 वे --> आडवाणी
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 वे --> मलहोत्रा
+		Correct
+	Sentence :  8
+		 उन्होंने --> वे
+		Correct
+	Sentence :  11
+		 उन्होंने --> सिंह
+		Correct
+./data/fullnews_id_2559047_date_30_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 उन --> अदालत
+		Incorrect - Wrong Resolution
+		 उनकी --> अदालत
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उससे --> भंडारकर
+		Incorrect - Wrong Resolution
+		 उसका --> भंडारकर
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2580823_date_8_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उनका --> गांधी
+		Correct
+	Sentence :  3
+		 उन्होंने --> गांधी
+		Correct
+	Sentence :  5
+		 उन्होंने --> वरुण
+		Correct
+	Sentence :  7
+		 उन्होंने --> नेता
+		Incorrect - Wrong Resolution
+		 वे --> नेता
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उससे --> उन्होंने
+		Incorrect - Wrong Resolution
+		 वे --> उन्होंने
+		Correct
+	Sentence :  9
+		 उन्होंने --> वरुण
+		Correct
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  11
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  13
+		 उन्होंने --> राजनेता
+		Incorrect - Wrong Resolution
+	Sentence :  14
+		 वे --> उन्होंने
+		Correct
+./data/fullnews_id_2564273_date_1_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 उसके --> जानकारी
+		Incorrect - Wrong Resolution
+./data/fullnews_id_3146452_date_15_3_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 उनके --> कार्यक्रम
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2580830_date_8_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 वे --> ट्रस्ट
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479532_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  1
+		 उसके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  5
+		 उसके --> भेजने
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> और
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उन्होंने --> वकीलों
+		Correct
+	Sentence :  17
+		 उन --> आरोप
+		Incorrect - Wrong Resolution
+	Sentence :  18
+		 उन्होंने --> और
+		Incorrect - Wrong Resolution
+	Sentence :  23
+		 उन्होंने --> देन
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2477216_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 उसने --> भारत
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उन्होंने --> सरकार
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उन्होंने --> सूत्रों
+		Correct
+	Sentence :  11
+		 उन्होंने --> जिलानी
+		Correct
+./data/fullnews_id_2481940_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 उनके --> राजा
+		Correct
+	Sentence :  4
+		 उन्होंने --> रमीज
+		Correct
+		 उनके --> रमीज
+		Correct
+	Sentence :  5
+		 उन्होंने --> रमीज
+		Correct
+	Sentence :  6
+		 उन्होंने --> रमीज
+		Correct
+		 उनके --> रमीज
+		Correct
+	Sentence :  7
+		 उन्होंने --> राजा
+		Correct
+	Sentence :  8
+		 उन्होंने --> रमीज
+		Correct
+		 वे --> रमीज
+		Correct
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2552538_date_27_6_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  13
+		 वे --> अल्फांसो
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2990407_date_03_8_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  10
+		 उन्होंने --> गांव
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 वे --> चंदोला
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2631027_date_28_7_2004datcout.cout.post.norm.semprop
+	Sentence :  5
+		 उनका --> मजिस्ट्रेट
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उन्होंने --> मजिस्ट्रेट
+		Correct
+./data/fullnews_id_2479621_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 उनकी --> कोर्ट
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2522673_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 उनके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  2
+		 उन --> सरकार
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 उसके --> जायसवाल
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उनकी --> जायसवाल
+		Correct
+	Sentence :  9
+		 उन्होंने --> सरकार
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उनसे --> जायसवाल
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उन्होंने --> जायसवाल
+		Correct
+	Sentence :  14
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_3241222_date_29_4_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  14
+		 उनके --> शिकारे
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 उन --> और2
+		Incorrect - Wrong Resolution
+	Sentence :  18
+		 उन्होंने --> उन्हें
+		Correct
+./data/fullnews_id_2625778_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उनके --> सफलता
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उनकी --> तादाद
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 वे --> अमेरिकी
+		Correct
+./data/fullnews_id_2610165_date_20_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उन्होंने --> सिद्धू
+		Correct
+	Sentence :  5
+		 उन्होंने --> सिद्धू
+		Correct
+./data/fullnews_id_2620694_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 उसकी --> समानता
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उसकी --> परिषद
+		Correct
+./data/fullnews_id_2628342_date_27_7_2004datcout.cout.post.norm.semprop
+	Sentence :  2
+		 उसके --> भगते
+		Correct
+	Sentence :  3
+		 उसकी --> साथियों
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उसकी --> पत्नी
+		Correct
+	Sentence :  21
+		 उसकी --> कार्रवाई
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 उसकी --> निर्मला
+		Correct
+	Sentence :  23
+		 उसकी --> परिजनों
+		Incorrect - Wrong Resolution
+./data/fullnews_id_3516349_date_25_8_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 उनकी --> दुबे
+		Correct
+./data/fullnews_id_2561718_date_30_6_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> मुल्क
+		Correct
+		 उनके --> मुल्क
+		Correct
+./data/fullnews_id_2578387_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 उसने --> कहना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2571118_date_4_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 उनकी --> सरकार
+		Correct
+	Sentence :  4
+		 उनका --> गोगोई
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2610159_date_20_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 वे --> मालिकों
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उन्होंने --> चक्रवर्ती
+		Correct
+	Sentence :  6
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2585742_date_10_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> सिंघल
+		Correct
+./data/fullnews_id_3314732_date_2_6_2005datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनका --> कपूर
+		Correct
+	Sentence :  5
+		 उनका --> सुषमा
+		Correct
+	Sentence :  10
+		 उन्होंने --> कहना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2583320_date_10_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 उनकी --> आयोग
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उनके --> पेयजल
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484341_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> मैककॅर्मेक
+		Correct
+		 उसके --> मैककॅर्मेक
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  9
+		 उन्होंने --> भूमिका
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  12
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  13
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  15
+		 उन्होंने --> हम
+		Correct
+./data/fullnews_id_2496823_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 उसके --> महिला
+		Correct
+		 उसका --> महिला
+		Correct
+	Sentence :  10
+		 उसने --> महिला
+		Correct
+	Sentence :  11
+		 उसके --> उसने
+		Correct
+	Sentence :  12
+		 उसकी --> सुदम
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 उन्होंने --> जांच
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633507_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 उनके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 उनकी --> वह
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उनके --> आज़ाद
+		Correct
+	Sentence :  8
+		 उनकी --> कटौती
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> आजाद
+		Correct
+	Sentence :  11
+		 उनके --> उन्होंने
+		Correct
+	Sentence :  13
+		 उनका --> मुख्यमंत्री
+		Correct
+	Sentence :  17
+		 उसके --> कांग्रेस
+		Correct
+	Sentence :  23
+		 उन्होंने --> आवाम
+		Incorrect - Wrong Resolution
+	Sentence :  24
+		 उनके --> उन्होंने
+		Correct
+./data/fullnews_id_2633486_date_29_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> दुकान
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 वे --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उनकी --> वे
+		Correct
+	Sentence :  14
+		 उनके --> कपिलदेव
+		Correct
+	Sentence :  17
+		 उनकी --> हिस्से
+		Incorrect - Wrong Resolution
+	Sentence :  18
+		 उनका --> व
+		Incorrect - Wrong Resolution
+	Sentence :  20
+		 वे --> नोटिस
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 उनकी --> संपत्तियों
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2610163_date_20_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> कर्मचारियों
+		Correct
+	Sentence :  5
+		 उनसे --> कर्मचारियों
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उनके --> पंढे
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> कर्मचारियों
+		Correct
+./data/fullnews_id_2477214_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उसके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 उन --> इंटरपोल
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उसकी --> प्रतिबंध
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 उसका --> दाऊद
+		Correct
+		 उसके --> दाऊद
+		Correct
+	Sentence :  18
+		 उसका --> मानना
+		Incorrect - Wrong Resolution
+	Sentence :  20
+		 उसकी --> दाऊद
+		Correct
+./data/fullnews_id_2559024_date_29_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 उन्होंने --> इससे
+		Incorrect - Wrong Resolution
+		 उनके --> इससे
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  7
+		 उन्होंने --> मोदी
+		Correct
+	Sentence :  8
+		 उनकी --> उन्होंने
+		Correct
+		 उनके --> उन्होंने
+		Correct
+./data/fullnews_id_3511438_date_23_8_2005datcoutpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 उसके --> भय
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2620698_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 उनकी --> वह
+		Correct
+	Sentence :  4
+		 उनके --> इलाके
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481993_date_28_5_2004datcout.cout.post.norm.semprop
+	Sentence :  6
+		 उनके --> आतंकियों
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उसकी --> आतंकी
+		Correct
+	Sentence :  23
+		 उसके --> पुलिस
+		Incorrect - Wrong Resolution
+	Sentence :  24
+		 उसकी --> तलाश
+		Incorrect - Wrong Resolution
+	Sentence :  25
+		 उनका --> तथा2
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2612821_date_21_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 उसका --> उन्हें
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उन्होंने --> पत्रकारों
+		Incorrect - Wrong Resolution
+		 उनके --> पत्रकारों
+		Incorrect - Wrong Resolution
+		 उनका --> पत्रकारों
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2617886_date_23_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उनके --> सिन्हा
+		Correct
+	Sentence :  7
+		 उनकी --> मजिस्ट्रेट
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> सिन्हा
+		Incorrect - Wrong Resolution
+		 उनकी --> सिन्हा
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> उन्होंने
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2568818_date_3_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 उन्होंने --> आडवाणी
+		Correct
+	Sentence :  7
+		 उनके --> नक़वी
+		Correct
+./data/fullnews_id_2481940_data_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 उनके --> राजा
+		Correct
+	Sentence :  4
+		 उन्होंने --> रमीज
+		Correct
+		 उनके --> रमीज
+		Correct
+	Sentence :  5
+		 उन्होंने --> रमीज
+		Correct
+	Sentence :  6
+		 उन्होंने --> रमीज
+		Correct
+		 उनके --> रमीज
+		Correct
+	Sentence :  7
+		 उन्होंने --> राजा
+		Correct
+	Sentence :  8
+		 उन्होंने --> रमीज
+		Correct
+		 वे --> रमीज
+		Correct
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2633502_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 वे --> जमाली
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2607700_date_19_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनके --> झटका
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उनकी --> बिश्वास
+		Correct
+	Sentence :  8
+		 उनकी --> बिश्वास
+		Correct
+	Sentence :  10
+		 उनके --> डॉक्टरों
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 उन्होंने --> बोस
+		Correct
+./data/fullnews_id_2583317_date_10_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 उसकी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  12
+		 उन्होंने --> मल्होत्रा
+		Correct
+	Sentence :  20
+		 उन्होंने --> पचौरी
+		Correct
+./data/fullnews_id_2564298_date_2_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उनके --> अदालत
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484339_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 उन्होंने --> आडवाणी
+		Correct
+	Sentence :  4
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  7
+		 उन्होंने --> जनता
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> राजग
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उन्होंने --> फैक्टर
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  15
+		 उन्होंने --> उन्होंने
+		Correct
+		 वो --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  19
+		 उन्होंने --> आडवाणी
+		Correct
+	Sentence :  20
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2477212_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 उन --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 उन्होंने --> सुभाष
+		Correct
+	Sentence :  5
+		 उन्होंने --> लालू
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 वे --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उनके --> सुभाष
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 वे --> सुभाष
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उन्होंने --> साले
+		Correct
+	Sentence :  13
+		 वे --> उन्होंने
+		Correct
+./data/fullnews_id_2631031_date_28_7_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 उनकी --> सिंह
+		Correct
+./data/fullnews_id_2484349_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  7
+		 उनके --> छात्र
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2631047_date_28_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 उसका --> खंडपीठ
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उनके --> NULL
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 उनके --> पीड़ितों
+		Correct
+./data/fullnews_id_2520627_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 उसकी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  2
+		 उन्होंने --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  4
+		 उसने --> उन्होंने
+		Correct
+./data/fullnews_id_2631048_date_28_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  17
+		 उन्होंने --> कंटेनर
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2561699_date_30_6_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनके --> शहाबुद्दीन
+		Correct
+./data/fullnews_id_2633494_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 उन्होंने --> दर्द
+		Correct
+./data/fullnews_id_2561778_date_1_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  10
+		 उसके --> कि
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 उसके --> संघ
+		Incorrect - Wrong Resolution
+		 उनसे --> संघ
+		Incorrect - Wrong Resolution
+		 उनके --> संघ
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2520629_date_13_6_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उनके --> अदालत
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2600213_date_16_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उन्होंने --> बसु
+		Correct
+	Sentence :  4
+		 वे --> बसु
+		Correct
+		 उन्होंने --> बसु
+		Correct
+	Sentence :  7
+		 उन्होंने --> लोगों
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2600217_date_16_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 वे --> प्रधानमंत्री
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उन्होंने --> सिंह
+		Correct
+	Sentence :  16
+		 उन्होंने --> पहुँच
+		Incorrect - Wrong Resolution
+	Sentence :  20
+		 उन्होंने --> उपभोक्ताओं
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479717_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  10
+		 उन्होंने --> डीआईजी
+		Correct
+	Sentence :  15
+		 उन्होंने --> मिश्र
+		Correct
+	Sentence :  23
+		 उन्होंने --> न्यायाधीश
+		Incorrect - Wrong Resolution
+	Sentence :  24
+		 उनसे --> उन्होंने
+		Correct
+	Sentence :  29
+		 उन्होंने --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  30
+		 उन --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2479655_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 उसकी --> पासवान
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उनसे --> प्राथमिकता
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उनकी --> पासवान
+		Correct
+	Sentence :  15
+		 उनकी --> मुलाकात
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2571131_date_4_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  12
+		 उनके --> भाई
+		Correct
+./data/fullnews_id_2576057_date_7_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 उन्होंने --> यादव
+		Correct
+	Sentence :  6
+		 उनका --> यादव
+		Correct
+	Sentence :  8
+		 उनके --> ट्रेन
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2571125_date_4_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  8
+		 उनके --> रूटर
+		Correct
+	Sentence :  9
+		 उन्होंने --> उनके
+		Correct
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2554903_date_28_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 उनकी --> वह
+		Correct
+	Sentence :  4
+		 उनकी --> कि
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उनकी --> लोगों
+		Incorrect - Wrong Resolution
+		 उनके --> लोगों
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उनके --> वह
+		Correct
+./data/fullnews_id_2605259_date_18_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 उन्होंने --> सिंह
+		Correct
+./data/fullnews_id_2575937_date_6_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 उन्होंने --> सिंह
+		Correct
+	Sentence :  6
+		 उन्होंने --> सब
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> सिंह
+		Correct
+	Sentence :  11
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2575966_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 उन्होंने --> अज़ीज़
+		Correct
+	Sentence :  4
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  5
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  6
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  11
+		 उन्होंने --> अज़ीज़
+		Correct
+	Sentence :  13
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_3128589_date_8_3_2005datcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> मानना
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उनके --> देवदर्द
+		Correct
+	Sentence :  23
+		 उन्होंने --> डाइयां
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2474838_date_25_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 उन्होंने --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  4
+		 उसके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  10
+		 उनके --> बसु
+		Correct
+	Sentence :  18
+		 उनकी --> वह
+		Correct
+./data/fullnews_id_2484405-b_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> सिंह
+		Correct
+./data/fullnews_id_2496821_date_2_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  10
+		 उसका --> NULL
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2585727_date_10_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 वे --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  5
+		 उन्होंने --> मुशर्रफ
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उन्होंने --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  8
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  10
+		 उन्होंने --> मैं
+		Correct
+		 वे --> मैं
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 उन्होंने --> मुशर्रफ
+		Correct
+./data/fullnews_id_2615522_date_23_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  6
+		 उन्होंने --> मैनन
+		Correct
+./data/fullnews_id_2600214_date_16_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 उनके --> आरोप
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उनके --> अनिल
+		Incorrect - Wrong Resolution
+		 उनकी --> अनिल
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उनके --> आरोप
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2522728_date_14_6_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 उनकी --> और2
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> सोहेल
+		Correct
+		 उनकी --> सोहेल
+		Correct
+./data/fullnews_id_3375767_date_27_6_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  10
+		 वे --> जिम्मा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_4339892_date_5_8_2006datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  12
+		 उसके --> मुबारक
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2568821_date_3_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 उनकी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  5
+		 उन्होंने --> राजद
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उन्होंने --> आशंका
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2583234_date_9_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> धारीवाल
+		Correct
+	Sentence :  4
+		 उसकी --> पुलिस
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उसके --> पुलिस
+		Correct
+./data/fullnews_id_2633508_date_29_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  13
+		 उसके --> अनुमान
+		Incorrect - Wrong Resolution
+	Sentence :  19
+		 उनका --> कहना
+		Incorrect - Wrong Resolution
+		 उनके --> कहना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2499658_date_4_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 उसके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  10
+		 उसके --> और
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उसने --> पासपोर्ट
+		Incorrect - Wrong Resolution
+	Sentence :  14
+		 उसकी --> आदेश
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484369-a_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 उन्होंने --> रामनाथन
+		Correct
+./data/fullnews_id_2575940_date_6_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 उसके --> पुलिस
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उसके --> पुलिस
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2612823_date_21_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उसका --> कांग्रेस
+		Correct
+	Sentence :  3
+		 उनके --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उन्होंने --> स्वामी
+		Incorrect - Wrong Resolution
+		 उनके --> स्वामी
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> अफसर
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उनके --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उन्होंने --> उनके
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2568806_date_3_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  6
+		 उनकी --> पासवान
+		Correct
+	Sentence :  7
+		 उनकी --> पासवान
+		Correct
+	Sentence :  12
+		 उनका --> पासवान
+		Correct
+./data/fullnews_id_2612822_date_21_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 वे --> सिंह
+		Correct
+	Sentence :  5
+		 वे --> बयान
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उनकी --> संवाददाताओं
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 वे --> यात्रा
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उनके --> यात्रा
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> श्रद्धालु
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उन्होंने --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उन्होंने --> उन्होंने
+		Correct
+		 वे --> उन्होंने
+		Correct
+	Sentence :  13
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  18
+		 उन्होंने --> यह
+		Incorrect - Wrong Resolution
+	Sentence :  19
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  20
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2481939_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 उसने --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  10
+		 उन्होंने --> मंत्री
+		Correct
+		 उससे --> मंत्री
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उन --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  14
+		 उन्होंने --> मंत्री
+		Correct
+	Sentence :  17
+		 उन्होंने --> मामले
+		Incorrect - Wrong Resolution
+	Sentence :  20
+		 वे --> उन्होंने
+		Correct
+	Sentence :  21
+		 वे --> चिदंबरम
+		Correct
+	Sentence :  22
+		 उन्होंने --> चिदंबरम
+		Correct
+./data/fullnews_id_2513703_date_9_6_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 वे --> कार्यक्रम
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उनके --> वे
+		Correct
+	Sentence :  8
+		 उनकी --> संदेश
+		Incorrect - Wrong Resolution
+	Sentence :  19
+		 उनकी --> किसी
+		Incorrect - Wrong Resolution
+	Sentence :  21
+		 उनकी --> अधिकारी
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 उनके --> ऐसा
+		Incorrect - Wrong Resolution
+		 उनकी --> ऐसा
+		Incorrect - Wrong Resolution
+	Sentence :  29
+		 उन्होंने --> प्रधानमंत्री
+		Correct
+		 उनके --> प्रधानमंत्री
+		Incorrect - Wrong Resolution
+	Sentence :  30
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  37
+		 उन्होंने --> संख्या
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2554863_date_27_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> मुख्यमंत्री
+		Correct
+	Sentence :  7
+		 उनकी --> पशु
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> हमने
+		Correct
+./data/fullnews_id_2484347_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 वे --> कुमारस्वामी
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उनका --> बेटे
+		Correct
+	Sentence :  7
+		 उनके --> झटका
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481992_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  17
+		 उसका --> दुग्गल
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2612820_date_21_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 उनके --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  9
+		 उन्होंने --> लोगों
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2625776_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 उनके --> केंन्द्र
+		Incorrect - Wrong Resolution
+		 उन --> केंन्द्र
+		Incorrect - Wrong Resolution
+	Sentence :  19
+		 उन --> NO OUTPUT
+		Incorrect - Out of sentence
+./data/fullnews_id_2633499_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उन्होंने --> ठाकुर
+		Correct
+	Sentence :  3
+		 उनका --> उन्होंने
+		Correct
+	Sentence :  4
+		 उन्होंने --> कहना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2631113_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> बिहारी
+		Correct
+./data/fullnews_id_2479618_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 उन्होंने --> दुबे
+		Correct
+	Sentence :  7
+		 उन्होंने --> दुबे
+		Correct
+	Sentence :  8
+		 उनके --> उन्होंने
+		Incorrect - Wrong Resolution
+./data/fullnews_id_4358696_date_16_8_2006datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 उनकी --> अलीम
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 वे --> आस्था
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उनकी --> वे
+		Correct
+		 उनके --> वे
+		Correct
+	Sentence :  13
+		 उन्होंने --> हक
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 उनकी --> अकबर
+		Correct
+	Sentence :  20
+		 उन्होंने --> जहांगीर
+		Correct
+	Sentence :  21
+		 वे --> जहांगीर
+		Incorrect - Wrong Resolution
+		 उन्होंने --> जहांगीर
+		Correct
+./data/fullnews_id_2552536_date_27_6_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> डूंगरपुर
+		Correct
+	Sentence :  5
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  11
+		 उन्होंने --> डालमिया
+		Correct
+	Sentence :  19
+		 वे --> डूंगरपुर
+		Incorrect - Wrong Resolution
+		 उनका --> डूंगरपुर
+		Incorrect - Wrong Resolution
+	Sentence :  24
+		 उन्होंने --> डूंगरपुर
+		Correct
+./data/fullnews_id_2575967_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 उसका --> जापान
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उन्होंने --> इनोकी
+		Correct
+	Sentence :  7
+		 उन्होंने --> लोग
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उन्होंने --> और
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उनके --> इनोकी
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484367_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 उनका --> आडवाणी
+		Correct
+	Sentence :  6
+		 उनकी --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उन्होंने --> आडवाणी
+		Correct
+	Sentence :  8
+		 उनकी --> जुमला
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उनके --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उन्होंने --> प्रधानमंत्री
+		Correct
+	Sentence :  15
+		 उन्होंने --> आडवाणी
+		Correct
+	Sentence :  16
+		 उसके --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  23
+		 उन्होंने --> यह
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481937_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 वे --> आडवाणी
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 वे --> मलहोत्रा
+		Correct
+	Sentence :  8
+		 उन्होंने --> वे
+		Correct
+	Sentence :  11
+		 उन्होंने --> सिंह
+		Correct
+./data/fullnews_id_2481937_out_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 वे --> आडवाणी
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 वे --> मलहोत्रा
+		Correct
+	Sentence :  8
+		 उन्होंने --> वे
+		Correct
+	Sentence :  11
+		 उन्होंने --> सिंह
+		Correct
+./data/fullnews_id_2554958_date_28_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  7
+		 उसके --> उन्हें
+		Incorrect - Wrong Resolution
+		 उन्होंने --> उन्हें
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उन्होंने --> विजयकुमार
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उसकी --> और
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479531_date_26_5_2004datcout.cout.post.norm.semprop
+	Sentence :  3
+		 उनके --> फनॅडिस
+		Correct
+	Sentence :  7
+		 उसने --> जॉर्ज
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उसके --> जॉर्ज
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> चैनल
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 उनके --> लोढ़ा
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633492_date_29_7_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 उन्होंने --> मंत्री
+		Correct
+	Sentence :  7
+		 वे --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उनकी --> करात
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उन्होंने --> कि
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उनका --> उन्होंने
+		Incorrect - Wrong Resolution
+		 वे --> उन्होंने
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2552533_date_27_6_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> प्रबंधक
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उन्होंने --> सूत्रों
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उनकी --> बालादित्य
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> बालादित्य
+		Correct
+./data/fullnews_id_2583224_date_9_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 उनसे --> तट
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> विवेकानंदन
+		Correct
+	Sentence :  11
+		 उन्होंने --> मछुआरों
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 उसके --> उन्होंने
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2481995_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 उसके --> वजा
+		Correct
+	Sentence :  8
+		 उसने --> वजा
+		Correct
+./data/fullnews_id_2484342_date_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 वे --> सिंह
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 वे --> सिंह
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उनका --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  10
+		 उसके --> युवराज
+		Incorrect - Wrong Resolution
+	Sentence :  18
+		 उनको --> श्रीसंत
+		Incorrect - Wrong Resolution
+	Sentence :  21
+		 उसके --> विकेट
+		Correct
+	Sentence :  25
+		 उसके --> पीटरसन
+		Correct
+./data/fullnews_id_2479633_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  11
+		 उसकी --> हक
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2628341_date_27_7_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 उनके --> खान
+		Correct
+./data/fullnews_id_2585739_date_10_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 उनकी --> अपराधी
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2477211_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उन्होंने --> सुदर्शन
+		Correct
+	Sentence :  4
+		 उन्होंने --> मुसलमान
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उनकी --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 उन्होंने --> गोलवलकर
+		Incorrect - Wrong Resolution
+	Sentence :  23
+		 उन्होंने --> गुरू
+		Incorrect - Wrong Resolution
+	Sentence :  25
+		 उन्होंने --> योगदान
+		Incorrect - Wrong Resolution
+	Sentence :  29
+		 उन्होंने --> सुदर्शन
+		Correct
+./data/fullnews_id_2481940_out_28_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 उनके --> राजा
+		Correct
+	Sentence :  4
+		 उन्होंने --> रमीज
+		Correct
+		 उनके --> रमीज
+		Correct
+	Sentence :  5
+		 उन्होंने --> रमीज
+		Correct
+	Sentence :  6
+		 उन्होंने --> रमीज
+		Correct
+		 उनके --> रमीज
+		Correct
+	Sentence :  7
+		 उन्होंने --> राजा
+		Correct
+	Sentence :  8
+		 उन्होंने --> रमीज
+		Correct
+		 वे --> रमीज
+		Correct
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2578383_date_7_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 उनके --> भाजपा
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उन्होंने --> वाजयेपी
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उन्होंने --> उन्होंने
+		Correct
+		 उसके --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उनका --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> वाजपेयी
+		Correct
+	Sentence :  9
+		 उन --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उन्होंने --> माधव
+		Correct
+	Sentence :  12
+		 उनके --> माधव
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 उनकी --> महाजन
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 उन्होंने --> भारती
+		Correct
+	Sentence :  18
+		 वे --> उन्होंने
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2504120_date_5_6_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> भरोसा
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 उनकी --> खातून
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उन्होंने --> रिपोर्ट
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उन्होंने --> राबिया
+		Correct
+	Sentence :  15
+		 उन्होंने --> स्थिति
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2479617_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  12
+		 उसके --> सूचना
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2554865_date_27_6_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 उनके --> मोहंती
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2628343_date_27_7_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> NO OUTPUT
+		Incorrect - Out of sentence
+		 वे --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 उनके --> माँ
+		Correct
+		 वे --> माँ
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उन्होंने --> और
+		Incorrect - Wrong Resolution
+		 वे --> और
+		Incorrect - Wrong Resolution
+./data/fullnews_id_3003639_date_03_8_2005datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 वो --> प्रशासन
+		Incorrect - Wrong Resolution
+		 उसने --> प्रशासन
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 वो --> जयमाला
+		Correct
+./data/fullnews_id_2486919-b_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 उन्होंने --> कुमार
+		Correct
+	Sentence :  6
+		 उन्होंने --> कुमार
+		Correct
+		 उनके --> कुमार
+		Correct
+./data/fullnews_id_2605274_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> सरस्वती
+		Correct
+	Sentence :  13
+		 उन्होंने --> नज़र
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 उन्होंने --> पुलिस
+		Incorrect - Wrong Resolution
+		 उनके --> पुलिस
+		Incorrect - Wrong Resolution
+	Sentence :  18
+		 उनके --> उन्होंने
+		Correct
+	Sentence :  20
+		 उनके --> कोर्ट
+		Incorrect - Wrong Resolution
+		 उन्होंने --> कोर्ट
+		Incorrect - Wrong Resolution
+	Sentence :  23
+		 उनके --> मजिस्ट्रेट
+		Incorrect - Wrong Resolution
+		 उनसे --> मजिस्ट्रेट
+		Incorrect - Wrong Resolution
+	Sentence :  26
+		 उन्होंने --> सरस्वती
+		Incorrect - Wrong Resolution
+		 उनसे --> सरस्वती
+		Incorrect - Wrong Resolution
+	Sentence :  27
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2605273_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 उन्होंने --> लगाम
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2633487_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 उनकी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  3
+		 उन्होंने --> स्वराज
+		Correct
+		 उनकी --> स्वराज
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उन्होंने --> स्वराज
+		Correct
+./data/fullnews_id_2479722_date_27_5_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 उन्होंने --> बुश
+		Correct
+	Sentence :  13
+		 उनके --> और
+		Incorrect - Wrong Resolution
+		 उसकी --> और
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 उन्होंने --> ग्रिफ़िन
+		Correct
+./data/fullnews_id_
+	Sentence :  10
+		 उन्होंने --> गांव
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 वे --> चंदोला
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484403_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 वे --> सरकार
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उन --> और
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2484405-a_date_29_5_2004dat.cout.post.norm.semprop
+	Sentence :  7
+		 उन्होंने --> सिंह
+		Correct
+	Sentence :  8
+		 उन्होंने --> नटवर
+		Correct
+./data/fullnews_id_2479716_date_27_5_2004datcout.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> खोखर
+		Correct
+	Sentence :  6
+		 उन्होंने --> खोखर
+		Correct
+	Sentence :  10
+		 उन्होंने --> खोखर
+		Correct
+	Sentence :  13
+		 उनकी --> यह
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2477215_date_26_5_2004dat.cout.post.norm.semprop
+	Sentence :  1
+		 उनकी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  2
+		 उन्होंने --> सिंह
+		Correct
+	Sentence :  4
+		 उन्होंने --> प्रसाद
+		Correct
+	Sentence :  5
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  8
+		 उनका --> प्रसाद
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> प्रसाद
+		Correct
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Correct
+./data/fullnews_id_2564257_date_1_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  1
+		 उनकी --> NO OUTPUT
+		Incorrect - Out of sentence
+	Sentence :  4
+		 उन्होंने --> मैं
+		Incorrect - Wrong Resolution
+./data/fullnews_id_2605272_date_18_7_2004datCANNOTATEcoutcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> पार्टी
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> वजह
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उन्होंने --> संघवी
+		Correct
+	Sentence :  13
+		 उन्होंने --> यादव
+		Correct
+		 उनकी --> यादव
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 उन्होंने --> लोग
+		Incorrect - Wrong Resolution
+	Sentence :  20
+		 वे --> NULL
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 उनका --> मोदी
+		Correct
+./data/fullnews_id_2575936_date_6_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 वे --> पहचान
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 वे --> बदमाशों
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उससे --> व्यक्ति
+		Correct
+	Sentence :  20
+		 उसके --> परियोजनाएं
+		Incorrect - Wrong Resolution
+Correct:  389
+Incorrect:  401
+Out of Scope:  32

@@ -6,6 +6,7 @@ import ssfAPI_intra as ssf
 import scripts.rulebased.relative as rv
 import scripts.rulebased.reflexive as rx
 import scripts.rulebased.locative as lt
+import scripts.rulebased.thirdperson as tp
 import scripts.rulebased.secondperson as sp
 import scripts.rulebased.firstperson as fp
 
@@ -17,6 +18,7 @@ relativePronouns = ['जो', 'जोकि', 'जहाँ', 'जिधर', '�
 firstPronouns = ['हमसे', 'हमारे', 'मेरा', 'मेरी', 'मेरे', 'हम', 'हमारा',
                  'हमने', 'मुझे', 'मैं', 'मुझ', 'मैने', 'हमें', 'मैंने', 'हमारी']
 secondPronouns = ['आप', 'आपस', 'आपकी', 'आपके', 'आपको', 'आपका']
+thirdPronouns = ['‌‌वह', 'वे', 'वो', 'उसको', 'उसने', 'उससे', 'उसका', 'उसकी', 'उसके', 'उन', 'उनको', 'उन्होंने', 'उनसे', 'उनका', 'उनकी', 'उनके']
 locativePronouns = ['वहाँ', 'वहां', 'वहीं', 'यहीं', 'यहाँ',
                     'यहां', 'कहीं', 'इसमें', 'उसमें', 'इनमें']
 
@@ -49,15 +51,19 @@ for rfp in fileList:
                 #     mention = node
                 #     answer = sp.secondperson(node)
                 #     isPronoun = True
+                if node.name in thirdPronouns:
+                    mention = node
+                    answer = tp.thirdperson(node, doc.nodeList[i-1] if i > 0 else None, doc.nodeList[i-2] if i > 1 else None, doc.nodeList[i-3] if i > 2 else None)
+                    isPronoun = True
                 # if node.name in reflexivePronouns:
                 #     mention = node
                 #     answer = rx.reflexive(
                 #         node, doc.nodeList[i-1] if i > 0 else None, doc.nodeList[i-2] if i > 1 else None)
                 #     isPronoun = True
-                if (node.name in relativePronouns) and (node.morphPOS == 'pn'):
-                    mention = node
-                    answer = rv.relative(node)
-                    isPronoun = True
+                #if (node.name in relativePronouns) and (node.morphPOS == 'pn'):
+                #    mention = node
+                #    answer = rv.relative(node)
+                #    isPronoun = True
                 # if (node.lex in locativePronouns) and (node.morphPOS == 'pn'):
                 #     mention = node
                 #     answer = lt.locative(node, linearChunkList)
