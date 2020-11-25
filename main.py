@@ -16,13 +16,14 @@ for line in nerBag.readlines():
     nerDict[line.split(' ')[0]] = line.split(' ')[1].strip()
 
 
-reflexivePronouns = ['अपनी', 'अपने', 'अपना', 'स्वयं', 'खुद', 'खुद']
+reflexivePronouns = ['अपनी', 'अपने', 'अपना', 'स्वयं', 'खुद']
 relativePronouns = ['जो', 'जोकि', 'जहाँ', 'जिधर', 'जितना', 'जितने', 'जैसा', 'जैसे', 'जिसको', 'जिसके',
                     'जिस', 'जिसे', 'जिससे', 'जिसकी', 'जिसका', 'जिसने', 'जिन्हें', 'जिन्होंने', 'जिसमें', 'जिनमें', 'जिनकी']
 firstPronouns = ['हमसे', 'हमारे', 'मेरा', 'मेरी', 'मेरे', 'हम', 'हमारा',
                  'हमने', 'मुझे', 'मैं', 'मुझ', 'मैने', 'हमें', 'मैंने', 'हमारी']
 secondPronouns = ['आप', 'आपस', 'आपकी', 'आपके', 'आपको', 'आपका']
-thirdPronouns = ['‌‌वह', 'वे', 'वो', 'उसको', 'उसने', 'उससे', 'उसका', 'उसकी', 'उसके', 'उन', 'उनको', 'उन्होंने', 'उनसे', 'उनका', 'उनकी', 'उनके']
+thirdPronouns = ['‌‌वह', 'वे', 'वो', 'उसको', 'उसने', 'उससे', 'उसका',
+                 'उसकी', 'उसके', 'उन', 'उनको', 'उन्होंने', 'उनसे', 'उनका', 'उनकी', 'उनके']
 locativePronouns = ['वहाँ', 'वहां', 'वहीं', 'यहीं', 'यहाँ',
                     'यहां', 'कहीं', 'इसमें', 'उसमें', 'इनमें']
 
@@ -46,6 +47,10 @@ for rfp in fileList:
         for chunk in sentence.nodeList:
             linearChunkList.append(chunk)
             for node in chunk.nodeList:
+                if node.type == 'PRP':
+                    pass
+                else:
+                    continue
                 isPronoun = False
                 if node.lex in firstPronouns:
                    mention = node
@@ -64,33 +69,33 @@ for rfp in fileList:
                    answer = rx.reflexive(
                        node, doc.nodeList[i-1] if i > 0 else None, doc.nodeList[i-2] if i > 1 else None)
                    isPronoun = True
-                if (node.lex in relativePronouns) and (node.morphPOS == 'pn'):
+                if (node.lex in relativePronouns):
                     mention = node
                     answer = rv.relative(node)
                     isPronoun = True
-                if (node.lex in locativePronouns) and (node.morphPOS == 'pn'):
+                if (node.lex in locativePronouns):
                     mention = node
                     answer = lt.locative(node, linearChunkList, nerDict)
                     isPronoun = True
                 if isPronoun:
                     mentionLinksTo = 0 if mention.getAttribute('crefType') is None else mention.getAttribute('crefType').split(':')[1]
                     totalPronouns += 1
-                    if (not relfile):
-                        print(rfp)
-                    if (not relsent):
-                        print("\tSentence : ", sentence.name)
+                    # if (not relfile):
+                        #print(rfp)
+                    # if (not relsent):
+                        #print("\tSentence : ", sentence.name)
                     relfile = True
                     relsent = True
                     if (answer is None):
-                        print('\t\t', mention.name, "-->", "NO OUTPUT")
+                        #print('\t\t', mention.name, "-->", "NO OUTPUT")
                         if (mentionLinksTo == 0):
-                            print ("\t\tCorrect - There was no anaphora")
+                            #print ("\t\tCorrect - There was no anaphora")
                             correct += 1
                             continue
-                        print("\t\tIncorrect - Out of sentence")
+                        #print("\t\tIncorrect - Out of sentence")
                         incorrectOOS += 1
                     else:
-                        print('\t\t', mention.name, "-->", answer.name)
+                        #print('\t\t', mention.name, "-->", answer.name)
                 #   ------------- NEW CHECKING METHOD -------------            
                         chainsWithReferent = set()
                         chainsWithMention = set()
@@ -133,10 +138,10 @@ for rfp in fileList:
                         #         flag = 1
                         # if flag == 1:
                 #   xxxxxxxxxxxxx OLD CHECKING METHOD xxxxxxxxxxxxx
-                            print("\t\tCorrect")
+                            #print("\t\tCorrect")
                             correct += 1
                         else:
-                            print("\t\tIncorrect - Wrong Resolution")
+                            #print("\t\tIncorrect - Wrong Resolution")
                             incorrectWR += 1
                         # print("\t\tThe correct are: ")
                         # for b in mChains:

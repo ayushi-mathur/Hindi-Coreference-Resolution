@@ -260,11 +260,11 @@ for rfp in fileList:
                     answer = rx.reflexive(
                         node, doc.nodeList[i-1] if i > 0 else None, doc.nodeList[i-2] if i > 1 else None)
                     isPronoun = True
-                if (node.lex in relativePronouns) and (node.morphPOS == 'pn'):
+                if (node.lex in relativePronouns):
                     mention = node
                     answer = rv.relative(node)
                     isPronoun = True
-                if (node.lex in locativePronouns) and (node.morphPOS == 'pn'):
+                if (node.lex in locativePronouns):
                     mention = node
                     answer = lt.locative(node, linearChunkList, nerDict)
                     isPronoun = True

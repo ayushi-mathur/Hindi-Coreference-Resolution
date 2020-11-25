@@ -19,6 +19,8 @@ thirdPronouns = ['‌‌वह', 'वे', 'वो', 'उसको', 'उसन�
 locativePronouns = ['वहाँ', 'वहां', 'वहीं', 'यहीं', 'यहाँ',
                     'यहां', 'कहीं', 'इसमें', 'उसमें', 'इनमें']
 
+pronounsList = reflexivePronouns + relativePronouns + firstPronouns + secondPronouns + thirdPronouns + locativePronouns
+
 nerDict = {}
 nerBag = open('nerBag', 'r')
 for line in nerBag.readlines():
@@ -108,7 +110,7 @@ for rfp in fl:
             nodeFeatureList.append(
                 [num, i, int(c.upper.name), named_entity, nouns_list.index(n.type), pernum])
 
-            if (n.type == 'PRP') and (n.getAttribute('cref') is not None) and (n.getAttribute('cref') != ''):
+            if (n.lex in pronounsList) and (n.getAttribute('cref') is not None) and (n.getAttribute('cref') != ''):
                 tp += 1
                 for k, parsedNodes in enumerate(nodeFeatureList):
                     if (i - parsedNodes[1] < 1):
@@ -224,7 +226,7 @@ for rfp in fl:
                 nodeFeatureList.append([num, j, int(
                     chunk.upper.name), named_entity, nouns_list.index(node.type), pernum])
 
-                if (node.type == 'PRP'):
+                if (node.lex in pronounsList):
 
                     testingIO = []
                     goldOutput = []
