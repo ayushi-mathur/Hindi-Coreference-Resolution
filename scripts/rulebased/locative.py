@@ -1,14 +1,8 @@
 import ssfAPI_intra as ssf
 
-locativePronouns = ['वहाँ', 'वहां', 'वहीं', 'यहीं', 'यहाँ',
-                    'यहां', 'कहीं', 'इसमें', 'उसमें', 'इनमें']
+locativePronouns = ['वहाँ', 'वहां', 'वहीं', 'यहीं', 'यहाँ', 'यहां', 'कहीं', 'इसमें', 'उसमें', 'इनमें']
 
-nerDict = {}
-nerBag = open('nerBag', 'r')
-for line in nerBag.readlines():
-    nerDict[line.split(' ')[0]] = line.split(' ')[1].strip()
-
-def locative(mention, linearChunkList):  # isnt mention useless then?
+def locative(mention, linearChunkList, nerDict):  # isnt mention useless then?
     nChunk = linearChunkList[-1]  # the last chunk is the one we are on
     answer = None
     sentencesTraversed = 0

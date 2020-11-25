@@ -10,6 +10,10 @@ import scripts.rulebased.thirdperson as tp
 import scripts.rulebased.secondperson as sp
 import scripts.rulebased.firstperson as fp
 
+nerDict = {}
+nerBag = open('nerBag', 'r')
+for line in nerBag.readlines():
+    nerDict[line.split(' ')[0]] = line.split(' ')[1].strip()
 
 
 reflexivePronouns = ['अपनी', 'अपने', 'अपना', 'स्वयं', 'खुद', 'खुद']
@@ -66,7 +70,7 @@ for rfp in fileList:
                 #    isPronoun = True
                 # if (node.lex in locativePronouns) and (node.morphPOS == 'pn'):
                 #     mention = node
-                #     answer = lt.locative(node, linearChunkList)
+                #     answer = lt.locative(node, linearChunkList, nerDict)
                 #     isPronoun = True
                 if isPronoun:
                     if (not relfile):
