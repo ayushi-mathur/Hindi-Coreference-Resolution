@@ -20,11 +20,6 @@ def locative(mention, linearChunkList, nerDict):  # isnt mention useless then?
         oldSentence = newSentence
 
         for c in nChunk.nodeList:
-            if c.lex in locativePronouns:
-                answer = c
-                return c
-
-        for c in nChunk.nodeList:
             ne = nerDict.get(c.lex)
             if ne == 'location':
                 answer = c
@@ -34,5 +29,9 @@ def locative(mention, linearChunkList, nerDict):  # isnt mention useless then?
                 if c.chunkparentRelation == 'head':
                     answer = c
             return answer
+        for c in nChunk.nodeList:
+            if c.lex in locativePronouns:
+                answer = c
+                return c
 
         i -= 1
