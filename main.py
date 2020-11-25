@@ -47,31 +47,31 @@ for rfp in fileList:
             linearChunkList.append(chunk)
             for node in chunk.nodeList:
                 isPronoun = False
-                #if node.lex in firstPronouns:
-                #    mention = node
-                #    answer = fp.firstperson(node)
-                #    isPronoun = True
-                # if node.lex in secondPronouns:
-                #     mention = node
-                #     answer = sp.secondperson(node)
-                #     isPronoun = True
-                #if node.lex in thirdPronouns:
-                #    mention = node
-                #    answer = tp.thirdperson(node, doc.nodeList[i-1] if i > 0 else None, doc.nodeList[i-2] if i > 1 else None, doc.nodeList[i-3] if i > 2 else None)
-                #    isPronoun = True
-                #if node.lex in reflexivePronouns:
-                #    mention = node
-                #    answer = rx.reflexive(
-                #        node, doc.nodeList[i-1] if i > 0 else None, doc.nodeList[i-2] if i > 1 else None)
-                #    isPronoun = True
+                if node.lex in firstPronouns:
+                   mention = node
+                   answer = fp.firstperson(node)
+                   isPronoun = True
+                if node.lex in secondPronouns:
+                    mention = node
+                    answer = sp.secondperson(node)
+                    isPronoun = True
+                if node.lex in thirdPronouns:
+                   mention = node
+                   answer = tp.thirdperson(node, doc.nodeList[i-1] if i > 0 else None, doc.nodeList[i-2] if i > 1 else None, doc.nodeList[i-3] if i > 2 else None)
+                   isPronoun = True
+                if node.lex in reflexivePronouns:
+                   mention = node
+                   answer = rx.reflexive(
+                       node, doc.nodeList[i-1] if i > 0 else None, doc.nodeList[i-2] if i > 1 else None)
+                   isPronoun = True
                 if (node.lex in relativePronouns) and (node.morphPOS == 'pn'):
                     mention = node
                     answer = rv.relative(node)
                     isPronoun = True
-                # if (node.lex in locativePronouns) and (node.morphPOS == 'pn'):
-                #     mention = node
-                #     answer = lt.locative(node, linearChunkList, nerDict)
-                #     isPronoun = True
+                if (node.lex in locativePronouns) and (node.morphPOS == 'pn'):
+                    mention = node
+                    answer = lt.locative(node, linearChunkList, nerDict)
+                    isPronoun = True
                 if isPronoun:
                     totalPronouns += 1
                     if (not relfile):

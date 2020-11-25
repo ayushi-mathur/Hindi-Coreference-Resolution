@@ -39,3 +39,9 @@ Correct Total:  16
 Incorrect via Rules:  41
 Out of Scope, given to classifier:  8
 Out of Scope, incorrect by classifier:  7
+
+[ALL]
+Correct Total:  220
+Incorrect via Rules:  195
+Out of Scope, given to classifier:  39
+Out of Scope, incorrect by classifier:  25
