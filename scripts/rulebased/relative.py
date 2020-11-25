@@ -5,36 +5,26 @@ def relative(mention):
     node = mention  #start at mention node
     chunk = node.upper
     flagR = 1
-    #haha = 0
     while(flagR):
-        #print(haha)
-        #haha += 1
         #if node.morphPOS == 'v':
         if ((node.type == 'CC') or (node.type == 'VM')):
-            #print("hi")
 
             if node.parentRelation == 'nmod__relc':
                 flagR = 0
-                '''
-                if node.parent.parentRelation == 'rh':
-                    for child in node.parent.parent.childList:
-                        if child.parentRelation == 'k1' or child.parentRelation == 'pof':
-                            return child
-                    #return node.parent.parent
-                    '''
                 
                 return node.parent
-                '''
-            else:
-                if node.parent.type == 'VM':
-                    for child in node.parent.childList:
-                        if child.parentRelation == 'k1':
-                            if mention.name != child.name:
-                                return child
-                                '''
 
             
         if (node.parent == node):
+            for child in node.childList:
+                if child.parentRelation == 'k1':
+                    return child
+                if child.parentRelation == 'r6':
+                    return child
+                if child.parentRelation == 'k2':
+                    return child
+                if child.parentRelation == 'k4':
+                    return child
             flagR = 0
         else:
             node = node.parent

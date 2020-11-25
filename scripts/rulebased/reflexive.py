@@ -1,5 +1,4 @@
 import ssfAPI_intra as ssf
-reflexives=['अपनी', 'अपने', 'अपना', 'स्वयं', 'खुद', 'खुद']
 
 def reflexive(mention, prev_sent, prev_prev_sent):
     node=mention

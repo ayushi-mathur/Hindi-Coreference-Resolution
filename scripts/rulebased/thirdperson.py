@@ -24,10 +24,10 @@ def PrevSentences(mention, sent):
 		if child.parentRelation == 'k1':
 			if(gnp_checking(child,mention) == True):
 				return child;
-		if child.parentRelation == 'r6':
+		if child.parentRelation == 'k2':
 			if(gnp_checking(child,mention) == True):
 				return child;
-		if child.parentRelation == 'k2':
+		if child.parentRelation == 'r6':
 			if(gnp_checking(child,mention) == True):
 				return child;
 		if child.parentRelation == 'k4':
