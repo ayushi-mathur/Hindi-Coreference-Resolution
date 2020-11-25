@@ -1,0 +1,41 @@
+[FIRST PERSON]
+
+Correct Total:  12
+Incorrect via Rules:  0
+Out of Scope, given to classifier:  3
+Out of Scope, incorrect by classifier:  2
+
+[SECOND PERSON]
+
+Correct Total:  0
+Incorrect via Rules:  0
+Out of Scope, given to classifier:  2
+Out of Scope, incorrect by classifier:  2
+
+[THIRD PERSON]
+
+Correct Total:  93
+Incorrect via Rules:  127
+Out of Scope, given to classifier:  8
+Out of Scope, incorrect by classifier:  6
+
+[REFLEXIVE]
+
+Correct Total:  58
+Incorrect via Rules:  24
+Out of Scope, given to classifier:  5
+Out of Scope, incorrect by classifier:  3
+
+[RELATIVE]
+
+Correct Total:  34
+Incorrect via Rules:  12
+Out of Scope, given to classifier:  10
+Out of Scope, incorrect by classifier:  8
+
+[LOCATIVE]
+
+Correct Total:  16
+Incorrect via Rules:  41
+Out of Scope, given to classifier:  8
+Out of Scope, incorrect by classifier:  7
