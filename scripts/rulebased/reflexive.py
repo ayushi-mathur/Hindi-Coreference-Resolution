@@ -1,14 +1,15 @@
 import ssfAPI_intra as ssf
 
+
 def reflexive(mention, prev_sent, prev_prev_sent):
-    node=mention
+    node = mention
     chunk_mention = node.upper
     sent_mention = chunk_mention.upper
-    verb=None
+    verb = None
     while(node.type != 'VM'):
-        node=node.parent
+        node = node.parent
     for child in node.childList:
-        if child.parentRelation == 'k1' and child!=mention:
+        if child.parentRelation == 'k1' and child != mention:
             return child
 #    if prev_sent is None:
  #       return None
@@ -27,7 +28,7 @@ def reflexive(mention, prev_sent, prev_prev_sent):
      #       if word.type == 'VM':
       #          verb=word
 
-    #for child in verb.childList:
+    # for child in verb.childList:
      #   if child.morphPOS=='n' and child.parentRelation == 'k1':
       #      return child
     return None

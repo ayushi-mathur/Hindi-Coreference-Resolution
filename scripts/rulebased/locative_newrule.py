@@ -26,7 +26,6 @@ def locative(mention, linearChunkList):  # isnt mention useless then?
             relScore = 0
 
         animacyScore = 0
-        
 
         if ('NP' in nChunk.name):
             nScore = 50

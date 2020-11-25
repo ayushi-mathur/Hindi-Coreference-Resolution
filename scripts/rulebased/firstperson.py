@@ -1,10 +1,10 @@
+import ssfAPI_intra as ssf
 complementizer = 'कि'
 
-import ssfAPI_intra as ssf
 
 def firstperson(mention):
-    #mention is a ssf.Node_vandan object
-    node = mention  #start at mention node
+    # mention is a ssf.Node_vandan object
+    node = mention  # start at mention node
     while (node.lex != complementizer) and (node.parent != node):
         node = node.parent
     if node.parent == node:
