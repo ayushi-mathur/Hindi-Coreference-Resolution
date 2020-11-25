@@ -13,8 +13,17 @@ import scripts.rulebased.firstperson as fp
 
 # ---------- CLASSIFIER TRAINING AREA -------------------
 
-pronounsList = {'मैं', 'दैट', 'उसकी', 'उसके', 'जोकि', 'जहां', 'परस्पर', 'उसी', 'हमें', 'खुद', 'मेरा', 'यह', 'इससे', 'मुझे', 'इसे', 'इनसे', 'मुझ', 'इनको', 'कुछ', 'इस', 'सुपर', 'मेरी', 'उनमें', 'जो', 'जहाँ', 'तभी', 'तहां', 'जैसा', 'यही', 'दूसरे', 'यहीं', 'इसमें', 'ऐसी', 'ऐसा', 'आपकी', 'इसको', 'वहीं', 'इनकी', 'इनका', 'उन्हें', 'जिसमें', 'मैंने', 'आपको', 'इनके', 'जिसके', 'अपनी', 'अपना', 'वही', 'मैने', 'यहां', 'इसके', 'जिन्होंने', 'किसको', 'उनसे', 'जिसका', 'इसी', 'इसलिए', 'वहां', 'सभी', 'उसने', 'किसे', 'जिसने', 'उसे', 'उसका',
-                'आपका', 'इसकी', 'अपने', 'जिन्हें', 'यहाँ', 'इतना', 'आपके', 'उनका', 'कोई', 'मेरे', 'इसका', 'वो', 'कहीं', 'ऐसे', 'क्या', 'जिन', 'तब', 'कब', 'एक', 'किस', 'हमारी', 'दिस', 'किसने', 'जब', 'उनको', 'सब', 'इसने', 'जिससे', 'आप', 'आपस', 'हम', 'जिनमें', 'हमारे', 'कभी', 'जिनकी', 'इन', 'किन', 'इनमें', 'किसी', 'वे', 'स्वयं', 'अभी', 'उस', 'हमारा', 'हमने', 'इसीलिए', 'सबको', 'सबके', 'वह', 'वहाँ', 'उनकी', 'जिसको', 'तो', 'जिस', 'ये', 'इन्हीं', 'उन', 'अब', 'जिसकी', 'उन्होंने', 'इन्हें', 'हमसे', 'उनके', 'उससे', 'उसमें', 'जिसे'}
+reflexivePronouns = ['अपनी', 'अपने', 'अपना', 'स्वयं', 'खुद', 'खुद']
+relativePronouns = ['जो', 'जोकि', 'जहाँ', 'जिधर', 'जितना', 'जितने', 'जैसा', 'जैसे', 'जिसको', 'जिसके',
+                    'जिस', 'जिसे', 'जिससे', 'जिसकी', 'जिसका', 'जिसने', 'जिन्हें', 'जिन्होंने', 'जिसमें', 'जिनमें', 'जिनकी']
+firstPronouns = ['हमसे', 'हमारे', 'मेरा', 'मेरी', 'मेरे', 'हम', 'हमारा',
+                 'हमने', 'मुझे', 'मैं', 'मुझ', 'मैने', 'हमें', 'मैंने', 'हमारी']
+secondPronouns = ['आप', 'आपस', 'आपकी', 'आपके', 'आपको', 'आपका']
+thirdPronouns = ['‌‌वह', 'वे', 'वो', 'उसको', 'उसने', 'उससे', 'उसका', 'उसकी', 'उसके', 'उन', 'उनको', 'उन्होंने', 'उनसे', 'उनका', 'उनकी', 'उनके']
+locativePronouns = ['वहाँ', 'वहां', 'वहीं', 'यहीं', 'यहाँ',
+                    'यहां', 'कहीं', 'इसमें', 'उसमें', 'इनमें']
+
+pronounsList = reflexivePronouns + relativePronouns+firstPronouns+secondPronouns+thirdPronouns+locativePronouns
 
 nerDict = {}
 nerBag = open('nerBag', 'r')
@@ -116,16 +125,6 @@ clf = clf.fit(trainingInput, trainingOutput)
 # ---------- END OF CLASSIFIER TRAINING AREA -------------------
 
 
-reflexivePronouns = ['अपनी', 'अपने', 'अपना', 'स्वयं', 'खुद', 'खुद']
-relativePronouns = ['जो', 'जोकि', 'जहाँ', 'जिधर', 'जितना', 'जितने', 'जैसा', 'जैसे', 'जिसको', 'जिसके',
-                    'जिस', 'जिसे', 'जिससे', 'जिसकी', 'जिसका', 'जिसने', 'जिन्हें', 'जिन्होंने', 'जिसमें', 'जिनमें', 'जिनकी']
-firstPronouns = ['हमसे', 'हमारे', 'मेरा', 'मेरी', 'मेरे', 'हम', 'हमारा',
-                 'हमने', 'मुझे', 'मैं', 'मुझ', 'मैने', 'हमें', 'मैंने', 'हमारी']
-secondPronouns = ['आप', 'आपस', 'आपकी', 'आपके', 'आपको', 'आपका']
-thirdPronouns = ['‌‌वह', 'वे', 'वो', 'उसको', 'उसने', 'उससे', 'उसका', 'उसकी', 'उसके', 'उन', 'उनको', 'उन्होंने', 'उनसे', 'उनका', 'उनकी', 'उनके']
-locativePronouns = ['वहाँ', 'वहां', 'वहीं', 'यहीं', 'यहाँ',
-                    'यहां', 'कहीं', 'इसमें', 'उसमें', 'इनमें']
-
 trainingfileList = ssf.folderWalk('./trainingdata/')
 fileList = ssf.folderWalk('./testingdata/')
 
@@ -185,24 +184,24 @@ for rfp in fileList:
                 nodeFeatureList.append(
                     [num, j, int(chunk.upper.name), ne, anim, node.morphPOS])
 
-                if node.name in firstPronouns:
+                if node.lex in firstPronouns:
                     mention = node
                     answer = fp.firstperson(node)
                     isPronoun = True
-                if node.name in secondPronouns:
+                if node.lex in secondPronouns:
                     mention = node
                     answer = sp.secondperson(node)
                     isPronoun = True
-                if node.name in thirdPronouns:
+                if node.lex in thirdPronouns:
                     mention = node
                     answer = tp.thirdperson(node, doc.nodeList[i-1] if i > 0 else None, doc.nodeList[i-2] if i > 1 else None, doc.nodeList[i-3] if i > 2 else None)
                     isPronoun = True
-                if node.name in reflexivePronouns:
+                if node.lex in reflexivePronouns:
                     mention = node
                     answer = rx.reflexive(
                         node, doc.nodeList[i-1] if i > 0 else None, doc.nodeList[i-2] if i > 1 else None)
                     isPronoun = True
-                if (node.name in relativePronouns) and (node.morphPOS == 'pn'):
+                if (node.lex in relativePronouns) and (node.morphPOS == 'pn'):
                    mention = node
                    answer = rv.relative(node)
                    isPronoun = True
