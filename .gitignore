@@ -8,3 +8,4 @@ scripts/rulebased/__pycache__/relative.cpython-38.pyc
 scripts/rulebased/__pycache__/locative_newrule.cpython-38.pyc
 nerData/
 scripts/rulebased/__pycache__/thirdperson.cpython-38.pyc
+classifier_old.py
