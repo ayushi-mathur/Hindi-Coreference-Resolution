@@ -20,7 +20,9 @@ def PrevSentences(mention, sent):
 			if word.parent == word:
 				root = word
 	for child in root.childList:
-	
+		if child == mention:
+			break
+		
 		if child.parentRelation == 'k1':
 			if(gnp_checking(child,mention) == True):
 				return child;
@@ -42,14 +44,14 @@ def PrevSentences(mention, sent):
 def thirdperson(mention, prev_1_sent, prev_2_sent, prev_3_sent):
 	node = mention
 	chunk = node.upper
-	#queue = []
 	while (node.parent != node):
 		node = node.parent
 
-
-	answer = PrevSentences(mention,prev_1_sent)
+	answer = PrevSentences(mention,chunk.upper)
 	if(answer == None):
-		answer = PrevSentences(mention,prev_2_sent)
+		answer = PrevSentences(mention,prev_1_sent)
 		if(answer == None):
-			answer = PrevSentences(mention,prev_3_sent)
+			answer = PrevSentences(mention,prev_2_sent)
+			if(answer == None):
+				answer = PrevSentences(mention,prev_3_sent)
 	return answer
