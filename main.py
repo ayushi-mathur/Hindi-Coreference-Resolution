@@ -73,6 +73,7 @@ for rfp in fileList:
                     answer = lt.locative(node, linearChunkList, nerDict)
                     isPronoun = True
                 if isPronoun:
+                    mentionLinksTo = 0 if mention.getAttribute('crefType') is None else mention.getAttribute('crefType').split(':')[1]
                     totalPronouns += 1
                     if (not relfile):
                         print(rfp)
@@ -82,12 +83,15 @@ for rfp in fileList:
                     relsent = True
                     if (answer is None):
                         print('\t\t', mention.name, "-->", "NO OUTPUT")
+                        if (mentionLinksTo == 0):
+                            print ("\t\tCorrect - There was no anaphora")
+                            correct += 1
+                            continue
                         print("\t\tIncorrect - Out of sentence")
                         incorrectOOS += 1
                     else:
                         print('\t\t', mention.name, "-->", answer.name)
                 #   ------------- NEW CHECKING METHOD -------------            
-                        mentionLinksTo = 0 if mention.getAttribute('crefType') is None else mention.getAttribute('crefType').split(':')[1]
                         chainsWithReferent = set()
                         chainsWithMention = set()
                         chainsWithPrediction = set()

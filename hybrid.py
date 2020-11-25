@@ -268,7 +268,10 @@ for rfp in fileList:
                     mention = node
                     answer = lt.locative(node, linearChunkList, nerDict)
                     isPronoun = True
+                
                 if isPronoun:
+                    mentionLinksTo = 0 if mention.getAttribute(
+                            'crefType') is None else mention.getAttribute('crefType').split(':')[1]
                     if (not relfile):
                         print(rfp)
                     if (not relsent):
@@ -277,6 +280,10 @@ for rfp in fileList:
                     relsent = True
                     if (answer is None):
                         print('\t\t', mention.name, "-->", "NO OUTPUT")
+                        if (mentionLinksTo == 0):
+                            print ("\t\tCorrect - There was no anaphora")
+                            correct += 1
+                            continue
                         print(
                             "\t\tIncorrect - Out of sentence, Using Classifier ....")
                         testingIO = []
@@ -342,8 +349,6 @@ for rfp in fileList:
                     else:
                         print('\t\t', mention.name, "-->", answer.name)
                 #   ------------- NEW CHECKING METHOD -------------
-                        mentionLinksTo = 0 if mention.getAttribute(
-                            'crefType') is None else mention.getAttribute('crefType').split(':')[1]
                         chainsWithReferent = set()
                         chainsWithMention = set()
                         chainsWithPrediction = set()
