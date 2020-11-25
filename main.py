@@ -26,7 +26,7 @@ thirdPronouns = ['‌‌वह', 'वे', 'वो', 'उसको', 'उसन�
 locativePronouns = ['वहाँ', 'वहां', 'वहीं', 'यहीं', 'यहाँ',
                     'यहां', 'कहीं', 'इसमें', 'उसमें', 'इनमें']
 
-fileList = ssf.folderWalk('./data/')
+fileList = ssf.folderWalk('./testingdata/')
 
 
 mrpair = []
@@ -34,7 +34,7 @@ mrpair = []
 correct = 0
 incorrectOOS = 0
 incorrectWR = 0
-
+totalPronouns = 0
 
 for rfp in fileList:
     relfile = False
@@ -73,6 +73,7 @@ for rfp in fileList:
                 #     answer = lt.locative(node, linearChunkList, nerDict)
                 #     isPronoun = True
                 if isPronoun:
+                    totalPronouns += 1
                     if (not relfile):
                         print(rfp)
                     if (not relsent):
@@ -86,21 +87,21 @@ for rfp in fileList:
                     else:
                         print('\t\t', mention.name, "-->", answer.name)
                 #   ------------- NEW CHECKING METHOD -------------            
-                        # mentionLinksTo = 0 if mention.getAttribute('crefType') is None else mention.getAttribute('crefType').split(':')[1]
-                        # chainsWithReferent = set()
-                        # chainsWithMention = set()
-                        # chainsWithPrediction = set()
+                        mentionLinksTo = 0 if mention.getAttribute('crefType') is None else mention.getAttribute('crefType').split(':')[1]
+                        chainsWithReferent = set()
+                        chainsWithMention = set()
+                        chainsWithPrediction = set()
 
-                        # if (mention.getAttribute('cref') is not None):
-                        #     for c in mention.getAttribute('cref').split(','):
-                        #         chainsWithMention.add(c.split(':')[1])
-                        # if (answer.getAttribute('cref') is not None):
-                        #     for c in answer.getAttribute('cref').split(','):
-                        #         chainsWithPrediction.add(c.split(':')[1])
-                        # for corefChain in doc.coreferenceChainNodeList:
-                        #     for corefEntity in corefChain.nodeList:
-                        #         if corefEntity.uniqueid == mentionLinksTo:
-                        #             chainsWithReferent.add(corefChain.chainid)
+                        if (mention.getAttribute('cref') is not None):
+                            for c in mention.getAttribute('cref').split(','):
+                                chainsWithMention.add(c.split(':')[1])
+                        if (answer.getAttribute('cref') is not None):
+                            for c in answer.getAttribute('cref').split(','):
+                                chainsWithPrediction.add(c.split(':')[1])
+                        for corefChain in doc.coreferenceChainNodeList:
+                            for corefEntity in corefChain.nodeList:
+                                if corefEntity.uniqueid == mentionLinksTo:
+                                    chainsWithReferent.add(corefChain.chainid)
                         
                         # print("\nThe prediction was in : ",end='')
                         # for x in chainsWithPrediction:
@@ -111,22 +112,22 @@ for rfp in fileList:
                         # print("\nThe mention was in : ",end='')
                         # for x in chainsWithMention:
                         #     print(x, end=', ')
-                        # if len(set.intersection(chainsWithPrediction, chainsWithReferent, chainsWithMention)) > 0:
+                        if len(set.intersection(chainsWithPrediction, chainsWithReferent, chainsWithMention)) > 0:
                 #   ------------- NEW CHECKING METHOD -------------        
                 #   xxxxxxxxxxxxx OLD CHECKING METHOD xxxxxxxxxxxxx
-                        mChains = []
-                        aChains = []
-                        for corefChain in doc.coreferenceChainNodeList:
-                            for corefEntity in corefChain.nodeList:
-                                if mention in corefEntity.nodes:
-                                    mChains.append(corefChain)
-                                if answer in corefEntity.nodes:
-                                    aChains.append(corefChain)
-                        flag = 0
-                        for a in aChains:
-                            if a in mChains:
-                                flag = 1
-                        if flag == 1:
+                        # mChains = []
+                        # aChains = []
+                        # for corefChain in doc.coreferenceChainNodeList:
+                        #     for corefEntity in corefChain.nodeList:
+                        #         if mention in corefEntity.nodes:
+                        #             mChains.append(corefChain)
+                        #         if answer in corefEntity.nodes:
+                        #             aChains.append(corefChain)
+                        # flag = 0
+                        # for a in aChains:
+                        #     if a in mChains:
+                        #         flag = 1
+                        # if flag == 1:
                 #   xxxxxxxxxxxxx OLD CHECKING METHOD xxxxxxxxxxxxx
                             print("\t\tCorrect")
                             correct += 1
