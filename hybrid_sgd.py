@@ -1,4 +1,4 @@
-from sklearn import tree
+from sklearn.linear_model import SGDClassifier
 import sys
 sys.path
 sys.path.append('./scripts/ssfapi/')
@@ -181,7 +181,7 @@ for x in trainingInput:
     x[5] = x[5]/f5
 
 
-clf = tree.DecisionTreeClassifier()
+clf = SGDClassifier(loss="log",penalty="l2",max_iter=1000)
 clf = clf.fit(trainingInput, trainingOutput)
 
 # ---------- END OF CLASSIFIER TRAINING AREA -------------------

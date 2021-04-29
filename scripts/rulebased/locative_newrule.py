@@ -1,7 +1,7 @@
 import ssfAPI_intra as ssf
 
 
-def locative(mention, linearChunkList):  # isnt mention useless then?
+def locative(mention, linearChunkList, nothing):  # isnt mention useless then?
     nChunk = linearChunkList[-1]  # the last chunk is the one we are on
     answer = None
     bestScore = -100000

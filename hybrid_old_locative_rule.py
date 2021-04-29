@@ -7,7 +7,7 @@ import ssfAPI_intra as ssf
 import scripts.rulebased.firstperson as fp
 import scripts.rulebased.secondperson as sp
 import scripts.rulebased.thirdperson as tp
-import scripts.rulebased.locative_newrule as lt
+import scripts.rulebased.locative as lt
 import scripts.rulebased.reflexive as rx
 import scripts.rulebased.relative as rv
 
