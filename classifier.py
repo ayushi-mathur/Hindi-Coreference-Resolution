@@ -223,10 +223,7 @@ for rfp in fl:
                 else:
                     pernum = 0
 
-                nodeFeatureList.append([num, j, int(
-                    chunk.upper.name), named_entity, nouns_list.index(node.type), pernum])
-
-                if (node.lex in pronounsList):
+                if (node.lex in pronounsList) and (len(nodeFeatureList) > 0):
 
                     testingIO = []
                     goldOutput = []
@@ -275,18 +272,27 @@ for rfp in fl:
                                 goldOutput = 0
                         # print('tesIO before:', len(testingIO))
                         testingIO.append(
-                            [x, clf.predict_proba([x])[0], goldOutput])
+                            [x, clf.predict_proba([x])[0], goldOutput, parsedNodes[6]])
                         # print('tesIO after:', len(testingIO))
 
                     # print('tesIO:', len(testingIO))
                     testingIO = sorted(
                         testingIO, key=lambda y: y[1][1], reverse=True)
 
+                    print(testingIO)
                     if testingIO[0][2] == 1:
                         correct += 1
+                        print('CORRECT')
                         # print('ding')
                     else:
+                        print('INCORRECT')
                         incorrect += 1
+                    print(sentence.name,")",sentence.text)
+                    print(node.upper.upper.name,':',node.lex,'-->',testingIO[0][3].upper.upper.name,':',testingIO[0][3].lex)
+
+
+                nodeFeatureList.append([num, j, int(
+                    chunk.upper.name), named_entity, nouns_list.index(node.type), pernum, node])
 
 
 print(correct)
