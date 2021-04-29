@@ -279,13 +279,13 @@ for rfp in fileList:
                     relfile = True
                     relsent = True
                     if (answer is None):
-                        print('\t\t', mention.name, "-->", "NO OUTPUT")
+                        # print('\t\t', mention.name, "-->", "NO OUTPUT")
                         if (mentionLinksTo == 0):
-                            print ("\t\tCorrect - There was no anaphora")
+                            # print ("\t\tCorrect - There was no anaphora")
                             correct += 1
                             continue
-                        print(
-                            "\t\tIncorrect - Out of sentence, Using Classifier ....")
+                        # print(
+                            # "\t\tIncorrect - Out of sentence, Using Classifier ....")
                         testingIO = []
                         goldOutput = []
 
@@ -347,7 +347,89 @@ for rfp in fileList:
                             incorrectClassifier += 1
                         OOS += 1
                     else:
-                        print('\t\t', mention.name, "-->", answer.name)
+                        print('\t\t', mention.person, "-->", answer.person)
+                        # print("-------------------------------------------------")
+                        print(mention.gender, answer.gender, mention.person)
+                        use_classifier_flag=False
+                        if(mention.number!="any" and answer.number!="any"):
+                            if mention.number != answer.number:
+                                use_classifier_flag=True
+                        if mention.gender!="any" and answer.gender!="any":
+                            if mention.gender != answer.gender:
+                                use_classifier_flag=True
+                        if mention.person!="any" and answer.person!="any":
+                            p1=mention.person
+                            if mention.person=="3h":
+                                p1="3"
+                            p2=answer.person
+                            if answer.person=="3h":
+                                p2="3"
+                            if mention.person != answer.person:
+                                use_classifier_flag=True
+                        if use_classifier_flag:    
+                            # print("GGGGGGGGGGGGGGGGGGGGGGGGGGGG")
+                            testingIO = []
+                            goldOutput = []
+
+                            mention = node
+                            # ------------------------------------------------
+                            for k, parsedNodes in enumerate(nodeFeatureList):
+                                if (j - parsedNodes[1] < 1) and (j - parsedNodes[1] > 60):
+                                    continue
+
+                                if node.parentRelation in karaka_list:
+                                    pernum = karaka_list.index(node.parentRelation)
+                                else:
+                                    pernum = 0
+
+                                prn_lex = node.lex
+                                if prn_lex in reflexivePronouns:
+                                    pType = 1
+                                elif prn_lex in relativePronouns:
+                                    pType = 2
+                                elif prn_lex in locativePronouns:
+                                    pType = 3
+                                elif prn_lex in firstPronouns:
+                                    pType = 4
+                                elif prn_lex in secondPronouns:
+                                    pType = 5
+                                elif prn_lex in thirdPronouns:
+                                    pType = 6
+                                else:
+                                    pType = 0
+
+                                pType = pType/6
+
+                                x = [num/f0, parsedNodes[0]/f1, (j - parsedNodes[1])/f2, (int(chunk.upper.name) - parsedNodes[2])/f3,
+                                    parsedNodes[3]/f4, named_entity/f5, pType, parsedNodes[5], parsedNodes[4], pronounsList.index(node.lex)]
+
+                                temp = []
+                                if node.getAttribute('cref') is None:
+                                    goldOutput = 0
+                                else:
+                                    for cref in node.getAttribute('cref').split(','):
+                                        temp.append(cref.split(':')[1])
+                                    if len(set.intersection(set(temp), set(linearNodeList[k]))):
+                                        goldOutput = 1
+                                    else:
+                                        goldOutput = 0
+                                # print('tesIO before:', len(testingIO))
+                                testingIO.append(
+                                    [x, clf.predict_proba([x])[0], goldOutput])
+                                # print('tesIO after:', len(testingIO))
+
+                            # print('tesIO:', len(testingIO))
+                            testingIO = sorted(
+                                testingIO, key=lambda y: y[1][1], reverse=True)
+
+                            if testingIO[0][2] == 1:
+                                correct += 1
+                                # print('ding')
+                            else:
+                                incorrectClassifier += 1
+                            OOS += 1
+                            continue
+                    # print("-------------------------------------------------")
                 #   ------------- NEW CHECKING METHOD -------------
                         chainsWithReferent = set()
                         chainsWithMention = set()
