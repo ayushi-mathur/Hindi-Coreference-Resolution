@@ -75,6 +75,7 @@ f6 = 1
 f7 = 1
 nouns_list = ['NN', 'NNP', 'NNPC', 'PRP']
 
+pronounTypeDict = {1:"reflexive",2:"relative",3:"locative",4:"first",5:"second",6:"third"}
 
 for rfp in fl:
 
@@ -238,9 +239,9 @@ for rfp in fileList:
                     pernum = karaka_list.index(node.parentRelation)
                 else:
                     pernum = 0
-
+                    
                 nodeFeatureList.append([num, j, int(
-                    chunk.upper.name), named_entity, nouns_list.index(node.type), pernum])
+                    chunk.upper.name), named_entity, nouns_list.index(node.type), pernum, node])
                     
                 if node.lex in firstPronouns:
                     mention = node
@@ -269,7 +270,7 @@ for rfp in fileList:
                     answer = lt.locative(node, linearChunkList, nerDict)
                     isPronoun = True
                 
-                if isPronoun:
+                if isPronoun and len(nodeFeatureList) > 0:
                     mentionLinksTo = 0 if mention.getAttribute(
                             'crefType') is None else mention.getAttribute('crefType').split(':')[1]
                     if (not relfile):
@@ -291,7 +292,7 @@ for rfp in fileList:
 
                         mention = node
                         # ------------------------------------------------
-                        for k, parsedNodes in enumerate(nodeFeatureList):
+                        for k, parsedNodes in enumerate(nodeFeatureList[:-1]):
                             if (j - parsedNodes[1] < 1) and (j - parsedNodes[1] > 60):
                                 continue
 
@@ -333,7 +334,7 @@ for rfp in fileList:
                                     goldOutput = 0
                             # print('tesIO before:', len(testingIO))
                             testingIO.append(
-                                [x, clf.predict_proba([x])[0], goldOutput])
+                                [x, clf.predict_proba([x])[0], goldOutput, parsedNodes[6]])
                             # print('tesIO after:', len(testingIO))
 
                         # print('tesIO:', len(testingIO))
@@ -343,13 +344,19 @@ for rfp in fileList:
                         if testingIO[0][2] == 1:
                             correct += 1
                             # print('ding')
+                            print("CORRECT CLASSED")
                         else:
+                            print("INCORRECT CLASSED")
                             incorrectClassifier += 1
+                        print(sentence.name,")",sentence.text)
+                        print(node.upper.upper.name,':',node.lex,'-->',testingIO[0][3].upper.upper.name,':',testingIO[0][3].lex)
+
                         OOS += 1
                     else:
-                        print('\t\t', mention.person, "-->", answer.person)
+                        oldAnswer = answer
+                        print('\t\t', mention.lex ,mention.gender, mention.number,mention.person, pronounTypeDict[], "-->", answer.lex ,answer.gender, answer.number,answer.person)
                         # print("-------------------------------------------------")
-                        print(mention.gender, answer.gender, mention.person)
+                        # print(mention.gender, answer.gender, mention.person)
                         use_classifier_flag=False
                         if(mention.number!="any" and answer.number!="any"):
                             if mention.number != answer.number:
@@ -366,14 +373,14 @@ for rfp in fileList:
                                 p2="3"
                             if mention.person != answer.person:
                                 use_classifier_flag=True
-                        if use_classifier_flag:    
+                        if use_classifier_flag and len(nodeFeatureList) > 0:    
                             # print("GGGGGGGGGGGGGGGGGGGGGGGGGGGG")
                             testingIO = []
                             goldOutput = []
 
                             mention = node
                             # ------------------------------------------------
-                            for k, parsedNodes in enumerate(nodeFeatureList):
+                            for k, parsedNodes in enumerate(nodeFeatureList[:-1]):
                                 if (j - parsedNodes[1] < 1) and (j - parsedNodes[1] > 60):
                                     continue
 
@@ -415,7 +422,7 @@ for rfp in fileList:
                                         goldOutput = 0
                                 # print('tesIO before:', len(testingIO))
                                 testingIO.append(
-                                    [x, clf.predict_proba([x])[0], goldOutput])
+                                    [x, clf.predict_proba([x])[0], goldOutput, parsedNodes[6]])
                                 # print('tesIO after:', len(testingIO))
 
                             # print('tesIO:', len(testingIO))
@@ -425,10 +432,17 @@ for rfp in fileList:
                             if testingIO[0][2] == 1:
                                 correct += 1
                                 # print('ding')
+                                print("\t\tGNP SENT - CORRECT CLASSED")
                             else:
+                                print("\t\tGNP SENT - INCORRECT CLASSED")
                                 incorrectClassifier += 1
+                                # print(sentence.name,")",sentence.text)
+                                # print(node.upper.upper.name,':',node.lex,'-->',testingIO[0][3].upper.upper.name,':',testingIO[0][3].lex)
+                                newAnswer = testingIO[0][3]
+                                print('\t\t', mention.lex ,mention.gender, mention.number,mention.person, "-->", newAnswer.lex ,newAnswer.gender, newAnswer.number,newAnswer.person)
+
                             OOS += 1
-                            continue
+                            answer = oldAnswer
                     # print("-------------------------------------------------")
                 #   ------------- NEW CHECKING METHOD -------------
                         chainsWithReferent = set()
@@ -472,11 +486,18 @@ for rfp in fileList:
                             #         flag = 1
                             # if flag == 1:
                             #   xxxxxxxxxxxxx OLD CHECKING METHOD xxxxxxxxxxxxx
-                            print("\t\tCorrect")
-                            correct += 1
+                            if not use_classifier_flag:
+                                print("\t\tCorrect")
+                                correct += 1
+                            else:
+                                print("\t\tIT WAS CORRECT WITH RULES!")
                         else:
-                            print("\t\tIncorrect - Wrong Resolution")
-                            incorrectWR += 1
+                            if not use_classifier_flag:
+                                print("\t\tIncorrect - Wrong Resolution")
+                                incorrectWR += 1
+                            else:
+                                print("\t\tIT WAS INCORRECT WITH RULES!")
+
 
 print("Correct Total: ", correct)
 print("Incorrect via Rules: ", incorrectWR)

@@ -1,0 +1,1301 @@
+./testingdata/fullnews_id_2612822_date_21_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 वे --> सिंह
+		Correct
+	Sentence :  5
+		 यहाँ --> इस्तीफा
+		Incorrect - Wrong Resolution
+		 वे --> संवाददाताओं
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उनकी --> यात्रा
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 वे --> यात्रा
+		Incorrect - Wrong Resolution
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  8
+		 उनके --> श्रद्धालु
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उन्होंने --> श्रद्धालु
+		Incorrect - Wrong Resolution
+		 मेरी --> उन्होंने
+		Correct
+	Sentence :  10
+		 उन्होंने --> उन्होंने
+		Incorrect - Wrong Resolution
+		 मेरी --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  11
+		 उन्होंने --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उन्होंने --> उन्होंने
+		Correct
+		 वे --> उन्होंने
+		Correct
+	Sentence :  13
+		 उन्होंने --> सिंह
+		Correct
+		 अपनी --> उन्होंने
+		Correct
+	Sentence :  18
+		 उन्होंने --> यह
+		Incorrect - Wrong Resolution
+	Sentence :  19
+		 उन्होंने --> उन्होंने
+		Correct
+		 मैं --> उन्होंने
+		Correct
+	Sentence :  20
+		 उन्होंने --> उन्होंने
+		Correct
+		 मैं --> उन्होंने
+		Correct
+./testingdata/fullnews_id_3314732_date_2_6_2005datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनका --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उनका --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 अपनी --> सुधाकांत
+		Correct
+	Sentence :  9
+		 वहां --> तो
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> कहना
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_4358696_date_16_8_2006datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+		 यहां --> दरगाह
+		Correct
+	Sentence :  6
+		 यहां --> यहां
+		Correct
+	Sentence :  7
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+		 यहां --> यहां
+		Correct
+	Sentence :  8
+		 उनकी --> आस्था
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 अपनी --> वे
+		Correct
+		 वे --> आस्था
+		Incorrect - Wrong Resolution
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+		 यहां --> यहां
+		Correct
+	Sentence :  10
+		 उनकी --> वे
+		Correct
+		 उनके --> वे
+		Correct
+	Sentence :  11
+		 अपने --> बेनजीर
+		Correct
+		 यहां --> यहां
+		Correct
+	Sentence :  13
+		 उन्होंने --> हक
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 उनकी --> पत्नी
+		Incorrect - Wrong Resolution
+		 जो --> बच्चे
+		Correct
+	Sentence :  17
+		 जिसमें --> कड़ाह
+		Correct
+	Sentence :  20
+		 उन्होंने --> जहांगीर
+		Correct
+	Sentence :  21
+		 वे --> उन्होंने
+		Incorrect - Wrong Resolution
+		 उन्होंने --> जहांगीर
+		Correct
+	Sentence :  23
+		 यहां --> मैरी
+		Incorrect - Wrong Resolution
+		 यहां2 --> यहां
+		Correct
+./testingdata/fullnews_id_2607700_date_19_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनके --> झटका
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 जो --> चेहरा
+		Correct
+	Sentence :  7
+		 अपने --> हालत
+		Incorrect - Wrong Resolution
+		 उनकी --> बिश्वास
+		Correct
+	Sentence :  8
+		 जहाँ --> होम
+		Correct
+		 उनकी --> उन्हें
+		Correct
+	Sentence :  10
+		 उनके --> बसु
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 जो --> नेता
+		Correct
+	Sentence :  13
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  15
+		 उन्होंने --> बोस
+		Correct
+	Sentence :  16
+		 यहाँ --> जायज़ा
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_3003639_date_03_8_2005datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 वो --> जयमाला
+		Correct
+		 उसने --> जयमाला
+		Correct
+	Sentence :  5
+		 वो --> जयमाला
+		Correct
+./testingdata/fullnews_id_2620695_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> उमर
+		Correct
+	Sentence :  5
+		 अपनी --> पाटिल
+		Correct
+	Sentence :  7
+		 उन्होंने --> उमर
+		Correct
+./testingdata/fullnews_id_2633494_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 अपना --> अपराधियों
+		Correct
+	Sentence :  5
+		 उन्होंने --> दर्द
+		Correct
+	Sentence :  10
+		 अपने --> लड़कियाँ
+		Correct
+./testingdata/fullnews_id_2605267_date_18_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  5
+		 अपनी --> गुप्ता
+		Correct
+	Sentence :  6
+		 उसकी --> माँग
+		Incorrect - Wrong Resolution
+		 उसके --> माँग
+		Incorrect - Wrong Resolution
+		 अपने --> उसके
+		Correct
+	Sentence :  7
+		 अपने --> अंजलि
+		Correct
+	Sentence :  9
+		 अपनी --> गुप्ता
+		Correct
+		 उसका --> गुप्ता
+		Correct
+		 उन --> गुप्ता
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उसने --> गुप्ता
+		Correct
+	Sentence :  11
+		 अपनी --> अंजलि
+		Correct
+./testingdata/fullnews_id_2620697_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उनसे --> आयोग
+		Incorrect - Wrong Resolution
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  3
+		 उनके --> प्रकाश
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उन्होंने --> प्रकाश
+		Correct
+		 उन्होंने2 --> उन्होंने
+		Correct
+		 अपना --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  7
+		 उन्होंने --> प्रकाश
+		Correct
+	Sentence :  8
+		 उनका --> रंजना
+		Correct
+	Sentence :  9
+		 वे --> रंजना
+		Correct
+./testingdata/fullnews_id_2633486_date_29_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> और
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 वे --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उनकी --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 यहाँ --> इलाके
+		Correct
+	Sentence :  9
+		 यहाँ --> यहाँ
+		Correct
+	Sentence :  10
+		 अपने --> बंसल
+		Correct
+	Sentence :  14
+		 उनके --> कपिलदेव
+		Correct
+	Sentence :  17
+		 उनकी --> व
+		Incorrect - Wrong Resolution
+	Sentence :  18
+		 उनका --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  20
+		 वे --> नोटिस
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 उनकी --> कहना
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_3241222_date_29_4_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 जो --> जो
+		Correct
+	Sentence :  11
+		 स्वयं --> शिकारे
+		Correct
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+		 अपने2 --> शिकारे
+		Correct
+	Sentence :  14
+		 यहां --> इसके
+		Incorrect - Wrong Resolution
+		 उनके --> और2
+		Incorrect - Wrong Resolution
+		 जिसकी --> अनुभव
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  18
+		 उन्होंने --> उन्हें
+		Correct
+		 अपनी --> उन्होंने
+		Correct
+./testingdata/fullnews_id_2620694_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 जिससे --> कदमों
+		Correct
+	Sentence :  5
+		 अपना --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+		 खुद --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  6
+		 उसकी --> और
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उसकी --> परिषद
+		Correct
+./testingdata/fullnews_id_2617896_date_23_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 उनकी --> बोर्ड
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उसके --> खिलाड़ियों
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2605257_date_18_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  11
+		 उनके --> NULL
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2607694_date_19_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 अपनी --> सरकार
+		Correct
+	Sentence :  4
+		 उन्होंने --> बात
+		Incorrect - Wrong Resolution
+		 यहाँ --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उन्होंने --> बात
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2628341_date_27_7_2004dat.cout.post.norm.semprop
+	Sentence :  6
+		 उनके --> खान
+		Correct
+	Sentence :  11
+		 जिसमें --> बयान
+		Correct
+./testingdata/fullnews_id_2631113_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> बिहारी
+		Correct
+	Sentence :  5
+		 जिसमें --> आशंका
+		Correct
+./testingdata/fullnews_id_2633503_date_29_7_2004datcoutpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 यहाँ --> मशरख
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2633496_date_29_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 अपने --> टीम
+		Correct
+./testingdata/fullnews_id_2612821_date_21_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 अपना --> उन्हें
+		Correct
+	Sentence :  5
+		 अपने --> संसद
+		Correct
+		 उसका --> पत्रकारों
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उन्होंने --> पत्रकारों
+		Incorrect - Wrong Resolution
+		 उनके --> उन्होंने
+		Correct
+		 उनका --> उन्होंने
+		Correct
+	Sentence :  7
+		 उन्होंने --> उन्होंने
+		Correct
+		 उन्होंने2 --> उन्होंने
+		Correct
+	Sentence :  10
+		 अपने --> सिंह
+		Correct
+./testingdata/fullnews_id_2612820_date_21_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 उनके --> बोर्ड
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 अपनी --> मर्सर
+		Correct
+	Sentence :  5
+		 जो --> फैसला
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 हमने --> राव
+		Correct
+	Sentence :  9
+		 उन्होंने --> लोगों
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 अपना --> सीबीटी
+		Correct
+	Sentence :  12
+		 इसमें --> निर्णय
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2600217_date_16_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 वे --> प्रधानमंत्री
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 जो --> अंतर
+		Correct
+	Sentence :  7
+		 उन्होंने --> सिंह
+		Correct
+	Sentence :  16
+		 उन्होंने --> पहुँच
+		Incorrect - Wrong Resolution
+		 जहाँ --> गाँव
+		Incorrect - Wrong Resolution
+	Sentence :  20
+		 उन्होंने --> उपभोक्ताओं
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2633500_date_29_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  1
+		 यहाँ --> खोखरापार
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2620698_date_24_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 अपनी --> सिंह
+		Correct
+	Sentence :  3
+		 उनकी --> इलाके
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 जिनमें --> और
+		Incorrect - Wrong Resolution
+		 उनके --> और
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 जिनमें --> इलाक़े
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 जिसमें --> यात्रा
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2633499_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 यहाँ --> NO OUTPUT
+		Correct - There was no anaphora
+		 अपने --> ठाकुर
+		Correct
+	Sentence :  2
+		 उन्होंने --> ठाकुर
+		Correct
+	Sentence :  3
+		 उनका --> कहना
+		Incorrect - Wrong Resolution
+		 अपना --> खां
+		Correct
+	Sentence :  4
+		 उन्होंने --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 जिसने --> बोलिवर
+		Correct
+	Sentence :  6
+		 यहीं --> भाग
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 अपना --> ठाकुर
+		Correct
+./testingdata/fullnews_id_2610171_date_20_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 उनके --> लोगों
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 वे --> लोग
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 हम --> सिंह
+		Correct
+	Sentence :  11
+		 उनकी --> सिंह
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 हम --> चौहान
+		Correct
+	Sentence :  15
+		 उनका --> कहना
+		Incorrect - Wrong Resolution
+		 उनकी --> कहना
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2631026_date_28_7_2004dat.cout.post.norm.semprop
+	Sentence :  4
+		 उसके --> युवकों
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2633495_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 यहाँ --> जवान
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 इनमें --> नेपाल
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2631031_date_28_7_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 यहां --> हैदराबाद
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उनकी --> सिंह
+		Correct
+		 अपने --> उन्हें
+		Correct
+	Sentence :  5
+		 जिसने --> राजग2
+		Correct
+./testingdata/fullnews_id_2633497_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 जिसके --> हबीबुल्ला
+		Incorrect - Wrong Resolution
+	Sentence :  14
+		 जो --> जो
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2610165_date_20_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उन्होंने --> सिद्धू
+		Correct
+	Sentence :  4
+		 इसमें --> पटना
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उन्होंने --> सिद्धू
+		Correct
+		 हमने --> उन्होंने
+		Correct
+./testingdata/fullnews_id_2631047_date_28_7_2004datCANNOTATEcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 उसका --> सिंह
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 इसमें --> पीड़ितों
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 जो --> उनके
+		Correct
+		 उनके --> NULL
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 उनके --> पीड़ितों
+		Correct
+./testingdata/fullnews_id_2633487_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 उनकी --> स्वराज
+		Correct
+	Sentence :  3
+		 उन्होंने --> स्वराज
+		Correct
+		 उनकी --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+		 मैं --> स्वराज
+		Correct
+	Sentence :  5
+		 उन्होंने --> स्वराज
+		Correct
+		 मैंने --> उन्होंने
+		Correct
+./testingdata/fullnews_id_2633502_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 वे --> जमाली
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2612813_date_21_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 इसमें --> सिरे
+		Incorrect - Wrong Resolution
+		 उसने --> सरकार
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 यहाँ --> क्षेत्र
+		Correct
+	Sentence :  6
+		 उनका --> मुखर्जी
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> नियंत्रण
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 अपना --> सेना
+		Correct
+./testingdata/fullnews_id_2633492_date_29_7_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 हम --> चिदंबरम्
+		Correct
+	Sentence :  4
+		 हम --> दलों
+		Correct
+	Sentence :  6
+		 उन्होंने --> मंत्री
+		Correct
+	Sentence :  7
+		 वे --> करात
+		Correct
+	Sentence :  8
+		 हमने --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+		 उनकी --> हमने
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उन्होंने --> कि
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उनका --> उन्होंने
+		Incorrect - Wrong Resolution
+		 वे --> उन्होंने
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_4339892_date_5_8_2006datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  12
+		 उसके --> मुबारक
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2605272_date_18_7_2004datCANNOTATEcoutcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> पार्टी
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> वजह
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 अपना --> जनता
+		Correct
+	Sentence :  10
+		 वहाँ --> दर्जा
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उन्होंने --> संघवी
+		Correct
+	Sentence :  13
+		 उन्होंने --> यादव
+		Correct
+		 उनकी --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 उन्होंने --> लोग
+		Incorrect - Wrong Resolution
+		 जो --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  20
+		 वे --> NULL
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 उनका --> योगदान
+		Incorrect - Wrong Resolution
+		 इसमें --> गुजरात
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2610163_date_20_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 उन्होंने --> कर्मचारियों
+		Correct
+	Sentence :  5
+		 उनसे --> नेताओं
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 अपनी --> कर्मचारियों
+		Correct
+	Sentence :  7
+		 उनके --> कर्मचारियों
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> कर्मचारियों
+		Correct
+./testingdata/fullnews_id_3516349_date_25_8_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  5
+		 उनकी --> दुबे
+		Correct
+./testingdata/fullnews_id_2990407_date_03_8_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  10
+		 उन्होंने --> गांव
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 वे --> स्टाफ
+		Correct
+./testingdata/fullnews_id_2631048_date_28_7_2004datCANNOTATEcoutcoutcout.cout.post.norm.semprop
+	Sentence :  4
+		 वहाँ --> बीआरओ
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 वहाँ --> बंदरअब्बास
+		Correct
+	Sentence :  9
+		 वहाँ --> अफगानिस्तान
+		Correct
+	Sentence :  17
+		 उन्होंने --> कंटेनर
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_3511438_date_23_8_2005datcoutpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 जिससे --> पानी
+		Correct
+	Sentence :  4
+		 उसके --> भय
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 खुद --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  7
+		 यहां --> प्लांट
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 अपना --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+./testingdata/fullnews_id_3375767_date_27_6_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 इसमें --> कार्यक्रम
+		Correct
+	Sentence :  10
+		 वे --> अधिकारी
+		Correct
+./testingdata/fullnews_id_2625777_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  9
+		 अपनी --> समिति
+		Correct
+	Sentence :  13
+		 वे --> संस्थानों2
+		Correct
+./testingdata/fullnews_id_2617886_date_23_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  2
+		 उनके --> उन्हें
+		Correct
+	Sentence :  7
+		 उनकी --> सिन्हा
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उन्होंने --> सिन्हा
+		Incorrect - Wrong Resolution
+		 उनकी --> उन्होंने
+		Correct
+	Sentence :  9
+		 उन्होंने --> सिन्हा
+		Correct
+		 अपने --> उन्होंने
+		Correct
+./testingdata/fullnews_id_2612812_date_21_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 अपने --> जवान2
+		Correct
+	Sentence :  5
+		 यहाँ --> क्षेत्र2
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2990407_date_4_1_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 यहां --> दर्शनार्थ
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 जिसे --> कंबल
+		Correct
+	Sentence :  7
+		 अपने --> संगठन
+		Correct
+	Sentence :  10
+		 यहां --> आज
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2628344_date_27_7_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 जिसमें --> लोगों
+		Correct
+./testingdata/fullnews_id_2625780_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उसने --> रोबोट
+		Correct
+		 उसका --> रोबोट
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 खुद --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  6
+		 जिसका --> प्रोग्राम
+		Correct
+	Sentence :  8
+		 उसने --> यह
+		Incorrect - Wrong Resolution
+		 यहाँ --> उसने
+		Incorrect - Wrong Resolution
+		 अपने --> उसने
+		Correct
+	Sentence :  12
+		 जिनकी --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+		 उसके --> माइक्रोफोन
+		Incorrect - Wrong Resolution
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  13
+		 अपनी --> वह
+		Correct
+	Sentence :  15
+		 जिसकी --> वह
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 अपना --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  18
+		 अपने --> वह
+		Correct
+	Sentence :  21
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  22
+		 जो --> रोबोट
+		Incorrect - Wrong Resolution
+	Sentence :  25
+		 अपने --> वह
+		Correct
+./testingdata/fullnews_id_2605273_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  8
+		 उन्होंने --> सचिव
+		Correct
+	Sentence :  14
+		 अपनी --> यह
+		Correct
+	Sentence :  15
+		 आप --> NO OUTPUT
+		Correct - There was no anaphora
+./testingdata/fullnews_id_2600224_date_16_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 उनकी --> शूटिंग
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 वहाँ --> चेकअप
+		Incorrect - Wrong Resolution
+	Sentence :  7
+		 उन्होंने --> वह
+		Correct
+./testingdata/fullnews_id_2633493_date_29_7_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 यहाँ --> दूसरे
+		Incorrect - Wrong Resolution
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  6
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  9
+		 उनके --> बांग्लादेश
+		Correct
+		 यहाँ --> उनके
+		Incorrect - Wrong Resolution
+		 उसकी --> बांग्लादेश
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 जहाँ --> स्थानों
+		Correct
+./testingdata/fullnews_id_2625778_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उनके --> सफलता
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 यहाँ --> कारोबारी
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 वहाँ --> वाशिंगटन
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 उनकी --> अमेरिकी
+		Correct
+	Sentence :  10
+		 वे --> अमेरिकी
+		Correct
+	Sentence :  13
+		 इनमें --> भारत
+		Incorrect - Wrong Resolution
+	Sentence :  14
+		 जिसे --> चीन
+		Correct
+		 अपना --> अमेरिका
+		Correct
+./testingdata/fullnews_id_2607693_date_19_7_2004datpostnormcout.cout.post.norm.semprop
+	Sentence :  3
+		 यहाँ --> वह
+		Incorrect - Wrong Resolution
+		 जिसमें --> समारोह
+		Correct
+	Sentence :  4
+		 उन्होंने --> मरांडी2
+		Correct
+./testingdata/fullnews_id_2631045_date_28_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 जिससे --> मदद
+		Correct
+./testingdata/fullnews_id_2600316_date_17_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  5
+		 उन्होंने --> सिन्हा
+		Correct
+	Sentence :  7
+		 उनकी --> सिन्हा
+		Correct
+./testingdata/fullnews_id_2612823_date_21_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उसका --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 उनके --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उन्होंने --> स्वामी
+		Incorrect - Wrong Resolution
+		 उनके --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> अफसर
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 उनके --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 उन्होंने --> उनके
+		Incorrect - Wrong Resolution
+		 वहाँ --> कोंकण
+		Correct
+./testingdata/fullnews_id_2633509_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  6
+		 इसमें --> संसद
+		Incorrect - Wrong Resolution
+		 जिसे --> सलाह
+		Incorrect - Wrong Resolution
+	Sentence :  14
+		 इसमें --> संसद
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 खुद --> वह
+		Incorrect - Wrong Resolution
+		 इसमें --> उसे
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 इसमें --> हक़दार
+		Incorrect - Wrong Resolution
+	Sentence :  18
+		 यहां --> प्रावधान
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2610159_date_20_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  1
+		 अपनी --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  2
+		 अपना --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  3
+		 वे --> प्रतिनिधियों
+		Correct
+		 अपनी --> वे
+		Correct
+	Sentence :  4
+		 अपनी --> NO OUTPUT
+		Correct - There was no anaphora
+	Sentence :  5
+		 उन्होंने --> चक्रवर्ती
+		Correct
+	Sentence :  6
+		 उन्होंने --> उन्होंने
+		Correct
+./testingdata/fullnews_id_2605274_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> सरस्वती
+		Correct
+	Sentence :  13
+		 उन्होंने --> नज़र
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 उन्होंने --> पुलिस
+		Incorrect - Wrong Resolution
+		 उनके --> उन्होंने
+		Correct
+	Sentence :  18
+		 उनके --> उन्होंने
+		Correct
+	Sentence :  20
+		 उनके --> उन्होंने
+		Correct
+		 उन्होंने --> कोर्ट
+		Incorrect - Wrong Resolution
+		 मैं --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  21
+		 आपकी --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  23
+		 उनके --> वकील
+		Incorrect - Wrong Resolution
+		 उनसे --> वकील
+		Incorrect - Wrong Resolution
+	Sentence :  26
+		 उन्होंने --> सरस्वती
+		Incorrect - Wrong Resolution
+		 उनसे --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  27
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  28
+		 अपने --> मजिस्ट्रेट
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2628342_date_27_7_2004datcout.cout.post.norm.semprop
+	Sentence :  2
+		 उसके --> साथियों
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 उसकी --> पत्नी
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उसकी --> पुलिस
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 अपने --> भगते
+		Correct
+	Sentence :  10
+		 अपनी --> तिर्की
+		Correct
+	Sentence :  15
+		 जिसमें --> गोलियाँ
+		Correct
+	Sentence :  17
+		 अपनी --> सिंह
+		Correct
+		 जहाँ --> अस्पताल
+		Correct
+	Sentence :  21
+		 अपने --> निर्मला
+		Incorrect - Wrong Resolution
+		 उसकी --> निर्मला
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 उसकी --> परिजनों
+		Incorrect - Wrong Resolution
+		 जहाँ --> अस्पताल
+		Correct
+		 उसकी2 --> परिजनों
+		Incorrect - Wrong Resolution
+	Sentence :  23
+		 उसकी --> पुलिस
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_3146452_date_15_3_2005datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  9
+		 उनके --> दर्शनों
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2625776_date_26_7_2004dat.cout.post.norm.semprop
+	Sentence :  3
+		 उनके --> प्रस्ताव
+		Incorrect - Wrong Resolution
+		 जो2 --> राज्यों
+		Correct
+	Sentence :  6
+		 यहाँ --> दिल्ली
+		Incorrect - Wrong Resolution
+	Sentence :  19
+		 जहाँ --> राज्यों
+		Correct
+	Sentence :  20
+		 इनमें --> जहाँ
+		Correct
+	Sentence :  22
+		 अपने --> राज्य
+		Correct
+./testingdata/fullnews_id_2633507_date_29_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 उनके --> आज़ाद
+		Correct
+	Sentence :  3
+		 उनकी --> कि
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उनके --> रियासत
+		Incorrect - Wrong Resolution
+	Sentence :  8
+		 उनकी --> कटौती
+		Incorrect - Wrong Resolution
+	Sentence :  10
+		 उन्होंने --> आजाद
+		Correct
+	Sentence :  11
+		 उनके --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  12
+		 अपना --> मुख्यमंत्री
+		Correct
+	Sentence :  13
+		 उनका --> कहना
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 उसके --> कांग्रेस
+		Correct
+	Sentence :  20
+		 वहाँ --> असर
+		Incorrect - Wrong Resolution
+	Sentence :  23
+		 उन्होंने --> आवाम
+		Incorrect - Wrong Resolution
+	Sentence :  24
+		 खुद --> आज़ाद
+		Correct
+		 उनके --> आज़ाद
+		Correct
+./testingdata/fullnews_id_2633508_date_29_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  3
+		 जो --> उत्पादन
+		Incorrect - Wrong Resolution
+	Sentence :  9
+		 जो --> जो
+		Correct
+	Sentence :  13
+		 उसके --> अनुमान
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  19
+		 उनका --> कहना
+		Incorrect - Wrong Resolution
+		 उनके --> कहना
+		Incorrect - Wrong Resolution
+		 जो --> आँकड़ें
+		Correct
+./testingdata/fullnews_id_2633498_date_29_7_2004datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  3
+		 उनके --> लोग
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उन्होंने --> मेहता
+		Correct
+	Sentence :  6
+		 उनके --> उन्होंने
+		Correct
+	Sentence :  11
+		 जो --> जनजाति
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 उनके --> वैज्ञानिकों
+		Incorrect - Wrong Resolution
+	Sentence :  16
+		 यहाँ --> थंगराज
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_3351953_date_17_6_2005datCANNOTATEcout.cout.post.norm.semprop
+	Sentence :  7
+		 अपने --> लोग
+		Correct
+	Sentence :  8
+		 जो --> सिलसिला
+		Correct
+	Sentence :  9
+		 वहां --> मुनस्यारी
+		Correct
+./testingdata/fullnews_id_2633490_date_29_7_2004dat.cout.post.norm.semprop
+	Sentence :  5
+		 उनके --> लैस
+		Correct
+		 उसने --> लैस
+		Incorrect - Wrong Resolution
+		 उनकी --> लैस
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2610160_date_20_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  4
+		 उनकी --> वकील
+		Incorrect - Wrong Resolution
+		 उनके --> वकील
+		Incorrect - Wrong Resolution
+./testingdata/fullnews_id_2631027_date_28_7_2004datcout.cout.post.norm.semprop
+	Sentence :  1
+		 अपने --> NO OUTPUT
+		Incorrect - Out of sentence, Using Classifier ....
+	Sentence :  3
+		 जहाँ --> झा
+		Correct
+	Sentence :  5
+		 उनका --> मजिस्ट्रेट
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 उन्होंने --> मजिस्ट्रेट
+		Correct
+./testingdata/fullnews_id_2628343_date_27_7_2004dat.cout.post.norm.semprop
+	Sentence :  2
+		 उनकी --> माँ
+		Incorrect - Wrong Resolution
+		 वे --> माँ
+		Correct
+		 अपने --> मायावती
+		Correct
+		 यहाँ --> अपने
+		Incorrect - Wrong Resolution
+	Sentence :  3
+		 उनके --> और
+		Incorrect - Wrong Resolution
+		 उनके2 --> और
+		Incorrect - Wrong Resolution
+		 वे --> और
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 उन्होंने --> और
+		Incorrect - Wrong Resolution
+		 जिसकी --> दवाईयाँ
+		Correct
+		 वे --> उन्होंने
+		Incorrect - Wrong Resolution
+		 स्वयं --> वे
+		Correct
+./testingdata/fullnews_id_2615522_date_23_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 अपनी --> निवेश
+		Incorrect - Wrong Resolution
+	Sentence :  4
+		 अपनी --> टाइम्स
+		Correct
+	Sentence :  6
+		 उन्होंने --> मैनन
+		Correct
+./testingdata/fullnews_id_2605265_date_18_7_2004datCANNOTATEcoutcout.cout.post.norm.semprop
+	Sentence :  3
+		 उनकी --> सिंह
+		Correct
+	Sentence :  4
+		 उन्होंने --> सिंह
+		Correct
+	Sentence :  6
+		 उन्होंने --> जैन
+		Correct
+	Sentence :  7
+		 उन्होंने --> उन्होंने
+		Correct
+	Sentence :  12
+		 वहाँ --> रूप
+		Incorrect - Wrong Resolution
+	Sentence :  13
+		 वहाँ --> वहाँ
+		Correct
+	Sentence :  16
+		 उन्होंने --> सक्सेना
+		Correct
+		 वे --> उन्होंने
+		Incorrect - Wrong Resolution
+	Sentence :  17
+		 उन्होंने --> उन्होंने
+		Correct
+./testingdata/fullnews_id_3128589_date_8_3_2005datcoutcoutcoutcout.cout.post.norm.semprop
+	Sentence :  1
+		 यहां --> इतिहास
+		Incorrect - Wrong Resolution
+	Sentence :  2
+		 उनकी --> अवशेष
+		Incorrect - Wrong Resolution
+	Sentence :  5
+		 उनके --> वस्तुएं
+		Incorrect - Wrong Resolution
+	Sentence :  6
+		 जो --> मूर्ति
+		Correct
+	Sentence :  7
+		 जिसकी --> रिंग
+		Correct
+	Sentence :  8
+		 यहीं --> हर्षाछीना
+		Correct
+	Sentence :  14
+		 यहां --> इन
+		Incorrect - Wrong Resolution
+	Sentence :  15
+		 यहां --> यहां
+		Correct
+	Sentence :  17
+		 इनमें --> साइटों
+		Incorrect - Wrong Resolution
+	Sentence :  22
+		 जो --> डाइयां
+		Correct
+	Sentence :  23
+		 उन्होंने --> डाइयां
+		Incorrect - Wrong Resolution
+		 यहां --> वंडाला
+		Correct
+		 जो --> ईंटें
+		Correct
+./testingdata/fullnews_id_2605259_date_18_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  3
+		 उन्होंने --> सिंह
+		Correct
+./testingdata/fullnews_id_2600315_date_17_7_2004datpostnorm.cout.post.norm.semprop
+	Sentence :  7
+		 अपने --> सिंह
+		Correct
+	Sentence :  9
+		 उनकी --> यह
+		Incorrect - Wrong Resolution
+	Sentence :  11
+		 अपने --> सिंह
+		Correct
+Correct Total:  224
+Incorrect via Rules:  198
+Out of Scope, given to classifier:  29
+Out of Scope, incorrect by classifier:  18
