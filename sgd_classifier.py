@@ -21,6 +21,9 @@ locativePronouns = ['वहाँ', 'वहां', 'वहीं', 'यही�
 
 pronounsList = reflexivePronouns + relativePronouns + firstPronouns + secondPronouns + thirdPronouns + locativePronouns
 
+correctCount = {"Reflexive":0, "Relative":0,"First":0,"Second":0,"Third":0,"Locative":0,"Unknown":0}
+incorrectCount = {"Reflexive":0, "Relative":0,"First":0,"Second":0,"Third":0,"Locative":0, "Unknown":0}
+
 nerDict = {}
 nerBag = open('nerBag', 'r')
 for line in nerBag.readlines():
@@ -107,10 +110,7 @@ for rfp in fl:
             else:
                 pernum = 0
 
-            nodeFeatureList.append(
-                [num, i, int(c.upper.name), named_entity, nouns_list.index(n.type), pernum])
-
-            if (n.lex in pronounsList) and (n.getAttribute('cref') is not None) and (n.getAttribute('cref') != ''):
+            if (n.lex in pronounsList) and (n.getAttribute('cref') is not None) and (n.getAttribute('cref') != '') and len(nodeFeatureList)>0:
                 tp += 1
                 for k, parsedNodes in enumerate(nodeFeatureList):
                     if (i - parsedNodes[1] < 1):
@@ -118,24 +118,26 @@ for rfp in fl:
 
                     prn_lex = n.lex
                     if prn_lex in reflexivePronouns:
-                        pType = 1
-                    elif prn_lex in relativePronouns:
-                        pType = 2
-                    elif prn_lex in locativePronouns:
-                        pType = 3
-                    elif prn_lex in firstPronouns:
-                        pType = 4
-                    elif prn_lex in secondPronouns:
-                        pType = 5
-                    elif prn_lex in thirdPronouns:
-                        pType = 6
-                    else:
                         pType = 0
+                    elif prn_lex in relativePronouns:
+                        pType = 1
+                    elif prn_lex in locativePronouns:
+                        pType = 2
+                    elif prn_lex in firstPronouns:
+                        pType = 3
+                    elif prn_lex in secondPronouns:
+                        pType = 4
+                    elif prn_lex in thirdPronouns:
+                        pType = 5
 
-                    pType = pType/6
-
+                    pType_onehot = list([0]*6)
+                    pType_onehot[pType] =1
+                    named_entity_onehot = list([0]*7)
+                    named_entity_onehot[named_entity] = 1
+                    pronoun_id_onehot = list([0]*len(pronounsList))
+                    pronoun_id_onehot[pronounsList.index(prn_lex)] = 1
                     trainingInput.append([num, parsedNodes[0], i - parsedNodes[1], int(c.upper.name) - parsedNodes[2],
-                                          parsedNodes[3], named_entity, pType, parsedNodes[5], parsedNodes[4], pronounsList.index(prn_lex)])
+                                          parsedNodes[3]] + named_entity_onehot + pType_onehot+ [parsedNodes[5], parsedNodes[4]] + pronoun_id_onehot)
 
                     temp = []
                     for cref in n.getAttribute('cref').split(','):
@@ -146,31 +148,9 @@ for rfp in fl:
                     else:
                         trainingOutput.append(0)
                         w += 1
-
-for x in trainingInput:
-    f0 = max(f0, abs(x[0]))
-    f1 = max(f1, abs(x[1]))
-    f2 = max(f2, abs(x[2]))
-    f3 = max(f3, abs(x[3]))
-    f4 = max(f4, abs(x[4]))
-    f5 = max(f5, abs(x[5]))
-
-
-# print(f0)
-# print(f1)
-# print(f2)
-# print(f3)
-# print(f4)
-# print(f5)
-
-for x in trainingInput:
-    x[0] = x[0]/f0
-    x[1] = x[1]/f1
-    x[2] = x[2]/f2
-    x[3] = x[3]/f3
-    x[4] = x[4]/f4
-    x[5] = x[5]/f5
-
+            
+            nodeFeatureList.append(
+                [num, i, int(c.upper.name), named_entity, nouns_list.index(n.type), pernum])
 
 clf = SGDClassifier(loss="log",penalty="l2",max_iter=1000)
 clf = clf.fit(trainingInput, trainingOutput)
@@ -241,24 +221,26 @@ for rfp in fl:
 
                         prn_lex = node.lex
                         if prn_lex in reflexivePronouns:
-                            pType = 1
-                        elif prn_lex in relativePronouns:
-                            pType = 2
-                        elif prn_lex in locativePronouns:
-                            pType = 3
-                        elif prn_lex in firstPronouns:
-                            pType = 4
-                        elif prn_lex in secondPronouns:
-                            pType = 5
-                        elif prn_lex in thirdPronouns:
-                            pType = 6
-                        else:
                             pType = 0
+                        elif prn_lex in relativePronouns:
+                            pType = 1
+                        elif prn_lex in locativePronouns:
+                            pType = 2
+                        elif prn_lex in firstPronouns:
+                            pType = 3
+                        elif prn_lex in secondPronouns:
+                            pType = 4
+                        elif prn_lex in thirdPronouns:
+                            pType = 5
 
-                        pType = pType/6
-
-                        x = [num/f0, parsedNodes[0]/f1, (j - parsedNodes[1])/f2, (int(chunk.upper.name) - parsedNodes[2])/f3,
-                             parsedNodes[3]/f4, named_entity/f5, pType, parsedNodes[5], parsedNodes[4], pronounsList.index(node.lex)]
+                        pType_onehot = list([0]*6)
+                        pType_onehot[pType] =1
+                        named_entity_onehot = list([0]*7)
+                        named_entity_onehot[named_entity] = 1
+                        pronoun_id_onehot = list([0]*len(pronounsList))
+                        pronoun_id_onehot[pronounsList.index(node.lex)] = 1
+                        x = [num, parsedNodes[0],(j - parsedNodes[1]), (int(chunk.upper.name) - parsedNodes[2]),
+                             parsedNodes[3]] + named_entity_onehot + pType_onehot + [parsedNodes[5], parsedNodes[4]] + pronoun_id_onehot
 
                         temp = []
                         if node.getAttribute('cref') is None:
@@ -279,17 +261,42 @@ for rfp in fl:
                     testingIO = sorted(
                         testingIO, key=lambda y: y[1][1], reverse=True)
 
-                    print(testingIO)
+                    # print(testingIO)
+                    mentionLex = node.lex
+
+                    if mentionLex in reflexivePronouns:
+                        mentionType = "Reflexive"
+                    elif mentionLex in relativePronouns:
+                        mentionType = "Relative"
+                    elif mentionLex in locativePronouns:
+                        mentionType = "Locative"
+                    elif mentionLex in firstPronouns:
+                        mentionType = "First"
+                    elif mentionLex in secondPronouns:
+                        mentionType = "Second"
+                    elif mentionLex in thirdPronouns:
+                        mentionType = "Third"
+                    else:
+                        mentionType = "Unknown"
+
                     if testingIO[0][2] == 1:
                         correct += 1
+                        correctCount[mentionType] +=1
                         print('CORRECT')
                         # print('ding')
                     else:
                         print('INCORRECT')
+                        incorrectCount[mentionType]+=1
                         incorrect += 1
                     print(sentence.name,")",sentence.text)
-                    print(node.upper.upper.name,':',node.lex,'-->',testingIO[0][3].upper.upper.name,':',testingIO[0][3].lex)
-
+                    print(node.upper.upper.name,':',node.lex,'-->',testingIO[0][3].upper.upper.name,':',testingIO[0][3].lex,end='  pType:')
+                    
+                    print(mentionType)
+                    mentioncrefType = node.getAttribute('crefType')
+                    if mentioncrefType:
+                        mentioncrefType = mentioncrefType.split(':')[0]
+                    if (mentioncrefType == "Anaphora-E"):
+                        print("EVENT ANAPHORA!!")
 
                 nodeFeatureList.append([num, j, int(
                     chunk.upper.name), named_entity, nouns_list.index(node.type), pernum, node])
@@ -298,3 +305,15 @@ for rfp in fl:
 
 print(correct)
 print(incorrect)
+totalCount = {}
+print("Right")
+for x,y in correctCount.items():
+    print('\t',x,":",y)
+    totalCount[x] = y
+print("Wrong")
+for x,y in incorrectCount.items():
+    print('\t',x,":",y)
+    totalCount[x] += y
+print("Percentage")
+for x,y in totalCount.items():
+    print('\t',x,':',(correctCount[x]/y)*100)

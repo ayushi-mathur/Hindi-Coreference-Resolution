@@ -354,17 +354,17 @@ for rfp in fileList:
                         OOS += 1
                     else:
                         oldAnswer = answer
-                        print('\t\t', mention.lex ,mention.gender, mention.number,mention.person, pronounTypeDict[], "-->", answer.lex ,answer.gender, answer.number,answer.person)
+                        print('\t\t', mention.lex ,mention.gender, mention.number,mention.person, "-->", answer.lex ,answer.gender, answer.number,answer.person)
                         # print("-------------------------------------------------")
                         # print(mention.gender, answer.gender, mention.person)
                         use_classifier_flag=False
-                        if(mention.number!="any" and answer.number!="any"):
+                        if(mention.number not in ["any",''] and answer.number not in ["any",'']):
                             if mention.number != answer.number:
                                 use_classifier_flag=True
-                        if mention.gender!="any" and answer.gender!="any":
+                        if mention.gender not in ["any",''] and answer.gender not in ["any",''] and mention.lex not in reflexivePronouns:
                             if mention.gender != answer.gender:
                                 use_classifier_flag=True
-                        if mention.person!="any" and answer.person!="any":
+                        if mention.person not in ["any",''] and answer.person not in ["any",'']:
                             p1=mention.person
                             if mention.person=="3h":
                                 p1="3"
@@ -373,6 +373,8 @@ for rfp in fileList:
                                 p2="3"
                             if mention.person != answer.person:
                                 use_classifier_flag=True
+                        if mention.lex in thirdPronouns or mention.lex in locativePronouns:
+                            use_classifier_flag = False
                         if use_classifier_flag and len(nodeFeatureList) > 0:    
                             # print("GGGGGGGGGGGGGGGGGGGGGGGGGGGG")
                             testingIO = []
@@ -381,7 +383,7 @@ for rfp in fileList:
                             mention = node
                             # ------------------------------------------------
                             for k, parsedNodes in enumerate(nodeFeatureList[:-1]):
-                                if (j - parsedNodes[1] < 1) and (j - parsedNodes[1] > 60):
+                                if (j - parsedNodes[1] < 1) and (j - parsedNodes[1] > 10):
                                     continue
 
                                 if node.parentRelation in karaka_list:
