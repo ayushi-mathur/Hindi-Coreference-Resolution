@@ -4,12 +4,12 @@ sys.path
 sys.path.append('./scripts/ssfapi/')
 import ssfAPI_intra as ssf
 
-import scripts.rulebased.firstperson as fp
-import scripts.rulebased.secondperson as sp
-import scripts.rulebased.thirdperson as tp
-import scripts.rulebased.locative as lt
-import scripts.rulebased.reflexive as rx
 import scripts.rulebased.relative as rv
+import scripts.rulebased.reflexive as rx
+import scripts.rulebased.locative_newrule as lt
+import scripts.rulebased.thirdperson as tp
+import scripts.rulebased.secondperson as sp
+import scripts.rulebased.firstperson as fp
 
 # ---------- CLASSIFIER TRAINING AREA -------------------
 
@@ -343,99 +343,6 @@ for rfp in fileList:
                         use_classifier_flag = True
                     else:
                         print('\t\t', mention.name, "-->", answer.name)
-                     
-                    # else:
-                    #     oldAnswer = answer
-                    #     print('\t\t', mention.lex ,mention.gender, mention.number,mention.person, "-->", answer.lex ,answer.gender, answer.number,answer.person)
-                    #     # print("-------------------------------------------------")
-                    #     # print(mention.gender, answer.gender, mention.person)
-                    #     use_classifier_flag=False
-                    #     if(mention.number not in ["any",''] and answer.number not in ["any",'']):
-                    #         if mention.number != answer.number:
-                    #             use_classifier_flag=True
-                    #     if mention.gender not in ["any",''] and answer.gender not in ["any",''] and mention.lex not in reflexivePronouns:
-                    #         if mention.gender != answer.gender:
-                    #             use_classifier_flag=True
-                    #     if mention.person not in ["any",''] and answer.person not in ["any",'']:
-                    #         p1=mention.person
-                    #         if mention.person=="3h":
-                    #             p1="3"
-                    #         p2=answer.person
-                    #         if answer.person=="3h":
-                    #             p2="3"
-                    #         if mention.person != answer.person:
-                    #             use_classifier_flag=True
-                    #     if mention.lex in thirdPronouns or mention.lex in locativePronouns:
-                    #         use_classifier_flag = False
-                    #     if use_classifier_flag and len(nodeFeatureList) > 0:    
-                    #         # print("GGGGGGGGGGGGGGGGGGGGGGGGGGGG")
-                    #         testingIO = []
-                    #         goldOutput = []
-
-                    #         mention = node
-                    #         # ------------------------------------------------
-                    #         for k, parsedNodes in enumerate(nodeFeatureList[:-1]):
-                    #             if (j - parsedNodes[1] < 1) and (j - parsedNodes[1] > 10):
-                    #                 continue
-
-                    #             if node.parentRelation in karaka_list:
-                    #                 pernum = karaka_list.index(node.parentRelation)
-                    #             else:
-                    #                 pernum = 0
-
-                    #             prn_lex = node.lex
-                    #             if prn_lex in reflexivePronouns:
-                    #                 pType = 1
-                    #             elif prn_lex in relativePronouns:
-                    #                 pType = 2
-                    #             elif prn_lex in locativePronouns:
-                    #                 pType = 3
-                    #             elif prn_lex in firstPronouns:
-                    #                 pType = 4
-                    #             elif prn_lex in secondPronouns:
-                    #                 pType = 5
-                    #             elif prn_lex in thirdPronouns:
-                    #                 pType = 6
-                    #             else:
-                    #                 pType = 0
-
-                    #             x = [num, parsedNodes[0], (j - parsedNodes[1]), (int(chunk.upper.name) - parsedNodes[2]),
-                    #                 parsedNodes[3], named_entity, pType, parsedNodes[5], parsedNodes[4], pronounsList.index(node.lex)]
-
-                    #             temp = []
-                    #             if node.getAttribute('cref') is None:
-                    #                 goldOutput = 0
-                    #             else:
-                    #                 for cref in node.getAttribute('cref').split(','):
-                    #                     temp.append(cref.split(':')[1])
-                    #                 if len(set.intersection(set(temp), set(linearNodeList[k]))):
-                    #                     goldOutput = 1
-                    #                 else:
-                    #                     goldOutput = 0
-                    #             # print('tesIO before:', len(testingIO))
-                    #             testingIO.append(
-                    #                 [x, clf.predict_proba([x])[0], goldOutput, parsedNodes[6]])
-                    #             # print('tesIO after:', len(testingIO))
-
-                    #         # print('tesIO:', len(testingIO))
-                    #         testingIO = sorted(
-                    #             testingIO, key=lambda y: y[1][1], reverse=True)
-
-                    #         if testingIO[0][2] == 1:
-                    #             correct += 1
-                    #             # print('ding')
-                    #             print("\t\tGNP SENT - CORRECT CLASSED")
-                    #         else:
-                    #             print("\t\tGNP SENT - INCORRECT CLASSED")
-                    #             incorrectClassifier += 1
-                    #             # print(sentence.name,")",sentence.text)
-                    #             # print(node.upper.upper.name,':',node.lex,'-->',testingIO[0][3].upper.upper.name,':',testingIO[0][3].lex)
-                    #             newAnswer = testingIO[0][3]
-                    #             print('\t\t', mention.lex ,mention.gender, mention.number,mention.person, "-->", newAnswer.lex ,newAnswer.gender, newAnswer.number,newAnswer.person)
-
-                    #         OOS += 1
-                    #         answer = oldAnswer
-                    # # print("-------------------------------------------------")
                 #   ------------- NEW CHECKING METHOD -------------
                         chainsWithReferent = set()
                         chainsWithMention = set()

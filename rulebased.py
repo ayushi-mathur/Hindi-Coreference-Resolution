@@ -115,6 +115,7 @@ for rfp in fileList:
                             correctCount[mentionType] += 1
                             continue
                         print("\t\tIncorrect - Out of sentence")
+                        incorrectCount[mentionType] +=1
                         incorrectOOS += 1
                     else:
                         print('\t\t', mention.upper.upper.name,':' ,mention.name, "-->", answer.upper.upper.name,':' ,answer.name, " pType:",mentionType)
