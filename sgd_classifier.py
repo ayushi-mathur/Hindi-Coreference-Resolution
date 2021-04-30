@@ -314,6 +314,9 @@ print("Wrong")
 for x,y in incorrectCount.items():
     print('\t',x,":",y)
     totalCount[x] += y
-print("Percentage")
+print("Total", sum(totalCount.values()))
+for x,y in totalCount.items():
+    print('\t',x,":",y)
+print("Percentage", (sum(correctCount.values())/sum(totalCount.values())) * 100)
 for x,y in totalCount.items():
     print('\t',x,':',(correctCount[x]/y)*100)
