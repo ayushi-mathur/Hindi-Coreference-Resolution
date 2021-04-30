@@ -99,6 +99,8 @@ for rfp in fl:
                 num = 1
             elif (n.number == 'pl'):
                 num = 2
+            elif n.number=="any":
+                num=3
             else:
                 num = 0
 
@@ -129,15 +131,40 @@ for rfp in fl:
                         pType = 4
                     elif prn_lex in thirdPronouns:
                         pType = 5
-
+                
+                    if n.gender=="m":
+                        gender = 1
+                    elif n.gender=="f":
+                        gender=2
+                    elif n.gender=="any":
+                        gender=3
+                    else:
+                        gender=0
+                    
+                    purane_noun_ke_num_onehot=[0]*4
+                    purane_noun_ke_num_onehot[parsedNodes[0]]=1
+                    one_hot_gender=[0]*4
+                    one_hot_gender[gender]=1
+                    if parsedNodes[6]=="m":
+                        purana_gender=1
+                    elif parsedNodes[6]=="f":
+                        purana_gender=2
+                    elif parsedNodes[6]=="any":
+                        purana_gender=3
+                    else:
+                        purana_gender=0
+                    purana_gender_onehot=[0]*4
+                    purana_gender_onehot[purana_gender]=1
+                    pronoun_ki_num_onehot=[0]*4
+                    pronoun_ki_num_onehot[num]=1
                     pType_onehot = list([0]*6)
                     pType_onehot[pType] =1
                     named_entity_onehot = list([0]*7)
                     named_entity_onehot[named_entity] = 1
                     pronoun_id_onehot = list([0]*len(pronounsList))
                     pronoun_id_onehot[pronounsList.index(prn_lex)] = 1
-                    trainingInput.append([num, parsedNodes[0], i - parsedNodes[1], int(c.upper.name) - parsedNodes[2],
-                                          parsedNodes[3]] + named_entity_onehot + pType_onehot+ [parsedNodes[5], parsedNodes[4]] + pronoun_id_onehot)
+                    trainingInput.append([i - parsedNodes[1], int(c.upper.name) - parsedNodes[2],
+                                          parsedNodes[3]] + named_entity_onehot + pType_onehot + pronoun_ki_num_onehot + purane_noun_ke_num_onehot + [parsedNodes[5], parsedNodes[4]] + pronoun_id_onehot)
 
                     temp = []
                     for cref in n.getAttribute('cref').split(','):
@@ -150,7 +177,7 @@ for rfp in fl:
                         w += 1
             
             nodeFeatureList.append(
-                [num, i, int(c.upper.name), named_entity, nouns_list.index(n.type), pernum])
+                [num, i, int(c.upper.name), named_entity, nouns_list.index(n.type), pernum, n.gender])
 
 clf = SGDClassifier(loss="log",penalty="l2",max_iter=1000)
 clf = clf.fit(trainingInput, trainingOutput)
@@ -193,8 +220,10 @@ for rfp in fl:
                     num = 1
                 elif (node.number == 'pl'):
                     num = 2
+                elif node.number=="any":
+                    num = 3
                 else:
-                    num = 0
+                    num=0
 
                 named_entity = nerCategoryId(node.lex)
 
@@ -232,15 +261,41 @@ for rfp in fl:
                             pType = 4
                         elif prn_lex in thirdPronouns:
                             pType = 5
+                        
+                        if node.gender=="m":
+                            gender = 1
+                        elif node.gender=="f":
+                            gender=2
+                        elif node.gender=="any":
+                            gender=3
+                        else:
+                            gender=0
+                        
+                        if parsedNodes[6]=="m":
+                            purana_gender=1
+                        elif parsedNodes[6]=="f":
+                            purana_gender=2
+                        elif parsedNodes[6]=="any":
+                            purana_gender=3
+                        else:
+                            purana_gender=0
+                        purana_gender_onehot=[0]*4
+                        purana_gender_onehot[purana_gender]=1
 
+                        purane_noun_ke_num_onehot=[0]*4
+                        purane_noun_ke_num_onehot[parsedNodes[0]]=1
+                        one_hot_gender=[0]*4
+                        one_hot_gender[gender]=1
                         pType_onehot = list([0]*6)
                         pType_onehot[pType] =1
+                        pronoun_ki_num_onehot=[0]*4
+                        pronoun_ki_num_onehot[num]=1
                         named_entity_onehot = list([0]*7)
                         named_entity_onehot[named_entity] = 1
                         pronoun_id_onehot = list([0]*len(pronounsList))
                         pronoun_id_onehot[pronounsList.index(node.lex)] = 1
-                        x = [num, parsedNodes[0],(j - parsedNodes[1]), (int(chunk.upper.name) - parsedNodes[2]),
-                             parsedNodes[3]] + named_entity_onehot + pType_onehot + [parsedNodes[5], parsedNodes[4]] + pronoun_id_onehot
+                        x = [(j - parsedNodes[1]), (int(chunk.upper.name) - parsedNodes[2]),
+                             parsedNodes[3]] + named_entity_onehot + pType_onehot + pronoun_ki_num_onehot + purane_noun_ke_num_onehot + [parsedNodes[5], parsedNodes[4]] + pronoun_id_onehot
 
                         temp = []
                         if node.getAttribute('cref') is None:
