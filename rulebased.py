@@ -37,6 +37,9 @@ incorrectOOS = 0
 incorrectWR = 0
 totalPronouns = 0
 
+correctCount = {"Reflexive":0, "Relative":0,"First":0,"Second":0,"Third":0,"Locative":0,"Unknown":0}
+incorrectCount = {"Reflexive":0, "Relative":0,"First":0,"Second":0,"Third":0,"Locative":0, "Unknown":0}
+
 for rfp in fileList:
     relfile = False
     doc = ssf.Document(rfp)
@@ -78,24 +81,43 @@ for rfp in fileList:
                     answer = lt.locative(node, linearChunkList, nerDict)
                     isPronoun = True
                 if isPronoun:
+                    mentionLex = node.lex
+
+                    if mentionLex in reflexivePronouns:
+                        mentionType = "Reflexive"
+                    elif mentionLex in relativePronouns:
+                        mentionType = "Relative"
+                    elif mentionLex in locativePronouns:
+                        mentionType = "Locative"
+                    elif mentionLex in firstPronouns:
+                        mentionType = "First"
+                    elif mentionLex in secondPronouns:
+                        mentionType = "Second"
+                    elif mentionLex in thirdPronouns:
+                        mentionType = "Third"
+                    else:
+                        mentionType = "Unknown"
+
                     mentionLinksTo = 0 if mention.getAttribute('crefType') is None else mention.getAttribute('crefType').split(':')[1]
                     totalPronouns += 1
-                    # if (not relfile):
-                        #print(rfp)
-                    # if (not relsent):
-                        #print("\tSentence : ", sentence.name)
+                    if (not relfile):
+                        print(rfp)
+                    if (not relsent):
+                        print("\tSentence : ", sentence.name)
+                        print(sentence.text)
                     relfile = True
                     relsent = True
                     if (answer is None):
-                        #print('\t\t', mention.name, "-->", "NO OUTPUT")
+                        print('\t\t', mention.upper.upper.name,':' ,mention.name, "-->", "NO OUTPUT", " pType:",mentionType)
                         if (mentionLinksTo == 0):
-                            #print ("\t\tCorrect - There was no anaphora")
+                            print ("\t\tCorrect - There was no anaphora")
                             correct += 1
+                            correctCount[mentionType] += 1
                             continue
-                        #print("\t\tIncorrect - Out of sentence")
+                        print("\t\tIncorrect - Out of sentence")
                         incorrectOOS += 1
                     else:
-                        #print('\t\t', mention.name, "-->", answer.name)
+                        print('\t\t', mention.upper.upper.name,':' ,mention.name, "-->", answer.upper.upper.name,':' ,answer.name, " pType:",mentionType)
                 #   ------------- NEW CHECKING METHOD -------------            
                         chainsWithReferent = set()
                         chainsWithMention = set()
@@ -138,11 +160,13 @@ for rfp in fileList:
                         #         flag = 1
                         # if flag == 1:
                 #   xxxxxxxxxxxxx OLD CHECKING METHOD xxxxxxxxxxxxx
-                            #print("\t\tCorrect")
+                            print("\t\tCorrect")
                             correct += 1
+                            correctCount[mentionType] += 1
                         else:
-                            #print("\t\tIncorrect - Wrong Resolution")
+                            print("\t\tIncorrect - Wrong Resolution")
                             incorrectWR += 1
+                            incorrectCount[mentionType] += 1
                         # print("\t\tThe correct are: ")
                         # for b in mChains:
                         #     for c in b.nodeList:
@@ -153,3 +177,18 @@ for rfp in fileList:
 print("Correct: ", correct)
 print("Incorrect: ", incorrectWR)
 print("Out of Scope: ", incorrectOOS)
+totalCount = {}
+print("Right")
+for x,y in correctCount.items():
+    print('\t',x,":",y)
+    totalCount[x] = y
+print("Wrong")
+for x,y in incorrectCount.items():
+    print('\t',x,":",y)
+    totalCount[x] += y
+print("Total", sum(totalCount.values()))
+for x,y in totalCount.items():
+    print('\t',x,":",y)
+print("Percentage", (sum(correctCount.values())/sum(totalCount.values())) * 100)
+for x,y in totalCount.items():
+    print('\t',x,':',(correctCount[x]/y)*100)

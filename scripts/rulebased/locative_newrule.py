@@ -1,7 +1,7 @@
 import ssfAPI_intra as ssf
 
 
-def locative(mention, linearChunkList, nothing):  # isnt mention useless then?
+def locative(mention, linearChunkList, nerDict):  # isnt mention useless then?
     nChunk = linearChunkList[-1]  # the last chunk is the one we are on
     answer = None
     bestScore = -100000
@@ -18,25 +18,44 @@ def locative(mention, linearChunkList, nothing):  # isnt mention useless then?
                 return answer
         oldSentence = newSentence
 
-        iScore = (maxi - i) * (-10)
+        if (maxi - i) < 3:
+            iScore = -50
+        else:
+            iScore = (maxi - i) * (-10)
+
+        nerScore = 0
+        for c in nChunk.nodeList:
+            ne = nerDict.get(c.lex)
+            if ne == 'location':
+                nerScore = 20
+                break
+            if ne == 'organization':
+                nerScore = 10
+                break
 
         if (nChunk.parentRelation in ['k7p', 'k2p']):
-            relScore = 200
+            relScore = 220
         else:
-            relScore = 0
+            relScore = -400
 
         animacyScore = 0
 
         if ('NP' in nChunk.name):
+            nScore = 100
+            for x in nChunk.nodeList:
+                if x.getAttribute('semprop') == 'rest':
+                    animacyScore += 1
+            animacyScore = animacyScore*100/len(nChunk.nodeList)
+        if ('PSP' in nChunk.name):
             nScore = 50
             for x in nChunk.nodeList:
                 if x.getAttribute('semprop') == 'rest':
                     animacyScore += 1
-            animacyScore = animacyScore*200/len(nChunk.nodeList)
+            animacyScore = animacyScore*100/len(nChunk.nodeList)
         else:
             nScore = -100
 
-        totalScore = iScore + relScore + animacyScore + nScore
+        totalScore = iScore + relScore + animacyScore + nScore + nerScore
         for c in nChunk.nodeList:
             if c.chunkparentRelation == 'head':
                 if (totalScore > bestScore):
